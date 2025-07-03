@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
 type VaultRadarSourceGithubCloud interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) VaultRadarSourceGithubCloud {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud_Override(v VaultRadarSourceGithubCloud, scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type VaultSecretsSyncConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Vault Secrets integration name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_sync#integration_name VaultSecretsSync#integration_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_sync#integration_name VaultSecretsSync#integration_name}
 	IntegrationName *string `field:"required" json:"integrationName" yaml:"integrationName"`
 	// The Vault Secrets Sync name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_sync#name VaultSecretsSync#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_sync#name VaultSecretsSync#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Configuration parameters used to determine the sync destination.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_sync#gitlab_config VaultSecretsSync#gitlab_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_sync#gitlab_config VaultSecretsSync#gitlab_config}
 	GitlabConfig *VaultSecretsSyncGitlabConfig `field:"optional" json:"gitlabConfig" yaml:"gitlabConfig"`
 	// HCP project ID that owns the HCP Vault Secrets integration. Inferred from the provider configuration if omitted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_sync#project_id VaultSecretsSync#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_sync#project_id VaultSecretsSync#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

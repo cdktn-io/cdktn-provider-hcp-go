@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/user_principal hcp_user_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/user_principal hcp_user_principal}.
 type DataHcpUserPrincipal interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -289,7 +289,7 @@ func (j *jsiiProxy_DataHcpUserPrincipal) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/user_principal hcp_user_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/user_principal hcp_user_principal} Data Source.
 func NewDataHcpUserPrincipal(scope constructs.Construct, id *string, config *DataHcpUserPrincipalConfig) DataHcpUserPrincipal {
 	_init_.Initialize()
 
@@ -307,7 +307,7 @@ func NewDataHcpUserPrincipal(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/user_principal hcp_user_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/user_principal hcp_user_principal} Data Source.
 func NewDataHcpUserPrincipal_Override(d DataHcpUserPrincipal, scope constructs.Construct, id *string, config *DataHcpUserPrincipalConfig) {
 	_init_.Initialize()
 

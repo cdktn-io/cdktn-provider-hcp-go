@@ -24,23 +24,23 @@ type VaultSecretsIntegrationAwsConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Capabilities enabled for the integration. See the Vault Secrets documentation for the list of supported capabilities per provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_integration_aws#capabilities VaultSecretsIntegrationAws#capabilities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws#capabilities VaultSecretsIntegrationAws#capabilities}
 	Capabilities *[]*string `field:"required" json:"capabilities" yaml:"capabilities"`
 	// The Vault Secrets integration name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_integration_aws#name VaultSecretsIntegrationAws#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws#name VaultSecretsIntegrationAws#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// AWS IAM key pair used to authenticate against the target AWS account. Cannot be used with `federated_workload_identity`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_integration_aws#access_keys VaultSecretsIntegrationAws#access_keys}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws#access_keys VaultSecretsIntegrationAws#access_keys}
 	AccessKeys *VaultSecretsIntegrationAwsAccessKeysA `field:"optional" json:"accessKeys" yaml:"accessKeys"`
 	// (Recommended) Federated identity configuration to authenticate against the target AWS account. Cannot be used with `access_keys`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_integration_aws#federated_workload_identity VaultSecretsIntegrationAws#federated_workload_identity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws#federated_workload_identity VaultSecretsIntegrationAws#federated_workload_identity}
 	FederatedWorkloadIdentity *VaultSecretsIntegrationAwsFederatedWorkloadIdentityA `field:"optional" json:"federatedWorkloadIdentity" yaml:"federatedWorkloadIdentity"`
 	// HCP project ID that owns the HCP Vault Secrets integration. Inferred from the provider configuration if omitted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_secrets_integration_aws#project_id VaultSecretsIntegrationAws#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws#project_id VaultSecretsIntegrationAws#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

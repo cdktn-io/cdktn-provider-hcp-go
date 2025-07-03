@@ -24,9 +24,9 @@ type DataHcpConsulClusterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the HCP Consul cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/consul_cluster#cluster_id DataHcpConsulCluster#cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/consul_cluster#cluster_id DataHcpConsulCluster#cluster_id}
 	ClusterId *string `field:"required" json:"clusterId" yaml:"clusterId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/consul_cluster#id DataHcpConsulCluster#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/consul_cluster#id DataHcpConsulCluster#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,11 +36,11 @@ type DataHcpConsulClusterConfig struct {
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	// If a project is not configured in the HCP Provider config block, the oldest project in the organization will be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/consul_cluster#project_id DataHcpConsulCluster#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/consul_cluster#project_id DataHcpConsulCluster#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/consul_cluster#timeouts DataHcpConsulCluster#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/consul_cluster#timeouts DataHcpConsulCluster#timeouts}
 	Timeouts *DataHcpConsulClusterTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

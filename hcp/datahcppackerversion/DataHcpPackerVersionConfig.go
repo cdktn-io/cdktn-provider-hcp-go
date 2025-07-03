@@ -24,17 +24,17 @@ type DataHcpPackerVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the HCP Packer Bucket where the Version is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/packer_version#bucket_name DataHcpPackerVersion#bucket_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/packer_version#bucket_name DataHcpPackerVersion#bucket_name}
 	BucketName *string `field:"required" json:"bucketName" yaml:"bucketName"`
 	// The name of the HCP Packer Channel the Version is assigned to.
 	//
 	// The version currently assigned to the Channel will be fetched.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/packer_version#channel_name DataHcpPackerVersion#channel_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/packer_version#channel_name DataHcpPackerVersion#channel_name}
 	ChannelName *string `field:"required" json:"channelName" yaml:"channelName"`
 	// The ID of the HCP Organization where the Version is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/packer_version#project_id DataHcpPackerVersion#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/packer_version#project_id DataHcpPackerVersion#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

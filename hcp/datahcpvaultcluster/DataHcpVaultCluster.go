@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/vault_cluster hcp_vault_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/vault_cluster hcp_vault_cluster}.
 type DataHcpVaultCluster interface {
 	cdktf.TerraformDataSource
 	AuditLogConfig() DataHcpVaultClusterAuditLogConfigList
@@ -604,7 +604,7 @@ func (j *jsiiProxy_DataHcpVaultCluster) VaultVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/vault_cluster hcp_vault_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/vault_cluster hcp_vault_cluster} Data Source.
 func NewDataHcpVaultCluster(scope constructs.Construct, id *string, config *DataHcpVaultClusterConfig) DataHcpVaultCluster {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewDataHcpVaultCluster(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/vault_cluster hcp_vault_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/vault_cluster hcp_vault_cluster} Data Source.
 func NewDataHcpVaultCluster_Override(d DataHcpVaultCluster, scope constructs.Construct, id *string, config *DataHcpVaultClusterConfig) {
 	_init_.Initialize()
 

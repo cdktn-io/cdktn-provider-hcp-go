@@ -24,11 +24,11 @@ type GroupIamPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The group's resource name in format `iam/organization/<organization_id>/group/<group_name>`. The shortened `<group_name>` version can be used for input.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/group_iam_policy#name GroupIamPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group_iam_policy#name GroupIamPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The policy to apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/group_iam_policy#policy_data GroupIamPolicy#policy_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group_iam_policy#policy_data GroupIamPolicy#policy_data}
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
 }
 

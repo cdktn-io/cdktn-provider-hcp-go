@@ -24,11 +24,11 @@ type DataHcpUserPrincipalConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The user's email. Can not be combined with user_id.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/user_principal#email DataHcpUserPrincipal#email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/user_principal#email DataHcpUserPrincipal#email}
 	Email *string `field:"optional" json:"email" yaml:"email"`
 	// The user's unique identifier. Can not be combined with email.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/user_principal#user_id DataHcpUserPrincipal#user_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/user_principal#user_id DataHcpUserPrincipal#user_id}
 	UserId *string `field:"optional" json:"userId" yaml:"userId"`
 }
 

@@ -24,7 +24,7 @@ type DataHcpServicePrincipalConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The service principal's resource name in format `iam/project/<project_id>/service-principal/<name>` or `iam/organization/<organization_id>/service-principal/<name>`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/data-sources/service_principal#resource_name DataHcpServicePrincipal#resource_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/service_principal#resource_name DataHcpServicePrincipal#resource_name}
 	ResourceName *string `field:"required" json:"resourceName" yaml:"resourceName"`
 }
 

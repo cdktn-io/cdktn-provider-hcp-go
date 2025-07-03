@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection}.
 type VaultRadarIntegrationSlackConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_VaultRadarIntegrationSlackConnection) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection} Resource.
 func NewVaultRadarIntegrationSlackConnection(scope constructs.Construct, id *string, config *VaultRadarIntegrationSlackConnectionConfig) VaultRadarIntegrationSlackConnection {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewVaultRadarIntegrationSlackConnection(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.107.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_integration_slack_connection hcp_vault_radar_integration_slack_connection} Resource.
 func NewVaultRadarIntegrationSlackConnection_Override(v VaultRadarIntegrationSlackConnection, scope constructs.Construct, id *string, config *VaultRadarIntegrationSlackConnectionConfig) {
 	_init_.Initialize()
 
