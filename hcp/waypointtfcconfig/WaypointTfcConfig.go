@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config}.
 type WaypointTfcConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_WaypointTfcConfig) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config} Resource.
 func NewWaypointTfcConfig(scope constructs.Construct, id *string, config *WaypointTfcConfigConfig) WaypointTfcConfig {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewWaypointTfcConfig(scope constructs.Construct, id *string, config *Waypoi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config} Resource.
 func NewWaypointTfcConfig_Override(w WaypointTfcConfig, scope constructs.Construct, id *string, config *WaypointTfcConfigConfig) {
 	_init_.Initialize()
 

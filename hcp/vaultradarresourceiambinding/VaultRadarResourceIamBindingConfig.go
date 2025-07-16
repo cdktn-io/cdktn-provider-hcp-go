@@ -24,17 +24,17 @@ type VaultRadarResourceIamBindingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The principal to bind to the given role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding#principal_id VaultRadarResourceIamBinding#principal_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding#principal_id VaultRadarResourceIamBinding#principal_id}
 	PrincipalId *string `field:"required" json:"principalId" yaml:"principalId"`
 	// The HCP resource name associated with the Radar resource.
 	//
 	// This is the name of the resource in the format `vault-radar/project/<project_id>/scan-target/<scan_target_id>`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding#resource_name VaultRadarResourceIamBinding#resource_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding#resource_name VaultRadarResourceIamBinding#resource_name}
 	ResourceName *string `field:"required" json:"resourceName" yaml:"resourceName"`
 	// The role name to bind to the given principal.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding#role VaultRadarResourceIamBinding#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding#role VaultRadarResourceIamBinding#role}
 	Role *string `field:"required" json:"role" yaml:"role"`
 }
 

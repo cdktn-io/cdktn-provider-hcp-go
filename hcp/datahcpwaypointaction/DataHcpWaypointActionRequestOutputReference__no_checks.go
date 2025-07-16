@@ -47,6 +47,10 @@ func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateInterpol
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validatePutAgentParameters(value *DataHcpWaypointActionRequestAgent) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
 	return nil
 }

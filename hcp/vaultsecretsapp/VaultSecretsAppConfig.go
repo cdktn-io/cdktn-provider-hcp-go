@@ -24,19 +24,19 @@ type VaultSecretsAppConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Vault Secrets App name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_app#app_name VaultSecretsApp#app_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_app#app_name VaultSecretsApp#app_name}
 	AppName *string `field:"required" json:"appName" yaml:"appName"`
 	// The Vault Secrets app description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_app#description VaultSecretsApp#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_app#description VaultSecretsApp#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The ID of the HCP project where the HCP Vault Secrets app is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_app#project_id VaultSecretsApp#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_app#project_id VaultSecretsApp#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// Set of sync names to associate with this app.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_app#sync_names VaultSecretsApp#sync_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_app#sync_names VaultSecretsApp#sync_names}
 	SyncNames *[]*string `field:"optional" json:"syncNames" yaml:"syncNames"`
 }
 

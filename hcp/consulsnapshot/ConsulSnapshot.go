@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/consul_snapshot hcp_consul_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/consul_snapshot hcp_consul_snapshot}.
 type ConsulSnapshot interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_ConsulSnapshot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/consul_snapshot hcp_consul_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/consul_snapshot hcp_consul_snapshot} Resource.
 func NewConsulSnapshot(scope constructs.Construct, id *string, config *ConsulSnapshotConfig) ConsulSnapshot {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewConsulSnapshot(scope constructs.Construct, id *string, config *ConsulSna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/consul_snapshot hcp_consul_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/consul_snapshot hcp_consul_snapshot} Resource.
 func NewConsulSnapshot_Override(c ConsulSnapshot, scope constructs.Construct, id *string, config *ConsulSnapshotConfig) {
 	_init_.Initialize()
 

@@ -235,14 +235,6 @@ func (j *jsiiProxy_DataHcpWaypointAction) validateSetNameParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) validateSetProjectIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func validateNewDataHcpWaypointActionParameters(scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

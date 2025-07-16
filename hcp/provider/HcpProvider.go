@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs hcp}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp}.
 type HcpProvider interface {
 	cdktf.TerraformProvider
 	Alias() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_HcpProvider) WorkloadIdentityInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp} Resource.
 func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderConfig) HcpProvider {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp} Resource.
 func NewHcpProvider_Override(h HcpProvider, scope constructs.Construct, id *string, config *HcpProviderConfig) {
 	_init_.Initialize()
 

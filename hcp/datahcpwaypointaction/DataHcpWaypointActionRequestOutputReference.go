@@ -13,6 +13,8 @@ import (
 
 type DataHcpWaypointActionRequestOutputReference interface {
 	cdktf.ComplexObject
+	Agent() DataHcpWaypointActionRequestAgentOutputReference
+	AgentInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -65,6 +67,8 @@ type DataHcpWaypointActionRequestOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(property *string) cdktf.IResolvable
+	PutAgent(value *DataHcpWaypointActionRequestAgent)
+	ResetAgent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(_context cdktf.IResolveContext) interface{}
@@ -78,6 +82,26 @@ type DataHcpWaypointActionRequestOutputReference interface {
 // The jsii proxy struct for DataHcpWaypointActionRequestOutputReference
 type jsiiProxy_DataHcpWaypointActionRequestOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_DataHcpWaypointActionRequestOutputReference) Agent() DataHcpWaypointActionRequestAgentOutputReference {
+	var returns DataHcpWaypointActionRequestAgentOutputReference
+	_jsii_.Get(
+		j,
+		"agent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataHcpWaypointActionRequestOutputReference) AgentInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"agentInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataHcpWaypointActionRequestOutputReference) ComplexObjectIndex() interface{} {
@@ -427,6 +451,25 @@ func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) InterpolationFor
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) PutAgent(value *DataHcpWaypointActionRequestAgent) {
+	if err := d.validatePutAgentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putAgent",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) ResetAgent() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAgent",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {

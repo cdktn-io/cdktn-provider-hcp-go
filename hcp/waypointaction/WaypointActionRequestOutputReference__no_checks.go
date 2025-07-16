@@ -47,6 +47,10 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) validateInterpolationFo
 	return nil
 }
 
+func (w *jsiiProxy_WaypointActionRequestOutputReference) validatePutAgentParameters(value *WaypointActionRequestAgent) error {
+	return nil
+}
+
 func (w *jsiiProxy_WaypointActionRequestOutputReference) validatePutCustomParameters(value *WaypointActionRequestCustom) error {
 	return nil
 }

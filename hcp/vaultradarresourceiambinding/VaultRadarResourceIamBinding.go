@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding}.
 type VaultRadarResourceIamBinding interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -355,7 +355,7 @@ func (j *jsiiProxy_VaultRadarResourceIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding} Resource.
 func NewVaultRadarResourceIamBinding(scope constructs.Construct, id *string, config *VaultRadarResourceIamBindingConfig) VaultRadarResourceIamBinding {
 	_init_.Initialize()
 
@@ -373,7 +373,7 @@ func NewVaultRadarResourceIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_resource_iam_binding hcp_vault_radar_resource_iam_binding} Resource.
 func NewVaultRadarResourceIamBinding_Override(v VaultRadarResourceIamBinding, scope constructs.Construct, id *string, config *VaultRadarResourceIamBindingConfig) {
 	_init_.Initialize()
 

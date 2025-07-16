@@ -24,15 +24,15 @@ type GroupIamBindingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The group's resource name in format `iam/organization/<organization_id>/group/<group_name>`. The shortened `<group_name>` version can be used for input.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group_iam_binding#name GroupIamBinding#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_iam_binding#name GroupIamBinding#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The principal to bind to the given role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group_iam_binding#principal_id GroupIamBinding#principal_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_iam_binding#principal_id GroupIamBinding#principal_id}
 	PrincipalId *string `field:"required" json:"principalId" yaml:"principalId"`
 	// The role name to bind to the given principal.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group_iam_binding#role GroupIamBinding#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_iam_binding#role GroupIamBinding#role}
 	Role *string `field:"required" json:"role" yaml:"role"`
 }
 

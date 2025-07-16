@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws}.
 type VaultSecretsIntegrationAws interface {
 	cdktf.TerraformResource
 	AccessKeys() VaultSecretsIntegrationAwsAccessKeysAOutputReference
@@ -437,7 +437,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationAws) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws} Resource.
 func NewVaultSecretsIntegrationAws(scope constructs.Construct, id *string, config *VaultSecretsIntegrationAwsConfig) VaultSecretsIntegrationAws {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewVaultSecretsIntegrationAws(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_aws hcp_vault_secrets_integration_aws} Resource.
 func NewVaultSecretsIntegrationAws_Override(v VaultSecretsIntegrationAws, scope constructs.Construct, id *string, config *VaultSecretsIntegrationAwsConfig) {
 	_init_.Initialize()
 

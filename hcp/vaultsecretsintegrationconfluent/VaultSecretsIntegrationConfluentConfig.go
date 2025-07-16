@@ -24,19 +24,19 @@ type VaultSecretsIntegrationConfluentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Capabilities enabled for the integration. See the Vault Secrets documentation for the list of supported capabilities per provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_confluent#capabilities VaultSecretsIntegrationConfluent#capabilities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_confluent#capabilities VaultSecretsIntegrationConfluent#capabilities}
 	Capabilities *[]*string `field:"required" json:"capabilities" yaml:"capabilities"`
 	// The Vault Secrets integration name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_confluent#name VaultSecretsIntegrationConfluent#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_confluent#name VaultSecretsIntegrationConfluent#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// HCP project ID that owns the HCP Vault Secrets integration. Inferred from the provider configuration if omitted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_confluent#project_id VaultSecretsIntegrationConfluent#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_confluent#project_id VaultSecretsIntegrationConfluent#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// Confluent API key used to authenticate for cloud apis.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/vault_secrets_integration_confluent#static_credential_details VaultSecretsIntegrationConfluent#static_credential_details}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_secrets_integration_confluent#static_credential_details VaultSecretsIntegrationConfluent#static_credential_details}
 	StaticCredentialDetails *VaultSecretsIntegrationConfluentStaticCredentialDetails `field:"optional" json:"staticCredentialDetails" yaml:"staticCredentialDetails"`
 }
 

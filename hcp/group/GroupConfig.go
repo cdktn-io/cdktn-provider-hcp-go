@@ -24,11 +24,11 @@ type GroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The group's display_name - maximum length of 50 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group#display_name Group#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group#display_name Group#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The group's description - maximum length of 300 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/group#description Group#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group#description Group#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

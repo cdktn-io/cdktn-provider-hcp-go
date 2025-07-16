@@ -5,7 +5,7 @@ package datahcpconsulcluster
 
 
 type DataHcpConsulClusterTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/consul_cluster#default DataHcpConsulCluster#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/consul_cluster#default DataHcpConsulCluster#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

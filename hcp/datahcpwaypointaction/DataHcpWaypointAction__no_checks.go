@@ -87,10 +87,6 @@ func (j *jsiiProxy_DataHcpWaypointAction) validateSetNameParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) validateSetProjectIdParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataHcpWaypointActionParameters(scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) error {
 	return nil
 }

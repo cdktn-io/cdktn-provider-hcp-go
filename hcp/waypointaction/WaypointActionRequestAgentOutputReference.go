@@ -1,0 +1,603 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
+package waypointaction
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+
+	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointaction/internal"
+	"github.com/hashicorp/terraform-cdk-go/cdktf"
+)
+
+type WaypointActionRequestAgentOutputReference interface {
+	cdktf.ComplexObject
+	ActionRunId() *string
+	SetActionRunId(val *string)
+	ActionRunIdInput() *string
+	Body() *string
+	SetBody(val *string)
+	BodyInput() *string
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	Group() *string
+	SetGroup(val *string)
+	GroupInput() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	OperationId() *string
+	SetOperationId(val *string)
+	OperationIdInput() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktf.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktf.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktf.IResolvable
+	// Experimental.
+	InterpolationForAttribute(property *string) cdktf.IResolvable
+	ResetActionRunId()
+	ResetBody()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(_context cdktf.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for WaypointActionRequestAgentOutputReference
+type jsiiProxy_WaypointActionRequestAgentOutputReference struct {
+	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) ActionRunId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"actionRunId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) ActionRunIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"actionRunIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) Body() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"body",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) BodyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bodyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) Group() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"group",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) GroupInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"groupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) OperationId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"operationId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) OperationIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"operationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference) TerraformResource() cdktf.IInterpolatingParent {
+	var returns cdktf.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewWaypointActionRequestAgentOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WaypointActionRequestAgentOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewWaypointActionRequestAgentOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_WaypointActionRequestAgentOutputReference{}
+
+	_jsii_.Create(
+		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestAgentOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewWaypointActionRequestAgentOutputReference_Override(w WaypointActionRequestAgentOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestAgentOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		w,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetActionRunId(val *string) {
+	if err := j.validateSetActionRunIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"actionRunId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetBody(val *string) {
+	if err := j.validateSetBodyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"body",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetGroup(val *string) {
+	if err := j.validateSetGroupParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"group",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetOperationId(val *string) {
+	if err := j.validateSetOperationIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"operationId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WaypointActionRequestAgentOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		w,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := w.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		w,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		w,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := w.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		w,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := w.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		w,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := w.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := w.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := w.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		w,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := w.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		w,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := w.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		w,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) InterpolationAsList() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		w,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
+	if err := w.validateInterpolationForAttributeParameters(property); err != nil {
+		panic(err)
+	}
+	var returns cdktf.IResolvable
+
+	_jsii_.Invoke(
+		w,
+		"interpolationForAttribute",
+		[]interface{}{property},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) ResetActionRunId() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetActionRunId",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) ResetBody() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetBody",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
+	if err := w.validateResolveParameters(_context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		w,
+		"resolve",
+		[]interface{}{_context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WaypointActionRequestAgentOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		w,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

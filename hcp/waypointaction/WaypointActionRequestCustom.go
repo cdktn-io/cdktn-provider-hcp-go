@@ -7,19 +7,19 @@ package waypointaction
 type WaypointActionRequestCustom struct {
 	// The HTTP method to use for the request. Must be one of: 'GET', 'POST', 'PUT', 'DELETE', or 'PATCH'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_action#method WaypointAction#method}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_action#method WaypointAction#method}
 	Method *string `field:"required" json:"method" yaml:"method"`
 	// The body to be submitted with the request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_action#body WaypointAction#body}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_action#body WaypointAction#body}
 	Body *string `field:"optional" json:"body" yaml:"body"`
 	// Key value headers to send with the request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_action#headers WaypointAction#headers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_action#headers WaypointAction#headers}
 	Headers *map[string]*string `field:"optional" json:"headers" yaml:"headers"`
 	// The full URL this request should make when invoked.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/waypoint_action#url WaypointAction#url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/waypoint_action#url WaypointAction#url}
 	Url *string `field:"optional" json:"url" yaml:"url"`
 }
 

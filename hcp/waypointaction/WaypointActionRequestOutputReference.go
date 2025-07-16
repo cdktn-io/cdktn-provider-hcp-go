@@ -13,6 +13,8 @@ import (
 
 type WaypointActionRequestOutputReference interface {
 	cdktf.ComplexObject
+	Agent() WaypointActionRequestAgentOutputReference
+	AgentInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -66,7 +68,9 @@ type WaypointActionRequestOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(property *string) cdktf.IResolvable
+	PutAgent(value *WaypointActionRequestAgent)
 	PutCustom(value *WaypointActionRequestCustom)
+	ResetAgent()
 	ResetCustom()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type WaypointActionRequestOutputReference interface {
 // The jsii proxy struct for WaypointActionRequestOutputReference
 type jsiiProxy_WaypointActionRequestOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_WaypointActionRequestOutputReference) Agent() WaypointActionRequestAgentOutputReference {
+	var returns WaypointActionRequestAgentOutputReference
+	_jsii_.Get(
+		j,
+		"agent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WaypointActionRequestOutputReference) AgentInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"agentInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_WaypointActionRequestOutputReference) ComplexObjectIndex() interface{} {
@@ -442,6 +466,17 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) InterpolationForAttribu
 	return returns
 }
 
+func (w *jsiiProxy_WaypointActionRequestOutputReference) PutAgent(value *WaypointActionRequestAgent) {
+	if err := w.validatePutAgentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putAgent",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_WaypointActionRequestOutputReference) PutCustom(value *WaypointActionRequestCustom) {
 	if err := w.validatePutCustomParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) PutCustom(value *Waypoi
 		w,
 		"putCustom",
 		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_WaypointActionRequestOutputReference) ResetAgent() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetAgent",
+		nil, // no parameters
 	)
 }
 

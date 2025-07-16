@@ -24,13 +24,13 @@ type ProjectIamPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The policy to apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/project_iam_policy#policy_data ProjectIamPolicy#policy_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/project_iam_policy#policy_data ProjectIamPolicy#policy_data}
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
 	// The ID of the HCP project to apply the IAM Policy to.
 	//
 	// If unspecified, the project configured on the provider is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/resources/project_iam_policy#project_id ProjectIamPolicy#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/project_iam_policy#project_id ProjectIamPolicy#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

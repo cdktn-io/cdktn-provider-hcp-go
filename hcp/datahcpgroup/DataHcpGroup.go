@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/group hcp_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/group hcp_group}.
 type DataHcpGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataHcpGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/group hcp_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/group hcp_group} Data Source.
 func NewDataHcpGroup(scope constructs.Construct, id *string, config *DataHcpGroupConfig) DataHcpGroup {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataHcpGroup(scope constructs.Construct, id *string, config *DataHcpGrou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.108.0/docs/data-sources/group hcp_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/group hcp_group} Data Source.
 func NewDataHcpGroup_Override(d DataHcpGroup, scope constructs.Construct, id *string, config *DataHcpGroupConfig) {
 	_init_.Initialize()
 
