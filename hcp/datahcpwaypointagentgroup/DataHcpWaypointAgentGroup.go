@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group}.
 type DataHcpWaypointAgentGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataHcpWaypointAgentGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
 func NewDataHcpWaypointAgentGroup(scope constructs.Construct, id *string, config *DataHcpWaypointAgentGroupConfig) DataHcpWaypointAgentGroup {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataHcpWaypointAgentGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
 func NewDataHcpWaypointAgentGroup_Override(d DataHcpWaypointAgentGroup, scope constructs.Construct, id *string, config *DataHcpWaypointAgentGroupConfig) {
 	_init_.Initialize()
 

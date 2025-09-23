@@ -99,6 +99,10 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_VaultRadarSourceGithubCloud) validateSetDetectorTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_VaultRadarSourceGithubCloud) validateSetGithubOrganizationParameters(val *string) error {
 	return nil
 }

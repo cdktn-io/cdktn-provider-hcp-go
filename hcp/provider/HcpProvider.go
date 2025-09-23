@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs hcp}.
 type HcpProvider interface {
 	cdktf.TerraformProvider
 	Alias() *string
@@ -35,6 +35,9 @@ type HcpProvider interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	Geography() *string
+	SetGeography(val *string)
+	GeographyInput() *string
 	// Experimental.
 	MetaAttributes() *map[string]interface{}
 	// The tree node.
@@ -65,6 +68,7 @@ type HcpProvider interface {
 	ResetClientId()
 	ResetClientSecret()
 	ResetCredentialFile()
+	ResetGeography()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -209,6 +213,26 @@ func (j *jsiiProxy_HcpProvider) FriendlyUniqueId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_HcpProvider) Geography() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geography",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HcpProvider) GeographyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geographyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_HcpProvider) MetaAttributes() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -330,7 +354,7 @@ func (j *jsiiProxy_HcpProvider) WorkloadIdentityInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs hcp} Resource.
 func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderConfig) HcpProvider {
 	_init_.Initialize()
 
@@ -348,7 +372,7 @@ func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs hcp} Resource.
 func NewHcpProvider_Override(h HcpProvider, scope constructs.Construct, id *string, config *HcpProviderConfig) {
 	_init_.Initialize()
 
@@ -387,6 +411,14 @@ func (j *jsiiProxy_HcpProvider)SetCredentialFile(val *string) {
 	_jsii_.Set(
 		j,
 		"credentialFile",
+		val,
+	)
+}
+
+func (j *jsiiProxy_HcpProvider)SetGeography(val *string) {
+	_jsii_.Set(
+		j,
+		"geography",
 		val,
 	)
 }
@@ -574,6 +606,14 @@ func (h *jsiiProxy_HcpProvider) ResetCredentialFile() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetCredentialFile",
+		nil, // no parameters
+	)
+}
+
+func (h *jsiiProxy_HcpProvider) ResetGeography() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetGeography",
 		nil, // no parameters
 	)
 }

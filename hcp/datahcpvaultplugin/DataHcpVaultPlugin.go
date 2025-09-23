@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/vault_plugin hcp_vault_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/vault_plugin hcp_vault_plugin}.
 type DataHcpVaultPlugin interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -382,7 +382,7 @@ func (j *jsiiProxy_DataHcpVaultPlugin) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/vault_plugin hcp_vault_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/vault_plugin hcp_vault_plugin} Data Source.
 func NewDataHcpVaultPlugin(scope constructs.Construct, id *string, config *DataHcpVaultPluginConfig) DataHcpVaultPlugin {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataHcpVaultPlugin(scope constructs.Construct, id *string, config *DataH
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/vault_plugin hcp_vault_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/vault_plugin hcp_vault_plugin} Data Source.
 func NewDataHcpVaultPlugin_Override(d DataHcpVaultPlugin, scope constructs.Construct, id *string, config *DataHcpVaultPluginConfig) {
 	_init_.Initialize()
 

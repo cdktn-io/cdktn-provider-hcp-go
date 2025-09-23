@@ -24,7 +24,7 @@ type DataHcpWaypointAgentGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Agent Group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_agent_group#name DataHcpWaypointAgentGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_agent_group#name DataHcpWaypointAgentGroup#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

@@ -24,11 +24,11 @@ type GroupMembersConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The group's resource name in the format `iam/organization/<organization_id>/group/<name>`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_members#group GroupMembers#group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/group_members#group GroupMembers#group}
 	Group *string `field:"required" json:"group" yaml:"group"`
 	// A list of user principal IDs to add to the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_members#members GroupMembers#members}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/group_members#members GroupMembers#members}
 	Members *[]*string `field:"required" json:"members" yaml:"members"`
 }
 

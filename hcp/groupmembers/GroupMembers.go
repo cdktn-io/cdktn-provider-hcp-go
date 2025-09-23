@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_members hcp_group_members}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/group_members hcp_group_members}.
 type GroupMembers interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_GroupMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_members hcp_group_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/group_members hcp_group_members} Resource.
 func NewGroupMembers(scope constructs.Construct, id *string, config *GroupMembersConfig) GroupMembers {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewGroupMembers(scope constructs.Construct, id *string, config *GroupMember
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/group_members hcp_group_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/group_members hcp_group_members} Resource.
 func NewGroupMembers_Override(g GroupMembers, scope constructs.Construct, id *string, config *GroupMembersConfig) {
 	_init_.Initialize()
 

@@ -24,13 +24,13 @@ type ServicePrincipalConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The service principal's name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/service_principal#name ServicePrincipal#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/service_principal#name ServicePrincipal#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The parent location to create the service principal under.
 	//
 	// If unspecified, the service principal will be created in the project the provider is configured with. If specified, the accepted values are "project/<project_id>" or "organization/<organization_id>"
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/service_principal#parent ServicePrincipal#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/service_principal#parent ServicePrincipal#parent}
 	Parent *string `field:"optional" json:"parent" yaml:"parent"`
 }
 

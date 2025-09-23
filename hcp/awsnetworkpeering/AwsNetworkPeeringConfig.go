@@ -24,25 +24,25 @@ type AwsNetworkPeeringConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the HashiCorp Virtual Network (HVN).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#hvn_id AwsNetworkPeering#hvn_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#hvn_id AwsNetworkPeering#hvn_id}
 	HvnId *string `field:"required" json:"hvnId" yaml:"hvnId"`
 	// The account ID of the peer VPC in AWS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#peer_account_id AwsNetworkPeering#peer_account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#peer_account_id AwsNetworkPeering#peer_account_id}
 	PeerAccountId *string `field:"required" json:"peerAccountId" yaml:"peerAccountId"`
 	// The ID of the network peering.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#peering_id AwsNetworkPeering#peering_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#peering_id AwsNetworkPeering#peering_id}
 	PeeringId *string `field:"required" json:"peeringId" yaml:"peeringId"`
 	// The ID of the peer VPC in AWS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#peer_vpc_id AwsNetworkPeering#peer_vpc_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#peer_vpc_id AwsNetworkPeering#peer_vpc_id}
 	PeerVpcId *string `field:"required" json:"peerVpcId" yaml:"peerVpcId"`
 	// The region of the peer VPC in AWS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#peer_vpc_region AwsNetworkPeering#peer_vpc_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#peer_vpc_region AwsNetworkPeering#peer_vpc_region}
 	PeerVpcRegion *string `field:"required" json:"peerVpcRegion" yaml:"peerVpcRegion"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#id AwsNetworkPeering#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#id AwsNetworkPeering#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,11 +53,11 @@ type AwsNetworkPeeringConfig struct {
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	// If a project is not configured in the HCP Provider config block, the oldest project in the organization will be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#project_id AwsNetworkPeering#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#project_id AwsNetworkPeering#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/aws_network_peering#timeouts AwsNetworkPeering#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/aws_network_peering#timeouts AwsNetworkPeering#timeouts}
 	Timeouts *AwsNetworkPeeringTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

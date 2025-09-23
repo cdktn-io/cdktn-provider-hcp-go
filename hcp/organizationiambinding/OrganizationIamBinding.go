@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_binding hcp_organization_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_binding hcp_organization_iam_binding}.
 type OrganizationIamBinding interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_OrganizationIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
 func NewOrganizationIamBinding(scope constructs.Construct, id *string, config *OrganizationIamBindingConfig) OrganizationIamBinding {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewOrganizationIamBinding(scope constructs.Construct, id *string, config *O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
 func NewOrganizationIamBinding_Override(o OrganizationIamBinding, scope constructs.Construct, id *string, config *OrganizationIamBindingConfig) {
 	_init_.Initialize()
 

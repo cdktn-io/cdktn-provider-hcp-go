@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_policy hcp_organization_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_policy hcp_organization_iam_policy}.
 type OrganizationIamPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -320,7 +320,7 @@ func (j *jsiiProxy_OrganizationIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_policy hcp_organization_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_policy hcp_organization_iam_policy} Resource.
 func NewOrganizationIamPolicy(scope constructs.Construct, id *string, config *OrganizationIamPolicyConfig) OrganizationIamPolicy {
 	_init_.Initialize()
 
@@ -338,7 +338,7 @@ func NewOrganizationIamPolicy(scope constructs.Construct, id *string, config *Or
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/organization_iam_policy hcp_organization_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_policy hcp_organization_iam_policy} Resource.
 func NewOrganizationIamPolicy_Override(o OrganizationIamPolicy, scope constructs.Construct, id *string, config *OrganizationIamPolicyConfig) {
 	_init_.Initialize()
 

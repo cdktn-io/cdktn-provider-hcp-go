@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise}.
 type VaultRadarSourceGithubEnterprise interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type VaultRadarSourceGithubEnterprise interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DetectorType() *string
+	SetDetectorType(val *string)
+	DetectorTypeInput() *string
 	DomainName() *string
 	SetDomainName(val *string)
 	DomainNameInput() *string
@@ -117,6 +120,7 @@ type VaultRadarSourceGithubEnterprise interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDetectorType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -184,6 +188,26 @@ func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) DetectorType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"detectorType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) DetectorTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"detectorTypeInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
 func NewVaultRadarSourceGithubEnterprise(scope constructs.Construct, id *string, config *VaultRadarSourceGithubEnterpriseConfig) VaultRadarSourceGithubEnterprise {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewVaultRadarSourceGithubEnterprise(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
 func NewVaultRadarSourceGithubEnterprise_Override(v VaultRadarSourceGithubEnterprise, scope constructs.Construct, id *string, config *VaultRadarSourceGithubEnterpriseConfig) {
 	_init_.Initialize()
 
@@ -445,6 +469,17 @@ func (j *jsiiProxy_VaultRadarSourceGithubEnterprise)SetDependsOn(val *[]*string)
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VaultRadarSourceGithubEnterprise)SetDetectorType(val *string) {
+	if err := j.validateSetDetectorTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"detectorType",
 		val,
 	)
 }
@@ -881,6 +916,14 @@ func (v *jsiiProxy_VaultRadarSourceGithubEnterprise) OverrideLogicalId(newLogica
 		v,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (v *jsiiProxy_VaultRadarSourceGithubEnterprise) ResetDetectorType() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetDetectorType",
+		nil, // no parameters
 	)
 }
 

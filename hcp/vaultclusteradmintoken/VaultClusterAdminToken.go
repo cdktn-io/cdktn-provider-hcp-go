@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token}.
 type VaultClusterAdminToken interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_VaultClusterAdminToken) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token} Resource.
 func NewVaultClusterAdminToken(scope constructs.Construct, id *string, config *VaultClusterAdminTokenConfig) VaultClusterAdminToken {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewVaultClusterAdminToken(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_cluster_admin_token hcp_vault_cluster_admin_token} Resource.
 func NewVaultClusterAdminToken_Override(v VaultClusterAdminToken, scope constructs.Construct, id *string, config *VaultClusterAdminTokenConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_action hcp_waypoint_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_action hcp_waypoint_action}.
 type DataHcpWaypointAction interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataHcpWaypointAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
 func NewDataHcpWaypointAction(scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) DataHcpWaypointAction {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataHcpWaypointAction(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
 func NewDataHcpWaypointAction_Override(d DataHcpWaypointAction, scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) {
 	_init_.Initialize()
 

@@ -9,13 +9,13 @@ type HvnRouteAzureConfig struct {
 	//
 	// Valid options for Next Hop Type - `VIRTUAL_APPLIANCE` or `VIRTUAL_NETWORK_GATEWAY`
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/hvn_route#next_hop_type HvnRoute#next_hop_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/hvn_route#next_hop_type HvnRoute#next_hop_type}
 	NextHopType *string `field:"required" json:"nextHopType" yaml:"nextHopType"`
 	// Contains the IP address packets should be forwarded to.
 	//
 	// Next hop values are only allowed in routes where the next hop type is VIRTUAL_APPLIANCE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/hvn_route#next_hop_ip_address HvnRoute#next_hop_ip_address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/hvn_route#next_hop_ip_address HvnRoute#next_hop_ip_address}
 	NextHopIpAddress *string `field:"optional" json:"nextHopIpAddress" yaml:"nextHopIpAddress"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy}.
 type PackerBucketIamPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -343,7 +343,7 @@ func (j *jsiiProxy_PackerBucketIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy} Resource.
 func NewPackerBucketIamPolicy(scope constructs.Construct, id *string, config *PackerBucketIamPolicyConfig) PackerBucketIamPolicy {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewPackerBucketIamPolicy(scope constructs.Construct, id *string, config *Pa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket_iam_policy hcp_packer_bucket_iam_policy} Resource.
 func NewPackerBucketIamPolicy_Override(p PackerBucketIamPolicy, scope constructs.Construct, id *string, config *PackerBucketIamPolicyConfig) {
 	_init_.Initialize()
 

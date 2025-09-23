@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket hcp_packer_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket hcp_packer_bucket}.
 type PackerBucket interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_PackerBucket) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket hcp_packer_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket hcp_packer_bucket} Resource.
 func NewPackerBucket(scope constructs.Construct, id *string, config *PackerBucketConfig) PackerBucket {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewPackerBucket(scope constructs.Construct, id *string, config *PackerBucke
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.109.0/docs/resources/packer_bucket hcp_packer_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket hcp_packer_bucket} Resource.
 func NewPackerBucket_Override(p PackerBucket, scope constructs.Construct, id *string, config *PackerBucketConfig) {
 	_init_.Initialize()
 
