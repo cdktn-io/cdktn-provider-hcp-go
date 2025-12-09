@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

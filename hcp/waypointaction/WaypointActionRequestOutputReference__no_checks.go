@@ -43,7 +43,7 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) validateGetStringMapAtt
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (w *jsiiProxy_WaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
@@ -55,7 +55,7 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) validatePutCustomParame
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointActionRequestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

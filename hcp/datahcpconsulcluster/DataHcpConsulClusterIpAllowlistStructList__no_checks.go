@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

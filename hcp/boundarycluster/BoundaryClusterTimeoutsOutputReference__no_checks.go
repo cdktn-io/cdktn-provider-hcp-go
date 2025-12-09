@@ -43,11 +43,11 @@ func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) validateGetStringMapA
 	return nil
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

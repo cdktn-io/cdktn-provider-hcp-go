@@ -24,19 +24,19 @@ type WaypointActionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/waypoint_action#name WaypointAction#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_action#name WaypointAction#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The kind of HTTP request this should trigger.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/waypoint_action#request WaypointAction#request}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_action#request WaypointAction#request}
 	Request *WaypointActionRequest `field:"required" json:"request" yaml:"request"`
 	// A description of the Action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/waypoint_action#description WaypointAction#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_action#description WaypointAction#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The ID of the HCP project where the Action is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/waypoint_action#project_id WaypointAction#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_action#project_id WaypointAction#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

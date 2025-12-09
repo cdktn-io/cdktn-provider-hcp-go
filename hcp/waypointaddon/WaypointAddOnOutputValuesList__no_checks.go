@@ -15,7 +15,7 @@ func (w *jsiiProxy_WaypointAddOnOutputValuesList) validateGetParameters(index *f
 	return nil
 }
 
-func (w *jsiiProxy_WaypointAddOnOutputValuesList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointAddOnOutputValuesList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

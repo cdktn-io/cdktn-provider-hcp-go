@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) valida
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

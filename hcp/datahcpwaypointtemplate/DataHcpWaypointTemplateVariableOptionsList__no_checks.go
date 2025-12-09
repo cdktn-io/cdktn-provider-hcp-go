@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataHcpWaypointTemplateVariableOptionsList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointTemplateVariableOptionsList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpWaypointTemplateVariableOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

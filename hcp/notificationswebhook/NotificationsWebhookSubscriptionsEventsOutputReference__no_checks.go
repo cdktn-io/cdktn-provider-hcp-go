@@ -43,11 +43,11 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference) valid
 	return nil
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

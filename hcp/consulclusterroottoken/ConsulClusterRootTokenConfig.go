@@ -24,9 +24,9 @@ type ConsulClusterRootTokenConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the HCP Consul cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/consul_cluster_root_token#cluster_id ConsulClusterRootToken#cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/consul_cluster_root_token#cluster_id ConsulClusterRootToken#cluster_id}
 	ClusterId *string `field:"required" json:"clusterId" yaml:"clusterId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/consul_cluster_root_token#id ConsulClusterRootToken#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/consul_cluster_root_token#id ConsulClusterRootToken#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,11 +36,11 @@ type ConsulClusterRootTokenConfig struct {
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	// If a project is not configured in the HCP Provider config block, the oldest project in the organization will be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/consul_cluster_root_token#project_id ConsulClusterRootToken#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/consul_cluster_root_token#project_id ConsulClusterRootToken#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/consul_cluster_root_token#timeouts ConsulClusterRootToken#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/consul_cluster_root_token#timeouts ConsulClusterRootToken#timeouts}
 	Timeouts *ConsulClusterRootTokenTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

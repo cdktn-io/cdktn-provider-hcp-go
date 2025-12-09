@@ -24,31 +24,31 @@ type PrivateLinkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the HVN associated with the private link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#hvn_id PrivateLink#hvn_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#hvn_id PrivateLink#hvn_id}
 	HvnId *string `field:"required" json:"hvnId" yaml:"hvnId"`
 	// The ID of the private link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#private_link_id PrivateLink#private_link_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#private_link_id PrivateLink#private_link_id}
 	PrivateLinkId *string `field:"required" json:"privateLinkId" yaml:"privateLinkId"`
 	// The ID of the HCP Vault cluster associated with the private link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#vault_cluster_id PrivateLink#vault_cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#vault_cluster_id PrivateLink#vault_cluster_id}
 	VaultClusterId *string `field:"required" json:"vaultClusterId" yaml:"vaultClusterId"`
 	// The list of consumer accounts allowed to connect to the private link.
 	//
 	// In AWS, these are IAM Principals. In Azure, these are Azure Subscription/Resource IDs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#consumer_accounts PrivateLink#consumer_accounts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#consumer_accounts PrivateLink#consumer_accounts}
 	ConsumerAccounts *[]*string `field:"optional" json:"consumerAccounts" yaml:"consumerAccounts"`
 	// The list of consumer IP ranges or CIDRs allowed to connect to the HVD cluster associated with the private link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#consumer_ip_ranges PrivateLink#consumer_ip_ranges}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#consumer_ip_ranges PrivateLink#consumer_ip_ranges}
 	ConsumerIpRanges *[]*string `field:"optional" json:"consumerIpRanges" yaml:"consumerIpRanges"`
 	// The cloud provider regions from which consumers can connect to the private link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#consumer_regions PrivateLink#consumer_regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#consumer_regions PrivateLink#consumer_regions}
 	ConsumerRegions *[]*string `field:"optional" json:"consumerRegions" yaml:"consumerRegions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#id PrivateLink#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#id PrivateLink#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,11 +57,11 @@ type PrivateLinkConfig struct {
 	//
 	// If not specified, the project configured in the provider is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#project_id PrivateLink#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#project_id PrivateLink#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link#timeouts PrivateLink#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link#timeouts PrivateLink#timeouts}
 	Timeouts *PrivateLinkTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

@@ -43,11 +43,11 @@ func (b *jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference) valida
 	return nil
 }
 
-func (b *jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (b *jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (b *jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

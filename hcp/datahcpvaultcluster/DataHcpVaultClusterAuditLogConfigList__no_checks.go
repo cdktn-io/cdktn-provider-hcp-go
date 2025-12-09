@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

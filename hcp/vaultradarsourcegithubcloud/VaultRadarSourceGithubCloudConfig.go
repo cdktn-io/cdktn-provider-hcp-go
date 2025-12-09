@@ -24,21 +24,21 @@ type VaultRadarSourceGithubCloudConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// GitHub organization Vault Radar will monitor. Example: type "octocat" for the org https://github.com/octocat.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_cloud#github_organization VaultRadarSourceGithubCloud#github_organization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud#github_organization VaultRadarSourceGithubCloud#github_organization}
 	GithubOrganization *string `field:"required" json:"githubOrganization" yaml:"githubOrganization"`
 	// GitHub personal access token.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_cloud#token VaultRadarSourceGithubCloud#token}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud#token VaultRadarSourceGithubCloud#token}
 	Token *string `field:"required" json:"token" yaml:"token"`
 	// The detector type which will monitor this resource. The default is HCP if not specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_cloud#detector_type VaultRadarSourceGithubCloud#detector_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud#detector_type VaultRadarSourceGithubCloud#detector_type}
 	DetectorType *string `field:"optional" json:"detectorType" yaml:"detectorType"`
 	// The ID of the HCP project where Vault Radar is located.
 	//
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_source_github_cloud#project_id VaultRadarSourceGithubCloud#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud#project_id VaultRadarSourceGithubCloud#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecretTimeoutsOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecretTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecretTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecretTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecretTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

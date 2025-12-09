@@ -24,19 +24,19 @@ type VaultSecretsSecretConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the application the secret can be found in.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_secret#app_name VaultSecretsSecret#app_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret#app_name VaultSecretsSecret#app_name}
 	AppName *string `field:"required" json:"appName" yaml:"appName"`
 	// The name of the secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_secret#secret_name VaultSecretsSecret#secret_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret#secret_name VaultSecretsSecret#secret_name}
 	SecretName *string `field:"required" json:"secretName" yaml:"secretName"`
 	// The value of the secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_secret#secret_value VaultSecretsSecret#secret_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret#secret_value VaultSecretsSecret#secret_value}
 	SecretValue *string `field:"required" json:"secretValue" yaml:"secretValue"`
 	// The ID of the HCP project where the HCP Vault Secrets secret is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_secret#project_id VaultSecretsSecret#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret#project_id VaultSecretsSecret#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

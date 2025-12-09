@@ -26,13 +26,13 @@ type DataHcpVaultRadarResourcesConfig struct {
 	//
 	// The filter uses the SQL LIKE operator, which allows for wildcard matching.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/vault_radar_resources#uri_like_filter DataHcpVaultRadarResources#uri_like_filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_radar_resources#uri_like_filter DataHcpVaultRadarResources#uri_like_filter}
 	UriLikeFilter *DataHcpVaultRadarResourcesUriLikeFilter `field:"required" json:"uriLikeFilter" yaml:"uriLikeFilter"`
 	// The ID of the HCP project where Vault Radar is located.
 	//
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/vault_radar_resources#project_id DataHcpVaultRadarResources#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_radar_resources#project_id DataHcpVaultRadarResources#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 }
 

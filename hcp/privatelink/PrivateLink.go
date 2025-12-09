@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link hcp_private_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link hcp_private_link}.
 type PrivateLink interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_PrivateLink) VaultClusterIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link hcp_private_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link hcp_private_link} Resource.
 func NewPrivateLink(scope constructs.Construct, id *string, config *PrivateLinkConfig) PrivateLink {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewPrivateLink(scope constructs.Construct, id *string, config *PrivateLinkC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/private_link hcp_private_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link hcp_private_link} Resource.
 func NewPrivateLink_Override(p PrivateLink, scope constructs.Construct, id *string, config *PrivateLinkConfig) {
 	_init_.Initialize()
 

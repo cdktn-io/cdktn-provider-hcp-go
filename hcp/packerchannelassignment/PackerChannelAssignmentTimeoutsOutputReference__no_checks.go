@@ -43,11 +43,11 @@ func (p *jsiiProxy_PackerChannelAssignmentTimeoutsOutputReference) validateGetSt
 	return nil
 }
 
-func (p *jsiiProxy_PackerChannelAssignmentTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (p *jsiiProxy_PackerChannelAssignmentTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (p *jsiiProxy_PackerChannelAssignmentTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PackerChannelAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

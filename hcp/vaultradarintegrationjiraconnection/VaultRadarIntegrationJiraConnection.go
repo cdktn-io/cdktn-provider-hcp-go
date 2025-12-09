@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection}.
 type VaultRadarIntegrationJiraConnection interface {
 	cdktf.TerraformResource
 	BaseUrl() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_VaultRadarIntegrationJiraConnection) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection} Resource.
 func NewVaultRadarIntegrationJiraConnection(scope constructs.Construct, id *string, config *VaultRadarIntegrationJiraConnectionConfig) VaultRadarIntegrationJiraConnection {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewVaultRadarIntegrationJiraConnection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_integration_jira_connection hcp_vault_radar_integration_jira_connection} Resource.
 func NewVaultRadarIntegrationJiraConnection_Override(v VaultRadarIntegrationJiraConnection, scope constructs.Construct, id *string, config *VaultRadarIntegrationJiraConnectionConfig) {
 	_init_.Initialize()
 

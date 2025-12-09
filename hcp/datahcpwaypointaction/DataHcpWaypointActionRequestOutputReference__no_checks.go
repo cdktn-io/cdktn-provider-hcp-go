@@ -43,7 +43,7 @@ func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateGetStrin
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validatePutAgent
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpWaypointActionRequestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

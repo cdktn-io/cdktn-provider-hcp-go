@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlasStaticCredentialDetailsOut
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlasStaticCredentialDetailsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlasStaticCredentialDetailsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlasStaticCredentialDetailsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlasStaticCredentialDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

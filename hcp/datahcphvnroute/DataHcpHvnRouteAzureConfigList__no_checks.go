@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataHcpHvnRouteAzureConfigList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpHvnRouteAzureConfigList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpHvnRouteAzureConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (i *jsiiProxy_IamWorkloadIdentityProviderAwsOutputReference) validateGetStr
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderAwsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (i *jsiiProxy_IamWorkloadIdentityProviderAwsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderAwsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IamWorkloadIdentityProviderAwsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

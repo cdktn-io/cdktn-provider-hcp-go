@@ -24,11 +24,11 @@ type PackerBucketIamPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The policy to apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket_iam_policy#policy_data PackerBucketIamPolicy#policy_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_bucket_iam_policy#policy_data PackerBucketIamPolicy#policy_data}
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
 	// The bucket's resource name in the format packer/project/<project ID>/bucket/<bucket name>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/packer_bucket_iam_policy#resource_name PackerBucketIamPolicy#resource_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_bucket_iam_policy#resource_name PackerBucketIamPolicy#resource_name}
 	ResourceName *string `field:"required" json:"resourceName" yaml:"resourceName"`
 }
 

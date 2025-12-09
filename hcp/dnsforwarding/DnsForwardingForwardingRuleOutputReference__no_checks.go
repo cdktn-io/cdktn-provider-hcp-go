@@ -43,11 +43,11 @@ func (d *jsiiProxy_DnsForwardingForwardingRuleOutputReference) validateGetString
 	return nil
 }
 
-func (d *jsiiProxy_DnsForwardingForwardingRuleOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DnsForwardingForwardingRuleOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DnsForwardingForwardingRuleOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsForwardingForwardingRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (a *jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference) validateGetStringMa
 	return nil
 }
 
-func (a *jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (a *jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (a *jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationGcpFederatedWorkloadIdentityOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationGcpFederatedWorkloadIdentityOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationGcpFederatedWorkloadIdentityOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationGcpFederatedWorkloadIdentityOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationGcpFederatedWorkloadIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

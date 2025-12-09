@@ -43,11 +43,11 @@ func (c *jsiiProxy_ConsulClusterIpAllowlistStructOutputReference) validateGetStr
 	return nil
 }
 
-func (c *jsiiProxy_ConsulClusterIpAllowlistStructOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (c *jsiiProxy_ConsulClusterIpAllowlistStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (c *jsiiProxy_ConsulClusterIpAllowlistStructOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsulClusterIpAllowlistStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

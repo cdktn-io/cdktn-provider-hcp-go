@@ -15,7 +15,7 @@ func (v *jsiiProxy_VaultClusterIpAllowlistStructList) validateGetParameters(inde
 	return nil
 }
 
-func (v *jsiiProxy_VaultClusterIpAllowlistStructList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultClusterIpAllowlistStructList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpBoundaryClusterTimeoutsOutputReference) validateGetStr
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpBoundaryClusterTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpBoundaryClusterTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpBoundaryClusterTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpBoundaryClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

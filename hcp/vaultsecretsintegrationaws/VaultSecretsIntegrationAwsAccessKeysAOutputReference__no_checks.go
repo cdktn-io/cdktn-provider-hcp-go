@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) validat
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

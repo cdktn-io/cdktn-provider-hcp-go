@@ -85,9 +85,9 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) validateGetStringMapAtt
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(property *string) error {
-	if property == nil {
-		return fmt.Errorf("parameter property is required, but nil was provided")
+func (w *jsiiProxy_WaypointActionRequestOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
 	}
 
 	return nil
@@ -115,9 +115,9 @@ func (w *jsiiProxy_WaypointActionRequestOutputReference) validatePutCustomParame
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
-	if _context == nil {
-		return fmt.Errorf("parameter _context is required, but nil was provided")
+func (w *jsiiProxy_WaypointActionRequestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
 
 	return nil

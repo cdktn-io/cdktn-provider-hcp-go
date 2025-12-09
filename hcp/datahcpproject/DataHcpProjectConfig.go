@@ -26,7 +26,7 @@ type DataHcpProjectConfig struct {
 	//
 	// May be given as "<id>" or "project/<id>". If not set, the provider project is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/project#project DataHcpProject#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/project#project DataHcpProject#project}
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

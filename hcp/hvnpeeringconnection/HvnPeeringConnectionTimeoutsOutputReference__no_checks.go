@@ -43,11 +43,11 @@ func (h *jsiiProxy_HvnPeeringConnectionTimeoutsOutputReference) validateGetStrin
 	return nil
 }
 
-func (h *jsiiProxy_HvnPeeringConnectionTimeoutsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (h *jsiiProxy_HvnPeeringConnectionTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (h *jsiiProxy_HvnPeeringConnectionTimeoutsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HvnPeeringConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretMongodbAtlasUserOutputReference) va
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretMongodbAtlasUserOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretMongodbAtlasUserOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretMongodbAtlasUserOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretMongodbAtlasUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

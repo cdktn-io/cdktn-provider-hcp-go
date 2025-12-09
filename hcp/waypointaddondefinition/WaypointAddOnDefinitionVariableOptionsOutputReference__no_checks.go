@@ -43,11 +43,11 @@ func (w *jsiiProxy_WaypointAddOnDefinitionVariableOptionsOutputReference) valida
 	return nil
 }
 
-func (w *jsiiProxy_WaypointAddOnDefinitionVariableOptionsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (w *jsiiProxy_WaypointAddOnDefinitionVariableOptionsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (w *jsiiProxy_WaypointAddOnDefinitionVariableOptionsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointAddOnDefinitionVariableOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

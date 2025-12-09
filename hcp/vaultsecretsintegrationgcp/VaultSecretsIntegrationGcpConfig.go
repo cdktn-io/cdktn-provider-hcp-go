@@ -24,23 +24,23 @@ type VaultSecretsIntegrationGcpConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Capabilities enabled for the integration. See the Vault Secrets documentation for the list of supported capabilities per provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_integration_gcp#capabilities VaultSecretsIntegrationGcp#capabilities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_gcp#capabilities VaultSecretsIntegrationGcp#capabilities}
 	Capabilities *[]*string `field:"required" json:"capabilities" yaml:"capabilities"`
 	// The Vault Secrets integration name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_integration_gcp#name VaultSecretsIntegrationGcp#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_gcp#name VaultSecretsIntegrationGcp#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// (Recommended) Federated identity configuration to authenticate against the target GCP project. Cannot be used with `service_account_key`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_integration_gcp#federated_workload_identity VaultSecretsIntegrationGcp#federated_workload_identity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_gcp#federated_workload_identity VaultSecretsIntegrationGcp#federated_workload_identity}
 	FederatedWorkloadIdentity *VaultSecretsIntegrationGcpFederatedWorkloadIdentityA `field:"optional" json:"federatedWorkloadIdentity" yaml:"federatedWorkloadIdentity"`
 	// HCP project ID that owns the HCP Vault Secrets integration. Inferred from the provider configuration if omitted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_integration_gcp#project_id VaultSecretsIntegrationGcp#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_gcp#project_id VaultSecretsIntegrationGcp#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// GCP service account key used to authenticate against the target GCP project. Cannot be used with `federated_workload_identity`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_integration_gcp#service_account_key VaultSecretsIntegrationGcp#service_account_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_gcp#service_account_key VaultSecretsIntegrationGcp#service_account_key}
 	ServiceAccountKey *VaultSecretsIntegrationGcpServiceAccountKeyA `field:"optional" json:"serviceAccountKey" yaml:"serviceAccountKey"`
 }
 

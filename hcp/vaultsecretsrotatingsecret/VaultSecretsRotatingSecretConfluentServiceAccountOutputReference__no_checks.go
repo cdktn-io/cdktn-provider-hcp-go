@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretConfluentServiceAccountOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretConfluentServiceAccountOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretConfluentServiceAccountOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretConfluentServiceAccountOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretConfluentServiceAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

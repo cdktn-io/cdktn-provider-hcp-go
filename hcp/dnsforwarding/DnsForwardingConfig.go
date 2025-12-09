@@ -24,25 +24,25 @@ type DnsForwardingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The connection type for DNS forwarding.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#connection_type DnsForwarding#connection_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#connection_type DnsForwarding#connection_type}
 	ConnectionType *string `field:"required" json:"connectionType" yaml:"connectionType"`
 	// The ID of the DNS forwarding configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#dns_forwarding_id DnsForwarding#dns_forwarding_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#dns_forwarding_id DnsForwarding#dns_forwarding_id}
 	DnsForwardingId *string `field:"required" json:"dnsForwardingId" yaml:"dnsForwardingId"`
 	// forwarding_rule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#forwarding_rule DnsForwarding#forwarding_rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#forwarding_rule DnsForwarding#forwarding_rule}
 	ForwardingRule *DnsForwardingForwardingRule `field:"required" json:"forwardingRule" yaml:"forwardingRule"`
 	// The ID of the HVN that this DNS forwarding belongs to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#hvn_id DnsForwarding#hvn_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#hvn_id DnsForwarding#hvn_id}
 	HvnId *string `field:"required" json:"hvnId" yaml:"hvnId"`
 	// The ID of the peering connection for DNS forwarding.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#peering_id DnsForwarding#peering_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#peering_id DnsForwarding#peering_id}
 	PeeringId *string `field:"required" json:"peeringId" yaml:"peeringId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#id DnsForwarding#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#id DnsForwarding#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,11 +52,11 @@ type DnsForwardingConfig struct {
 	// If not specified, the project specified in the HCP Provider config block will be used, if configured.
 	// If a project is not configured in the HCP Provider config block, the oldest project in the organization will be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#project_id DnsForwarding#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#project_id DnsForwarding#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/dns_forwarding#timeouts DnsForwarding#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/dns_forwarding#timeouts DnsForwarding#timeouts}
 	Timeouts *DnsForwardingTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

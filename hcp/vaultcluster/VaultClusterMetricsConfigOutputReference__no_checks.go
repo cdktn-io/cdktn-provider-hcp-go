@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) validateGetStringMa
 	return nil
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference) validateGetS
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

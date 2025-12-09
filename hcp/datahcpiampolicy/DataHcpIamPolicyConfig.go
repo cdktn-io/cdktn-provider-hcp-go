@@ -24,7 +24,7 @@ type DataHcpIamPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A binding associates a set of principals to a role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/iam_policy#bindings DataHcpIamPolicy#bindings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/iam_policy#bindings DataHcpIamPolicy#bindings}
 	Bindings interface{} `field:"required" json:"bindings" yaml:"bindings"`
 }
 

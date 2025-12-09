@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialsOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

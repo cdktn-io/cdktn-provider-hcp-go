@@ -5,7 +5,7 @@ package consulclusterroottoken
 
 
 type ConsulClusterRootTokenTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/consul_cluster_root_token#default ConsulClusterRootToken#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/consul_cluster_root_token#default ConsulClusterRootToken#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

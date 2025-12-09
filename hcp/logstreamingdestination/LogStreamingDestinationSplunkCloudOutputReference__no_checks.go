@@ -43,11 +43,11 @@ func (l *jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference) validateGe
 	return nil
 }
 
-func (l *jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (l *jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (l *jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

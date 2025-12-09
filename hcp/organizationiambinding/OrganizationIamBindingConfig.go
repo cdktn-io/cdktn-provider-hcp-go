@@ -24,11 +24,11 @@ type OrganizationIamBindingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The principal to bind to the given role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_binding#principal_id OrganizationIamBinding#principal_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/organization_iam_binding#principal_id OrganizationIamBinding#principal_id}
 	PrincipalId *string `field:"required" json:"principalId" yaml:"principalId"`
 	// The role name to bind to the given principal.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/organization_iam_binding#role OrganizationIamBinding#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/organization_iam_binding#role OrganizationIamBinding#role}
 	Role *string `field:"required" json:"role" yaml:"role"`
 }
 

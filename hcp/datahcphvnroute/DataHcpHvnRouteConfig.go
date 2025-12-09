@@ -24,13 +24,13 @@ type DataHcpHvnRouteConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The `self_link` of the HashiCorp Virtual Network (HVN).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/hvn_route#hvn_link DataHcpHvnRoute#hvn_link}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route#hvn_link DataHcpHvnRoute#hvn_link}
 	HvnLink *string `field:"required" json:"hvnLink" yaml:"hvnLink"`
 	// The ID of the HVN route.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/hvn_route#hvn_route_id DataHcpHvnRoute#hvn_route_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route#hvn_route_id DataHcpHvnRoute#hvn_route_id}
 	HvnRouteId *string `field:"required" json:"hvnRouteId" yaml:"hvnRouteId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/hvn_route#id DataHcpHvnRoute#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route#id DataHcpHvnRoute#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,11 +39,11 @@ type DataHcpHvnRouteConfig struct {
 	//
 	// Always matches the project ID in `hvn_link`. Setting this attribute is deprecated, but it will remain usable in read-only form.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/hvn_route#project_id DataHcpHvnRoute#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route#project_id DataHcpHvnRoute#project_id}
 	ProjectId *string `field:"optional" json:"projectId" yaml:"projectId"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/hvn_route#timeouts DataHcpHvnRoute#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route#timeouts DataHcpHvnRoute#timeouts}
 	Timeouts *DataHcpHvnRouteTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

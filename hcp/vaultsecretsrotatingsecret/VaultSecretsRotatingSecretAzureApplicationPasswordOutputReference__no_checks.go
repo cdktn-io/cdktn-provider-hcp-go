@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

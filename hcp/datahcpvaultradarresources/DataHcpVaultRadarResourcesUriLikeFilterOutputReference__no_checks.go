@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

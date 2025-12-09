@@ -41,7 +41,7 @@ type NotificationsWebhookSubscriptionsEventsList interface {
 	Get(index *float64) NotificationsWebhookSubscriptionsEventsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -231,8 +231,8 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsList) Get(index *float
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := n.validateResolveParameters(_context); err != nil {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -240,7 +240,7 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsEventsList) Resolve(_context
 	_jsii_.Invoke(
 		n,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

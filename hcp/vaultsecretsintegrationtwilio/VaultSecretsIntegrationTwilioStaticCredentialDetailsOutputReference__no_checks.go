@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputRef
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

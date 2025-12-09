@@ -15,7 +15,7 @@ func (w *jsiiProxy_WaypointApplicationApplicationInputVariablesList) validateGet
 	return nil
 }
 
-func (w *jsiiProxy_WaypointApplicationApplicationInputVariablesList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointApplicationApplicationInputVariablesList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

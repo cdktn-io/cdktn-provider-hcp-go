@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference) validateGetStrin
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

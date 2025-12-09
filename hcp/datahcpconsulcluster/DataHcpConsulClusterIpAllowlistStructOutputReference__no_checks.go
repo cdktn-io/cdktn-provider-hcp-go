@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpConsulClusterIpAllowlistStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

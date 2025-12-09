@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityOutputRe
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

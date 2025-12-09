@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret}.
 type VaultSecretsRotatingSecret interface {
 	cdktf.TerraformResource
 	AppName() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_VaultSecretsRotatingSecret) TwilioApiKeyInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Resource.
 func NewVaultSecretsRotatingSecret(scope constructs.Construct, id *string, config *VaultSecretsRotatingSecretConfig) VaultSecretsRotatingSecret {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewVaultSecretsRotatingSecret(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Resource.
 func NewVaultSecretsRotatingSecret_Override(v VaultSecretsRotatingSecret, scope constructs.Construct, id *string, config *VaultSecretsRotatingSecretConfig) {
 	_init_.Initialize()
 

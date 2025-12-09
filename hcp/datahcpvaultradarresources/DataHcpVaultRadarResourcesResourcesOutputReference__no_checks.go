@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

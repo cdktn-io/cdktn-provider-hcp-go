@@ -43,11 +43,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

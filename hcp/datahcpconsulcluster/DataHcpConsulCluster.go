@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/consul_cluster hcp_consul_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/consul_cluster hcp_consul_cluster}.
 type DataHcpConsulCluster interface {
 	cdktf.TerraformDataSource
 	AutoHvnToHvnPeering() cdktf.IResolvable
@@ -589,7 +589,7 @@ func (j *jsiiProxy_DataHcpConsulCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/consul_cluster hcp_consul_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/consul_cluster hcp_consul_cluster} Data Source.
 func NewDataHcpConsulCluster(scope constructs.Construct, id *string, config *DataHcpConsulClusterConfig) DataHcpConsulCluster {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewDataHcpConsulCluster(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.110.0/docs/data-sources/consul_cluster hcp_consul_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/consul_cluster hcp_consul_cluster} Data Source.
 func NewDataHcpConsulCluster_Override(d DataHcpConsulCluster, scope constructs.Construct, id *string, config *DataHcpConsulClusterConfig) {
 	_init_.Initialize()
 
