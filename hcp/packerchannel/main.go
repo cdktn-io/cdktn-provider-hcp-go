@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package packerchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		reflect.TypeOf((*PackerChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,20 +80,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PackerChannel{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.packerChannel.PackerChannelConfig",
+		"@cdktn/provider-hcp.packerChannel.PackerChannelConfig",
 		reflect.TypeOf((*PackerChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.packerChannel.PackerChannelTimeouts",
+		"@cdktn/provider-hcp.packerChannel.PackerChannelTimeouts",
 		reflect.TypeOf((*PackerChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.packerChannel.PackerChannelTimeoutsOutputReference",
+		"@cdktn/provider-hcp.packerChannel.PackerChannelTimeoutsOutputReference",
 		reflect.TypeOf((*PackerChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_PackerChannelTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

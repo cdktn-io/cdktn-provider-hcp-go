@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsintegrationtwilio
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilio",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilio",
 		reflect.TypeOf((*VaultSecretsIntegrationTwilio)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,20 +72,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegrationTwilio{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioConfig",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioConfig",
 		reflect.TypeOf((*VaultSecretsIntegrationTwilioConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioStaticCredentialDetails",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioStaticCredentialDetails",
 		reflect.TypeOf((*VaultSecretsIntegrationTwilioStaticCredentialDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationTwilio.VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference",
 		reflect.TypeOf((*VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountSid", GoGetter: "AccountSid"},
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegrationTwilioStaticCredentialDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

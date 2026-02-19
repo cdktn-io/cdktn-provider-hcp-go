@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpprivatelink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLink",
+		"@cdktn/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLink",
 		reflect.TypeOf((*DataHcpPrivateLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,20 +75,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpPrivateLink{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkConfig",
+		"@cdktn/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkConfig",
 		reflect.TypeOf((*DataHcpPrivateLinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkTimeouts",
+		"@cdktn/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkTimeouts",
 		reflect.TypeOf((*DataHcpPrivateLinkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpPrivateLink.DataHcpPrivateLinkTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpPrivateLinkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpPrivateLinkTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

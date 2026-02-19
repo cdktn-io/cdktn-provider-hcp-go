@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpawsnetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpawsnetworkpeering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpawsnetworkpeering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/aws_network_peering hcp_aws_network_peering}.
 type DataHcpAwsNetworkPeering interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,9 +30,9 @@ type DataHcpAwsNetworkPeering interface {
 	SetDependsOn(val *[]*string)
 	ExpiresAt() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataHcpAwsNetworkPeering interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -60,16 +60,16 @@ type DataHcpAwsNetworkPeering interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProviderPeeringId() *string
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type DataHcpAwsNetworkPeering interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,7 +100,7 @@ type DataHcpAwsNetworkPeering interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -128,11 +128,11 @@ type DataHcpAwsNetworkPeering interface {
 
 // The jsii proxy struct for DataHcpAwsNetworkPeering
 type jsiiProxy_DataHcpAwsNetworkPeering struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) ExpiresAt() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -492,7 +492,7 @@ func NewDataHcpAwsNetworkPeering(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataHcpAwsNetworkPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -505,7 +505,7 @@ func NewDataHcpAwsNetworkPeering_Override(d DataHcpAwsNetworkPeering, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -560,7 +560,7 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -593,7 +593,7 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -612,17 +612,17 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering)SetWaitForActiveState(val interface{
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpAwsNetworkPeering resource upon running "cdktf plan <stack-name>".
-func DataHcpAwsNetworkPeering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpAwsNetworkPeering resource upon running "cdktn plan <stack-name>".
+func DataHcpAwsNetworkPeering_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpAwsNetworkPeering_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func DataHcpAwsNetworkPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func DataHcpAwsNetworkPeering_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func DataHcpAwsNetworkPeering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func DataHcpAwsNetworkPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
+		"@cdktn/provider-hcp.dataHcpAwsNetworkPeering.DataHcpAwsNetworkPeering",
 		"tfResourceType",
 		&returns,
 	)
@@ -742,11 +742,11 @@ func (d *jsiiProxy_DataHcpAwsNetworkPeering) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAwsNetworkPeering) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAwsNetworkPeering) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -870,11 +870,11 @@ func (d *jsiiProxy_DataHcpAwsNetworkPeering) GetStringMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAwsNetworkPeering) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAwsNetworkPeering) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

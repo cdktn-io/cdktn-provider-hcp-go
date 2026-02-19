@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicy",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicy",
 		reflect.TypeOf((*DataHcpIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -54,16 +54,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpIamPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindings",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindings",
 		reflect.TypeOf((*DataHcpIamPolicyBindings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
 		reflect.TypeOf((*DataHcpIamPolicyBindingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -80,12 +80,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpIamPolicyBindingsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsOutputReference",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsOutputReference",
 		reflect.TypeOf((*DataHcpIamPolicyBindingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -116,12 +116,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpIamPolicyBindingsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyConfig",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyConfig",
 		reflect.TypeOf((*DataHcpIamPolicyConfig)(nil)).Elem(),
 	)
 }

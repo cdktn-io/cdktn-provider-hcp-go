@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/organizationiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/organizationiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/organization_iam_binding hcp_organization_iam_binding}.
 type OrganizationIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,26 +32,26 @@ type OrganizationIamBinding interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrincipalId() *string
 	SetPrincipalId(val *string)
 	PrincipalIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -62,7 +62,7 @@ type OrganizationIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type OrganizationIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,9 +93,9 @@ type OrganizationIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -128,11 +128,11 @@ type OrganizationIamBinding interface {
 
 // The jsii proxy struct for OrganizationIamBinding
 type jsiiProxy_OrganizationIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_OrganizationIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OrganizationIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -181,8 +181,8 @@ func (j *jsiiProxy_OrganizationIamBinding) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OrganizationIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -211,8 +211,8 @@ func (j *jsiiProxy_OrganizationIamBinding) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OrganizationIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_OrganizationIamBinding) PrincipalIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OrganizationIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_OrganizationIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OrganizationIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -342,7 +342,7 @@ func NewOrganizationIamBinding(scope constructs.Construct, id *string, config *O
 	j := jsiiProxy_OrganizationIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -355,7 +355,7 @@ func NewOrganizationIamBinding_Override(o OrganizationIamBinding, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -391,7 +391,7 @@ func (j *jsiiProxy_OrganizationIamBinding)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_OrganizationIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OrganizationIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -399,7 +399,7 @@ func (j *jsiiProxy_OrganizationIamBinding)SetForEach(val cdktf.ITerraformIterato
 	)
 }
 
-func (j *jsiiProxy_OrganizationIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OrganizationIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -421,7 +421,7 @@ func (j *jsiiProxy_OrganizationIamBinding)SetPrincipalId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OrganizationIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OrganizationIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -451,17 +451,17 @@ func (j *jsiiProxy_OrganizationIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a OrganizationIamBinding resource upon running "cdktf plan <stack-name>".
-func OrganizationIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OrganizationIamBinding resource upon running "cdktn plan <stack-name>".
+func OrganizationIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOrganizationIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -496,7 +496,7 @@ func OrganizationIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func OrganizationIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -534,7 +534,7 @@ func OrganizationIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func OrganizationIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		"tfResourceType",
 		&returns,
 	)
@@ -592,11 +592,11 @@ func (o *jsiiProxy_OrganizationIamBinding) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -733,7 +733,7 @@ func (o *jsiiProxy_OrganizationIamBinding) HasResourceMove() interface{} {
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OrganizationIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -744,11 +744,11 @@ func (o *jsiiProxy_OrganizationIamBinding) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (o *jsiiProxy_OrganizationIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

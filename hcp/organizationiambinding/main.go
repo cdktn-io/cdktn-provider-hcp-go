@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBinding",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBinding",
 		reflect.TypeOf((*OrganizationIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -62,12 +62,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_OrganizationIamBinding{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.organizationIamBinding.OrganizationIamBindingConfig",
+		"@cdktn/provider-hcp.organizationIamBinding.OrganizationIamBindingConfig",
 		reflect.TypeOf((*OrganizationIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcppackerruntask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcppackerruntask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcppackerruntask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/packer_run_task hcp_packer_run_task}.
 type DataHcpPackerRunTask interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataHcpPackerRunTask interface {
 	SetDependsOn(val *[]*string)
 	EndpointUrl() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -41,9 +41,9 @@ type DataHcpPackerRunTask interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -51,13 +51,13 @@ type DataHcpPackerRunTask interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type DataHcpPackerRunTask interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,7 +85,7 @@ type DataHcpPackerRunTask interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -112,11 +112,11 @@ type DataHcpPackerRunTask interface {
 
 // The jsii proxy struct for DataHcpPackerRunTask
 type jsiiProxy_DataHcpPackerRunTask struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpPackerRunTask) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DataHcpPackerRunTask) EndpointUrl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpPackerRunTask) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_DataHcpPackerRunTask) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpPackerRunTask) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_DataHcpPackerRunTask) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpPackerRunTask) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataHcpPackerRunTask) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpPackerRunTask) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -356,7 +356,7 @@ func NewDataHcpPackerRunTask(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataHcpPackerRunTask{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -369,7 +369,7 @@ func NewDataHcpPackerRunTask_Override(d DataHcpPackerRunTask, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataHcpPackerRunTask)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpPackerRunTask)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataHcpPackerRunTask)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpPackerRunTask)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataHcpPackerRunTask)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTask)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpPackerRunTask)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -443,17 +443,17 @@ func (j *jsiiProxy_DataHcpPackerRunTask)SetProvider(val cdktf.TerraformProvider)
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpPackerRunTask resource upon running "cdktf plan <stack-name>".
-func DataHcpPackerRunTask_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpPackerRunTask resource upon running "cdktn plan <stack-name>".
+func DataHcpPackerRunTask_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpPackerRunTask_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataHcpPackerRunTask_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataHcpPackerRunTask_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataHcpPackerRunTask_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataHcpPackerRunTask_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		"tfResourceType",
 		&returns,
 	)
@@ -573,11 +573,11 @@ func (d *jsiiProxy_DataHcpPackerRunTask) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTask) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpPackerRunTask) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -701,11 +701,11 @@ func (d *jsiiProxy_DataHcpPackerRunTask) GetStringMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTask) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpPackerRunTask) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

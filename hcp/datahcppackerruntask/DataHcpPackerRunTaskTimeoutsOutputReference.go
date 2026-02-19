@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcppackerruntask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcppackerruntask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcppackerruntask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpPackerRunTaskTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataHcpPackerRunTaskTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type DataHcpPackerRunTaskTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefault()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataHcpPackerRunTaskTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DataHcpPackerRunTaskTimeoutsOutputReference
 type jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) TerraformResourc
 }
 
 
-func NewDataHcpPackerRunTaskTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataHcpPackerRunTaskTimeoutsOutputReference {
+func NewDataHcpPackerRunTaskTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataHcpPackerRunTaskTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpPackerRunTaskTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewDataHcpPackerRunTaskTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewDataHcpPackerRunTaskTimeoutsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataHcpPackerRunTaskTimeoutsOutputReference_Override(d DataHcpPackerRunTaskTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataHcpPackerRunTaskTimeoutsOutputReference_Override(d DataHcpPackerRunTaskTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,8 +424,8 @@ func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -437,11 +437,11 @@ func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) ResetDefault() {
 	)
 }
 
-func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

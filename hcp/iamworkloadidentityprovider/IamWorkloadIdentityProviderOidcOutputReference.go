@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkloadidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/iamworkloadidentityprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/iamworkloadidentityprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IamWorkloadIdentityProviderOidcOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedAudiences() *[]*string
 	SetAllowedAudiences(val *[]*string)
 	AllowedAudiencesInput() *[]*string
@@ -43,15 +43,15 @@ type IamWorkloadIdentityProviderOidcOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type IamWorkloadIdentityProviderOidcOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedAudiences()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type IamWorkloadIdentityProviderOidcOutputReference interface {
 
 // The jsii proxy struct for IamWorkloadIdentityProviderOidcOutputReference
 type jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) AllowedAudiences() *[]*string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) TerraformReso
 }
 
 
-func NewIamWorkloadIdentityProviderOidcOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IamWorkloadIdentityProviderOidcOutputReference {
+func NewIamWorkloadIdentityProviderOidcOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IamWorkloadIdentityProviderOidcOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIamWorkloadIdentityProviderOidcOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -206,7 +206,7 @@ func NewIamWorkloadIdentityProviderOidcOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProviderOidcOutputReference",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProviderOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -214,11 +214,11 @@ func NewIamWorkloadIdentityProviderOidcOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewIamWorkloadIdentityProviderOidcOutputReference_Override(i IamWorkloadIdentityProviderOidcOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIamWorkloadIdentityProviderOidcOutputReference_Override(i IamWorkloadIdentityProviderOidcOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProviderOidcOutputReference",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProviderOidcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)
@@ -290,7 +290,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -458,8 +458,8 @@ func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) GetStringMapA
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -471,11 +471,11 @@ func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) Interpolation
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -495,7 +495,7 @@ func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) ResetAllowedA
 	)
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IamWorkloadIdentityProviderOidcOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/provider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/provider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs hcp}.
 type HcpProvider interface {
-	cdktf.TerraformProvider
+	cdktn.TerraformProvider
 	Alias() *string
 	SetAlias(val *string)
 	AliasInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -51,7 +51,7 @@ type HcpProvider interface {
 	SetSkipStatusCheck(val interface{})
 	SkipStatusCheckInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformProviderSource() *string
 	// Experimental.
@@ -90,7 +90,7 @@ type HcpProvider interface {
 
 // The jsii proxy struct for HcpProvider
 type jsiiProxy_HcpProvider struct {
-	internal.Type__cdktfTerraformProvider
+	internal.Type__cdktnTerraformProvider
 }
 
 func (j *jsiiProxy_HcpProvider) Alias() *string {
@@ -113,8 +113,8 @@ func (j *jsiiProxy_HcpProvider) AliasInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_HcpProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_HcpProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_HcpProvider) SkipStatusCheckInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_HcpProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_HcpProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -364,7 +364,7 @@ func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderC
 	j := jsiiProxy_HcpProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -377,7 +377,7 @@ func NewHcpProvider_Override(h HcpProvider, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -453,17 +453,17 @@ func (j *jsiiProxy_HcpProvider)SetWorkloadIdentity(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a HcpProvider resource upon running "cdktf plan <stack-name>".
-func HcpProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a HcpProvider resource upon running "cdktn plan <stack-name>".
+func HcpProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateHcpProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func HcpProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func HcpProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func HcpProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func HcpProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		"tfResourceType",
 		&returns,
 	)

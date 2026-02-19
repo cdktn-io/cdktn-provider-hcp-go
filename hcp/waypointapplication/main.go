@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplication",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplication",
 		reflect.TypeOf((*WaypointApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -81,16 +81,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplication{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariables",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariables",
 		reflect.TypeOf((*WaypointApplicationApplicationInputVariables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariablesList",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariablesList",
 		reflect.TypeOf((*WaypointApplicationApplicationInputVariablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,12 +107,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationApplicationInputVariablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariablesOutputReference",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationApplicationInputVariablesOutputReference",
 		reflect.TypeOf((*WaypointApplicationApplicationInputVariablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,20 +145,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationApplicationInputVariablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationConfig",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationConfig",
 		reflect.TypeOf((*WaypointApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationOutputValues",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationOutputValues",
 		reflect.TypeOf((*WaypointApplicationOutputValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
 		reflect.TypeOf((*WaypointApplicationOutputValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -174,12 +174,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationOutputValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationOutputValuesOutputReference",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationOutputValuesOutputReference",
 		reflect.TypeOf((*WaypointApplicationOutputValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,16 +210,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationOutputValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariables",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariables",
 		reflect.TypeOf((*WaypointApplicationTemplateInputVariables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesList",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesList",
 		reflect.TypeOf((*WaypointApplicationTemplateInputVariablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -236,12 +236,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationTemplateInputVariablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
 		reflect.TypeOf((*WaypointApplicationTemplateInputVariablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,7 +275,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

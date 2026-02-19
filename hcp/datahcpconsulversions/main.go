@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpconsulversions
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersions",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersions",
 		reflect.TypeOf((*DataHcpConsulVersions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,20 +60,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpConsulVersions{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsConfig",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsConfig",
 		reflect.TypeOf((*DataHcpConsulVersionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeouts",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeouts",
 		reflect.TypeOf((*DataHcpConsulVersionsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpConsulVersionsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

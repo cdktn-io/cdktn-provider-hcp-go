@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package awstransitgatewayattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachment",
 		reflect.TypeOf((*AwsTransitGatewayAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,20 +82,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsTransitGatewayAttachment{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentConfig",
+		"@cdktn/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentConfig",
 		reflect.TypeOf((*AwsTransitGatewayAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentTimeouts",
+		"@cdktn/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentTimeouts",
 		reflect.TypeOf((*AwsTransitGatewayAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-hcp.awsTransitGatewayAttachment.AwsTransitGatewayAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*AwsTransitGatewayAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,7 +131,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsTransitGatewayAttachmentTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

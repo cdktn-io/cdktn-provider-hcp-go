@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataHcpAwsNetworkPeering) validateAddOverrideParameters(path *string, value interface{}) error {
@@ -211,11 +211,11 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) validateSetCountParameters(val inte
 		// ok
 	case uint64:
 		// ok
-	case cdktf.TerraformCount:
+	case cdktn.TerraformCount:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktf.TerraformCount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataHcpAwsNetworkPeering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataHcpAwsNetworkPeering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
 	}
@@ -271,11 +271,11 @@ func (j *jsiiProxy_DataHcpAwsNetworkPeering) validateSetWaitForActiveStateParame
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 

@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpwaypointaction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpwaypointaction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/waypoint_action hcp_waypoint_action}.
 type DataHcpWaypointAction interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataHcpWaypointAction interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -40,9 +40,9 @@ type DataHcpWaypointAction interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -51,14 +51,14 @@ type DataHcpWaypointAction interface {
 	OrganizationId() *string
 	ProjectId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Request() DataHcpWaypointActionRequestOutputReference
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type DataHcpWaypointAction interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,7 +84,7 @@ type DataHcpWaypointAction interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -109,11 +109,11 @@ type DataHcpWaypointAction interface {
 
 // The jsii proxy struct for DataHcpWaypointAction
 type jsiiProxy_DataHcpWaypointAction struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpWaypointAction) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataHcpWaypointAction) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpWaypointAction) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_DataHcpWaypointAction) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpWaypointAction) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_DataHcpWaypointAction) ProjectId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpWaypointAction) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_DataHcpWaypointAction) Request() DataHcpWaypointActionRequest
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpWaypointAction) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -343,7 +343,7 @@ func NewDataHcpWaypointAction(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataHcpWaypointAction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -356,7 +356,7 @@ func NewDataHcpWaypointAction_Override(d DataHcpWaypointAction, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataHcpWaypointAction)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpWaypointAction)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataHcpWaypointAction)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpWaypointAction)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataHcpWaypointAction)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAction)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpWaypointAction)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -430,17 +430,17 @@ func (j *jsiiProxy_DataHcpWaypointAction)SetProvider(val cdktf.TerraformProvider
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpWaypointAction resource upon running "cdktf plan <stack-name>".
-func DataHcpWaypointAction_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpWaypointAction resource upon running "cdktn plan <stack-name>".
+func DataHcpWaypointAction_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpWaypointAction_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -475,7 +475,7 @@ func DataHcpWaypointAction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -494,7 +494,7 @@ func DataHcpWaypointAction_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -513,7 +513,7 @@ func DataHcpWaypointAction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataHcpWaypointAction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
+		"@cdktn/provider-hcp.dataHcpWaypointAction.DataHcpWaypointAction",
 		"tfResourceType",
 		&returns,
 	)
@@ -560,11 +560,11 @@ func (d *jsiiProxy_DataHcpWaypointAction) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAction) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAction) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -688,11 +688,11 @@ func (d *jsiiProxy_DataHcpWaypointAction) GetStringMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAction) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAction) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

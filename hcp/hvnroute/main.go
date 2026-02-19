@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hvnroute
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.hvnRoute.HvnRoute",
+		"@cdktn/provider-hcp.hvnRoute.HvnRoute",
 		reflect.TypeOf((*HvnRoute)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,16 +83,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HvnRoute{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteAzureConfig",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteAzureConfig",
 		reflect.TypeOf((*HvnRouteAzureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
 		reflect.TypeOf((*HvnRouteAzureConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,20 +124,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HvnRouteAzureConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteConfig",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteConfig",
 		reflect.TypeOf((*HvnRouteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteTimeouts",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteTimeouts",
 		reflect.TypeOf((*HvnRouteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteTimeoutsOutputReference",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteTimeoutsOutputReference",
 		reflect.TypeOf((*HvnRouteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HvnRouteTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

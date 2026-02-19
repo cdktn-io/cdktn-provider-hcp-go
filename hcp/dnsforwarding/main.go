@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsforwarding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwarding",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwarding",
 		reflect.TypeOf((*DnsForwarding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,20 +82,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DnsForwarding{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwardingConfig",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwardingConfig",
 		reflect.TypeOf((*DnsForwardingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwardingForwardingRule",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwardingForwardingRule",
 		reflect.TypeOf((*DnsForwardingForwardingRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwardingForwardingRuleOutputReference",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwardingForwardingRuleOutputReference",
 		reflect.TypeOf((*DnsForwardingForwardingRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,16 +128,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DnsForwardingForwardingRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwardingTimeouts",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwardingTimeouts",
 		reflect.TypeOf((*DnsForwardingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dnsForwarding.DnsForwardingTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dnsForwarding.DnsForwardingTimeoutsOutputReference",
 		reflect.TypeOf((*DnsForwardingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DnsForwardingTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsintegrationaws
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultsecretsintegrationaws/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultsecretsintegrationaws/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultSecretsIntegrationAwsAccessKeysAOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessKeyId() *string
 	SetAccessKeyId(val *string)
 	AccessKeyIdInput() *string
@@ -43,15 +43,15 @@ type VaultSecretsIntegrationAwsAccessKeysAOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type VaultSecretsIntegrationAwsAccessKeysAOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type VaultSecretsIntegrationAwsAccessKeysAOutputReference interface {
 
 // The jsii proxy struct for VaultSecretsIntegrationAwsAccessKeysAOutputReference
 type jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) AccessKeyId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Terrafo
 }
 
 
-func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultSecretsIntegrationAwsAccessKeysAOutputReference {
+func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultSecretsIntegrationAwsAccessKeysAOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultSecretsIntegrationAwsAccessKeysAOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -205,7 +205,7 @@ func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference(terraformResource c
 	j := jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference(terraformResource c
 	return &j
 }
 
-func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference_Override(v VaultSecretsIntegrationAwsAccessKeysAOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultSecretsIntegrationAwsAccessKeysAOutputReference_Override(v VaultSecretsIntegrationAwsAccessKeysAOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) GetAnyM
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -457,8 +457,8 @@ func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) GetStri
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -470,11 +470,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Interpo
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -486,7 +486,7 @@ func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Interpo
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatelink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/privatelink/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/privatelink/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/private_link hcp_private_link}.
 type PrivateLink interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type PrivateLink interface {
 	SetDependsOn(val *[]*string)
 	ExternalName() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type PrivateLink interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -71,9 +71,9 @@ type PrivateLink interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type PrivateLink interface {
 	SelfLink() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type PrivateLink interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type PrivateLink interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,11 +162,11 @@ type PrivateLink interface {
 
 // The jsii proxy struct for PrivateLink
 type jsiiProxy_PrivateLink struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_PrivateLink) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrivateLink) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_PrivateLink) ExternalName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateLink) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrivateLink) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -375,8 +375,8 @@ func (j *jsiiProxy_PrivateLink) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateLink) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrivateLink) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_PrivateLink) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateLink) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrivateLink) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -495,8 +495,8 @@ func (j *jsiiProxy_PrivateLink) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateLink) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrivateLink) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -586,7 +586,7 @@ func NewPrivateLink(scope constructs.Construct, id *string, config *PrivateLinkC
 	j := jsiiProxy_PrivateLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -599,7 +599,7 @@ func NewPrivateLink_Override(p PrivateLink, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -668,7 +668,7 @@ func (j *jsiiProxy_PrivateLink)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateLink)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrivateLink)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -698,7 +698,7 @@ func (j *jsiiProxy_PrivateLink)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateLink)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrivateLink)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -731,7 +731,7 @@ func (j *jsiiProxy_PrivateLink)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateLink)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrivateLink)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -761,17 +761,17 @@ func (j *jsiiProxy_PrivateLink)SetVaultClusterId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a PrivateLink resource upon running "cdktf plan <stack-name>".
-func PrivateLink_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrivateLink resource upon running "cdktn plan <stack-name>".
+func PrivateLink_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrivateLink_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -806,7 +806,7 @@ func PrivateLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func PrivateLink_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func PrivateLink_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func PrivateLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.privateLink.PrivateLink",
+		"@cdktn/provider-hcp.privateLink.PrivateLink",
 		"tfResourceType",
 		&returns,
 	)
@@ -902,11 +902,11 @@ func (p *jsiiProxy_PrivateLink) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (p *jsiiProxy_PrivateLink) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateLink) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -1043,7 +1043,7 @@ func (p *jsiiProxy_PrivateLink) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PrivateLink) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrivateLink) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1054,11 +1054,11 @@ func (p *jsiiProxy_PrivateLink) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (p *jsiiProxy_PrivateLink) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateLink) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

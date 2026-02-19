@@ -1,23 +1,23 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcphvnroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcphvnroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcphvnroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/hvn_route hcp_hvn_route}.
 type DataHcpHvnRoute interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AzureConfig() DataHcpHvnRouteAzureConfigList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,9 +31,9 @@ type DataHcpHvnRoute interface {
 	SetDependsOn(val *[]*string)
 	DestinationCidr() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,25 +48,25 @@ type DataHcpHvnRoute interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	ProjectId() *string
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
 	State() *string
 	TargetLink() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataHcpHvnRoute interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,7 +94,7 @@ type DataHcpHvnRoute interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -121,7 +121,7 @@ type DataHcpHvnRoute interface {
 
 // The jsii proxy struct for DataHcpHvnRoute
 type jsiiProxy_DataHcpHvnRoute struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataHcpHvnRoute) AzureConfig() DataHcpHvnRouteAzureConfigList {
@@ -134,8 +134,8 @@ func (j *jsiiProxy_DataHcpHvnRoute) AzureConfig() DataHcpHvnRouteAzureConfigList
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpHvnRoute) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataHcpHvnRoute) DestinationCidr() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpHvnRoute) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -284,8 +284,8 @@ func (j *jsiiProxy_DataHcpHvnRoute) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpHvnRoute) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -324,8 +324,8 @@ func (j *jsiiProxy_DataHcpHvnRoute) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpHvnRoute) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -374,8 +374,8 @@ func (j *jsiiProxy_DataHcpHvnRoute) TargetLink() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpHvnRoute) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -435,7 +435,7 @@ func NewDataHcpHvnRoute(scope constructs.Construct, id *string, config *DataHcpH
 	j := jsiiProxy_DataHcpHvnRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -448,7 +448,7 @@ func NewDataHcpHvnRoute_Override(d DataHcpHvnRoute, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataHcpHvnRoute)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpHvnRoute)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -514,7 +514,7 @@ func (j *jsiiProxy_DataHcpHvnRoute)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpHvnRoute)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -536,7 +536,7 @@ func (j *jsiiProxy_DataHcpHvnRoute)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpHvnRoute)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpHvnRoute)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -544,17 +544,17 @@ func (j *jsiiProxy_DataHcpHvnRoute)SetProvider(val cdktf.TerraformProvider) {
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpHvnRoute resource upon running "cdktf plan <stack-name>".
-func DataHcpHvnRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpHvnRoute resource upon running "cdktn plan <stack-name>".
+func DataHcpHvnRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpHvnRoute_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func DataHcpHvnRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func DataHcpHvnRoute_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataHcpHvnRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func DataHcpHvnRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		"tfResourceType",
 		&returns,
 	)
@@ -674,11 +674,11 @@ func (d *jsiiProxy_DataHcpHvnRoute) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpHvnRoute) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpHvnRoute) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -802,11 +802,11 @@ func (d *jsiiProxy_DataHcpHvnRoute) GetStringMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpHvnRoute) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpHvnRoute) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

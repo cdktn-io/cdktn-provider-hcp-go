@@ -1,10 +1,10 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package internal
 import (
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
-type Type__cdktfTerraformDataSource = cdktf.TerraformDataSource
-type Type__cdktfComplexList = cdktf.ComplexList
-type Type__cdktfComplexObject = cdktf.ComplexObject
+type Type__cdktnTerraformDataSource = cdktn.TerraformDataSource
+type Type__cdktnComplexList = cdktn.ComplexList
+type Type__cdktnComplexObject = cdktn.ComplexObject

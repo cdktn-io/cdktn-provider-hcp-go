@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package boundarycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/boundarycluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/boundarycluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BoundaryClusterTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type BoundaryClusterTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BoundaryClusterTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDefault()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BoundaryClusterTimeoutsOutputReference interface {
 
 // The jsii proxy struct for BoundaryClusterTimeoutsOutputReference
 type jsiiProxy_BoundaryClusterTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference) TerraformResource() c
 }
 
 
-func NewBoundaryClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BoundaryClusterTimeoutsOutputReference {
+func NewBoundaryClusterTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BoundaryClusterTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBoundaryClusterTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -231,7 +231,7 @@ func NewBoundaryClusterTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_BoundaryClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,11 +239,11 @@ func NewBoundaryClusterTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewBoundaryClusterTimeoutsOutputReference_Override(b BoundaryClusterTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBoundaryClusterTimeoutsOutputReference_Override(b BoundaryClusterTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)
@@ -326,7 +326,7 @@ func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BoundaryClusterTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) ResetDelete() {
 	)
 }
 
-func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BoundaryClusterTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

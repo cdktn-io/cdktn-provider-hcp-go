@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) 
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VaultSecretsIntegrationGcpServiceAccountKeyAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVaultSecretsIntegrationGcpServiceAccountKeyAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVaultSecretsIntegrationGcpServiceAccountKeyAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretssync
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsSync.VaultSecretsSync",
+		"@cdktn/provider-hcp.vaultSecretsSync.VaultSecretsSync",
 		reflect.TypeOf((*VaultSecretsSync)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,20 +71,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsSync{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsSync.VaultSecretsSyncConfig",
+		"@cdktn/provider-hcp.vaultSecretsSync.VaultSecretsSyncConfig",
 		reflect.TypeOf((*VaultSecretsSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsSync.VaultSecretsSyncGitlabConfig",
+		"@cdktn/provider-hcp.vaultSecretsSync.VaultSecretsSyncGitlabConfig",
 		reflect.TypeOf((*VaultSecretsSyncGitlabConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsSync.VaultSecretsSyncGitlabConfigOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsSync.VaultSecretsSyncGitlabConfigOutputReference",
 		reflect.TypeOf((*VaultSecretsSyncGitlabConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsSyncGitlabConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

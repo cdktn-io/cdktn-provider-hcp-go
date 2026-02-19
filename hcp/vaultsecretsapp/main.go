@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsApp.VaultSecretsApp",
+		"@cdktn/provider-hcp.vaultSecretsApp.VaultSecretsApp",
 		reflect.TypeOf((*VaultSecretsApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,12 +72,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsApp{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsApp.VaultSecretsAppConfig",
+		"@cdktn/provider-hcp.vaultSecretsApp.VaultSecretsAppConfig",
 		reflect.TypeOf((*VaultSecretsAppConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcporganization
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpOrganization.DataHcpOrganization",
+		"@cdktn/provider-hcp.dataHcpOrganization.DataHcpOrganization",
 		reflect.TypeOf((*DataHcpOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -53,12 +53,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpOrganization{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpOrganization.DataHcpOrganizationConfig",
+		"@cdktn/provider-hcp.dataHcpOrganization.DataHcpOrganizationConfig",
 		reflect.TypeOf((*DataHcpOrganizationConfig)(nil)).Elem(),
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationswebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/notificationswebhook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/notificationswebhook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NotificationsWebhookSubscriptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type NotificationsWebhookSubscriptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type NotificationsWebhookSubscriptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEvents(value interface{})
 	ResetResourceId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type NotificationsWebhookSubscriptionsOutputReference interface {
 
 // The jsii proxy struct for NotificationsWebhookSubscriptionsOutputReference
 type jsiiProxy_NotificationsWebhookSubscriptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) TerraformRe
 }
 
 
-func NewNotificationsWebhookSubscriptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NotificationsWebhookSubscriptionsOutputReference {
+func NewNotificationsWebhookSubscriptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NotificationsWebhookSubscriptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNotificationsWebhookSubscriptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -206,7 +206,7 @@ func NewNotificationsWebhookSubscriptionsOutputReference(terraformResource cdktf
 	j := jsiiProxy_NotificationsWebhookSubscriptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -214,11 +214,11 @@ func NewNotificationsWebhookSubscriptionsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewNotificationsWebhookSubscriptionsOutputReference_Override(n NotificationsWebhookSubscriptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNotificationsWebhookSubscriptionsOutputReference_Override(n NotificationsWebhookSubscriptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)
@@ -279,7 +279,7 @@ func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -447,8 +447,8 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) GetStringMa
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -460,11 +460,11 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) Interpolati
 	return returns
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -495,7 +495,7 @@ func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) ResetResour
 	)
 }
 
-func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NotificationsWebhookSubscriptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consulsnapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulSnapshot.ConsulSnapshot",
+		"@cdktn/provider-hcp.consulSnapshot.ConsulSnapshot",
 		reflect.TypeOf((*ConsulSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,20 +78,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulSnapshot{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulSnapshot.ConsulSnapshotConfig",
+		"@cdktn/provider-hcp.consulSnapshot.ConsulSnapshotConfig",
 		reflect.TypeOf((*ConsulSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulSnapshot.ConsulSnapshotTimeouts",
+		"@cdktn/provider-hcp.consulSnapshot.ConsulSnapshotTimeouts",
 		reflect.TypeOf((*ConsulSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulSnapshot.ConsulSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-hcp.consulSnapshot.ConsulSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*ConsulSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulSnapshotTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

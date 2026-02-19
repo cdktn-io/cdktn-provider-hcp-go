@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WaypointApplicationOutputValuesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type WaypointApplicationOutputValuesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type WaypointApplicationOutputValuesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) WaypointApplicationOutputValuesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type WaypointApplicationOutputValuesList interface {
 
 // The jsii proxy struct for WaypointApplicationOutputValuesList
 type jsiiProxy_WaypointApplicationOutputValuesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_WaypointApplicationOutputValuesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_WaypointApplicationOutputValuesList) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_WaypointApplicationOutputValuesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WaypointApplicationOutputValuesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_WaypointApplicationOutputValuesList) WrapsSet() *bool {
 }
 
 
-func NewWaypointApplicationOutputValuesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WaypointApplicationOutputValuesList {
+func NewWaypointApplicationOutputValuesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WaypointApplicationOutputValuesList {
 	_init_.Initialize()
 
 	if err := validateNewWaypointApplicationOutputValuesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -112,7 +112,7 @@ func NewWaypointApplicationOutputValuesList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_WaypointApplicationOutputValuesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -120,11 +120,11 @@ func NewWaypointApplicationOutputValuesList(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewWaypointApplicationOutputValuesList_Override(w WaypointApplicationOutputValuesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWaypointApplicationOutputValuesList_Override(w WaypointApplicationOutputValuesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationOutputValuesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)
@@ -141,7 +141,7 @@ func (j *jsiiProxy_WaypointApplicationOutputValuesList)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_WaypointApplicationOutputValuesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WaypointApplicationOutputValuesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_WaypointApplicationOutputValuesList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (w *jsiiProxy_WaypointApplicationOutputValuesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_WaypointApplicationOutputValuesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -208,7 +208,7 @@ func (w *jsiiProxy_WaypointApplicationOutputValuesList) Get(index *float64) Wayp
 	return returns
 }
 
-func (w *jsiiProxy_WaypointApplicationOutputValuesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WaypointApplicationOutputValuesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

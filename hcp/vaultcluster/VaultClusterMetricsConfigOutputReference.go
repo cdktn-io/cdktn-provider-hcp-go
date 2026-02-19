@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultClusterMetricsConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudwatchAccessKeyId() *string
 	SetCloudwatchAccessKeyId(val *string)
 	CloudwatchAccessKeyIdInput() *string
@@ -117,15 +117,15 @@ type VaultClusterMetricsConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,9 +141,9 @@ type VaultClusterMetricsConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCloudwatchAccessKeyId()
 	ResetCloudwatchRegion()
 	ResetCloudwatchSecretAccessKey()
@@ -172,7 +172,7 @@ type VaultClusterMetricsConfigOutputReference interface {
 	ResetSplunkToken()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -182,7 +182,7 @@ type VaultClusterMetricsConfigOutputReference interface {
 
 // The jsii proxy struct for VaultClusterMetricsConfigOutputReference
 type jsiiProxy_VaultClusterMetricsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference) CloudwatchAccessKeyId() *string {
@@ -785,8 +785,8 @@ func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -796,7 +796,7 @@ func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference) TerraformResource()
 }
 
 
-func NewVaultClusterMetricsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultClusterMetricsConfigOutputReference {
+func NewVaultClusterMetricsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultClusterMetricsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultClusterMetricsConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -805,7 +805,7 @@ func NewVaultClusterMetricsConfigOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_VaultClusterMetricsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -813,11 +813,11 @@ func NewVaultClusterMetricsConfigOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewVaultClusterMetricsConfigOutputReference_Override(v VaultClusterMetricsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultClusterMetricsConfigOutputReference_Override(v VaultClusterMetricsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -1153,7 +1153,7 @@ func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultClusterMetricsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1193,11 +1193,11 @@ func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1321,8 +1321,8 @@ func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1334,11 +1334,11 @@ func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) InterpolationAsList
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1558,7 +1558,7 @@ func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) ResetSplunkToken() 
 	)
 }
 
-func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultClusterMetricsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

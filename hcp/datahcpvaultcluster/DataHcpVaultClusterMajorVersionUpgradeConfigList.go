@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpvaultcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpvaultcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpVaultClusterMajorVersionUpgradeConfigList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataHcpVaultClusterMajorVersionUpgradeConfigList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataHcpVaultClusterMajorVersionUpgradeConfigList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataHcpVaultClusterMajorVersionUpgradeConfigOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataHcpVaultClusterMajorVersionUpgradeConfigList interface {
 
 // The jsii proxy struct for DataHcpVaultClusterMajorVersionUpgradeConfigList
 type jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) WrapsSet() 
 }
 
 
-func NewDataHcpVaultClusterMajorVersionUpgradeConfigList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHcpVaultClusterMajorVersionUpgradeConfigList {
+func NewDataHcpVaultClusterMajorVersionUpgradeConfigList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHcpVaultClusterMajorVersionUpgradeConfigList {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpVaultClusterMajorVersionUpgradeConfigListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -112,7 +112,7 @@ func NewDataHcpVaultClusterMajorVersionUpgradeConfigList(terraformResource cdktf
 	j := jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -120,11 +120,11 @@ func NewDataHcpVaultClusterMajorVersionUpgradeConfigList(terraformResource cdktf
 	return &j
 }
 
-func NewDataHcpVaultClusterMajorVersionUpgradeConfigList_Override(d DataHcpVaultClusterMajorVersionUpgradeConfigList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataHcpVaultClusterMajorVersionUpgradeConfigList_Override(d DataHcpVaultClusterMajorVersionUpgradeConfigList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList)SetWrapsSet(
 	)
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) Get(index *
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

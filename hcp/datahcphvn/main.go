@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcphvn
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvn.DataHcpHvn",
+		"@cdktn/provider-hcp.dataHcpHvn.DataHcpHvn",
 		reflect.TypeOf((*DataHcpHvn)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,20 +70,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvn{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpHvn.DataHcpHvnConfig",
+		"@cdktn/provider-hcp.dataHcpHvn.DataHcpHvnConfig",
 		reflect.TypeOf((*DataHcpHvnConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpHvn.DataHcpHvnTimeouts",
+		"@cdktn/provider-hcp.dataHcpHvn.DataHcpHvnTimeouts",
 		reflect.TypeOf((*DataHcpHvnTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvn.DataHcpHvnTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpHvn.DataHcpHvnTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpHvnTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvnTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputR
 	return nil
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputR
 	return nil
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVaultSecretsIntegrationAzureFederatedWorkloadIdentityAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

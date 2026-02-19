@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference interface {
 	SetTerraformProjectId(val *string)
 	TerraformProjectIdInput() *string
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference interface {
 
 // The jsii proxy struct for WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 type jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 }
 
 
-func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference {
+func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -205,7 +205,7 @@ func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference(terraformR
 	j := jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointTemplate.WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
+		"@cdktn/provider-hcp.waypointTemplate.WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference(terraformR
 	return &j
 }
 
-func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference_Override(w WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference_Override(w WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointTemplate.WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
+		"@cdktn/provider-hcp.waypointTemplate.WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	)
 }
 
-func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -457,8 +457,8 @@ func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -470,11 +470,11 @@ func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -486,7 +486,7 @@ func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WaypointTemplateTerraformCloudWorkspaceDetailsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

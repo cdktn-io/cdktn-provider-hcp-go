@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpserviceprincipal/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpserviceprincipal/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/service_principal hcp_service_principal}.
 type DataHcpServicePrincipal interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,24 +28,24 @@ type DataHcpServicePrincipal interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceId() *string
@@ -53,7 +53,7 @@ type DataHcpServicePrincipal interface {
 	SetResourceName(val *string)
 	ResourceNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -63,7 +63,7 @@ type DataHcpServicePrincipal interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,7 +79,7 @@ type DataHcpServicePrincipal interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -102,11 +102,11 @@ type DataHcpServicePrincipal interface {
 
 // The jsii proxy struct for DataHcpServicePrincipal
 type jsiiProxy_DataHcpServicePrincipal struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpServicePrincipal) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -145,8 +145,8 @@ func (j *jsiiProxy_DataHcpServicePrincipal) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpServicePrincipal) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataHcpServicePrincipal) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpServicePrincipal) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataHcpServicePrincipal) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpServicePrincipal) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_DataHcpServicePrincipal) ResourceNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpServicePrincipal) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -296,7 +296,7 @@ func NewDataHcpServicePrincipal(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataHcpServicePrincipal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -309,7 +309,7 @@ func NewDataHcpServicePrincipal_Override(d DataHcpServicePrincipal, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataHcpServicePrincipal)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpServicePrincipal)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataHcpServicePrincipal)SetForEach(val cdktf.ITerraformIterat
 	)
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpServicePrincipal)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,7 +353,7 @@ func (j *jsiiProxy_DataHcpServicePrincipal)SetLifecycle(val *cdktf.TerraformReso
 	)
 }
 
-func (j *jsiiProxy_DataHcpServicePrincipal)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpServicePrincipal)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -372,17 +372,17 @@ func (j *jsiiProxy_DataHcpServicePrincipal)SetResourceName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpServicePrincipal resource upon running "cdktf plan <stack-name>".
-func DataHcpServicePrincipal_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpServicePrincipal resource upon running "cdktn plan <stack-name>".
+func DataHcpServicePrincipal_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpServicePrincipal_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -417,7 +417,7 @@ func DataHcpServicePrincipal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -436,7 +436,7 @@ func DataHcpServicePrincipal_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -455,7 +455,7 @@ func DataHcpServicePrincipal_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataHcpServicePrincipal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
+		"@cdktn/provider-hcp.dataHcpServicePrincipal.DataHcpServicePrincipal",
 		"tfResourceType",
 		&returns,
 	)
@@ -502,11 +502,11 @@ func (d *jsiiProxy_DataHcpServicePrincipal) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpServicePrincipal) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpServicePrincipal) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -630,11 +630,11 @@ func (d *jsiiProxy_DataHcpServicePrincipal) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpServicePrincipal) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpServicePrincipal) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consulcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/consulcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/consulcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConsulClusterTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type ConsulClusterTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type ConsulClusterTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type ConsulClusterTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDefault()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type ConsulClusterTimeoutsOutputReference interface {
 
 // The jsii proxy struct for ConsulClusterTimeoutsOutputReference
 type jsiiProxy_ConsulClusterTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference) UpdateInput() *string {
 }
 
 
-func NewConsulClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ConsulClusterTimeoutsOutputReference {
+func NewConsulClusterTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConsulClusterTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConsulClusterTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewConsulClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ConsulClusterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewConsulClusterTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewConsulClusterTimeoutsOutputReference_Override(c ConsulClusterTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewConsulClusterTimeoutsOutputReference_Override(c ConsulClusterTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -350,7 +350,7 @@ func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConsulClusterTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -529,8 +529,8 @@ func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -542,11 +542,11 @@ func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -590,7 +590,7 @@ func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConsulClusterTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

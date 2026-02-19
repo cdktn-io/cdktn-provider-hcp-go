@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointaddon/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointaddon/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WaypointAddOnAddOnDefinitionInputVariablesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type WaypointAddOnAddOnDefinitionInputVariablesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type WaypointAddOnAddOnDefinitionInputVariablesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) WaypointAddOnAddOnDefinitionInputVariablesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type WaypointAddOnAddOnDefinitionInputVariablesList interface {
 
 // The jsii proxy struct for WaypointAddOnAddOnDefinitionInputVariablesList
 type jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) WrapsSet() *b
 }
 
 
-func NewWaypointAddOnAddOnDefinitionInputVariablesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WaypointAddOnAddOnDefinitionInputVariablesList {
+func NewWaypointAddOnAddOnDefinitionInputVariablesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WaypointAddOnAddOnDefinitionInputVariablesList {
 	_init_.Initialize()
 
 	if err := validateNewWaypointAddOnAddOnDefinitionInputVariablesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewWaypointAddOnAddOnDefinitionInputVariablesList(terraformResource cdktf.I
 	j := jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointAddOn.WaypointAddOnAddOnDefinitionInputVariablesList",
+		"@cdktn/provider-hcp.waypointAddOn.WaypointAddOnAddOnDefinitionInputVariablesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewWaypointAddOnAddOnDefinitionInputVariablesList(terraformResource cdktf.I
 	return &j
 }
 
-func NewWaypointAddOnAddOnDefinitionInputVariablesList_Override(w WaypointAddOnAddOnDefinitionInputVariablesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWaypointAddOnAddOnDefinitionInputVariablesList_Override(w WaypointAddOnAddOnDefinitionInputVariablesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointAddOn.WaypointAddOnAddOnDefinitionInputVariablesList",
+		"@cdktn/provider-hcp.waypointAddOn.WaypointAddOnAddOnDefinitionInputVariablesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList)SetWrapsSet(va
 	)
 }
 
-func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -231,7 +231,7 @@ func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) Get(index *fl
 	return returns
 }
 
-func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

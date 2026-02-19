@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpiampolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpiampolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpIamPolicyBindingsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataHcpIamPolicyBindingsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataHcpIamPolicyBindingsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataHcpIamPolicyBindingsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataHcpIamPolicyBindingsList interface {
 
 // The jsii proxy struct for DataHcpIamPolicyBindingsList
 type jsiiProxy_DataHcpIamPolicyBindingsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataHcpIamPolicyBindingsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataHcpIamPolicyBindingsList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpIamPolicyBindingsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpIamPolicyBindingsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataHcpIamPolicyBindingsList) WrapsSet() *bool {
 }
 
 
-func NewDataHcpIamPolicyBindingsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHcpIamPolicyBindingsList {
+func NewDataHcpIamPolicyBindingsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataHcpIamPolicyBindingsList {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpIamPolicyBindingsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewDataHcpIamPolicyBindingsList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_DataHcpIamPolicyBindingsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewDataHcpIamPolicyBindingsList(terraformResource cdktf.IInterpolatingParen
 	return &j
 }
 
-func NewDataHcpIamPolicyBindingsList_Override(d DataHcpIamPolicyBindingsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataHcpIamPolicyBindingsList_Override(d DataHcpIamPolicyBindingsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
+		"@cdktn/provider-hcp.dataHcpIamPolicy.DataHcpIamPolicyBindingsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataHcpIamPolicyBindingsList)SetTerraformAttribute(val *strin
 	)
 }
 
-func (j *jsiiProxy_DataHcpIamPolicyBindingsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpIamPolicyBindingsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataHcpIamPolicyBindingsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (d *jsiiProxy_DataHcpIamPolicyBindingsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataHcpIamPolicyBindingsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataHcpIamPolicyBindingsList) Get(index *float64) DataHcpIamP
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpIamPolicyBindingsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpIamPolicyBindingsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

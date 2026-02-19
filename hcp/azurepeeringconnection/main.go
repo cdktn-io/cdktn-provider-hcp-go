@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package azurepeeringconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.azurePeeringConnection.AzurePeeringConnection",
+		"@cdktn/provider-hcp.azurePeeringConnection.AzurePeeringConnection",
 		reflect.TypeOf((*AzurePeeringConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,20 +93,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AzurePeeringConnection{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.azurePeeringConnection.AzurePeeringConnectionConfig",
+		"@cdktn/provider-hcp.azurePeeringConnection.AzurePeeringConnectionConfig",
 		reflect.TypeOf((*AzurePeeringConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.azurePeeringConnection.AzurePeeringConnectionTimeouts",
+		"@cdktn/provider-hcp.azurePeeringConnection.AzurePeeringConnectionTimeouts",
 		reflect.TypeOf((*AzurePeeringConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.azurePeeringConnection.AzurePeeringConnectionTimeoutsOutputReference",
+		"@cdktn/provider-hcp.azurePeeringConnection.AzurePeeringConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*AzurePeeringConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,7 +142,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AzurePeeringConnectionTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

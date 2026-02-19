@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpwaypointaddon/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpwaypointaddon/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpWaypointAddOnOutputValuesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,15 +33,15 @@ type DataHcpWaypointAddOnOutputValuesOutputReference interface {
 	InternalValue() *DataHcpWaypointAddOnOutputValues
 	SetInternalValue(val *DataHcpWaypointAddOnOutputValues)
 	Name() *string
-	Sensitive() cdktf.IResolvable
+	Sensitive() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	Value() *string
 	// Experimental.
@@ -49,7 +49,7 @@ type DataHcpWaypointAddOnOutputValuesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataHcpWaypointAddOnOutputValuesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataHcpWaypointAddOnOutputValuesOutputReference interface {
 
 // The jsii proxy struct for DataHcpWaypointAddOnOutputValuesOutputReference
 type jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Name() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Sensitive() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Sensitive() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sensitive",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Value() *str
 }
 
 
-func NewDataHcpWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpWaypointAddOnOutputValuesOutputReference {
+func NewDataHcpWaypointAddOnOutputValuesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpWaypointAddOnOutputValuesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpWaypointAddOnOutputValuesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -203,7 +203,7 @@ func NewDataHcpWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.
 	j := jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -211,11 +211,11 @@ func NewDataHcpWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDataHcpWaypointAddOnOutputValuesOutputReference_Override(d DataHcpWaypointAddOnOutputValuesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataHcpWaypointAddOnOutputValuesOutputReference_Override(d DataHcpWaypointAddOnOutputValuesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

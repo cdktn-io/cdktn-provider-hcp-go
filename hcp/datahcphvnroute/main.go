@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcphvnroute
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRoute",
 		reflect.TypeOf((*DataHcpHvnRoute)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,16 +70,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvnRoute{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfig",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfig",
 		reflect.TypeOf((*DataHcpHvnRouteAzureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfigList",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfigList",
 		reflect.TypeOf((*DataHcpHvnRouteAzureConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -95,12 +95,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvnRouteAzureConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteAzureConfigOutputReference",
 		reflect.TypeOf((*DataHcpHvnRouteAzureConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,20 +129,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvnRouteAzureConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteConfig",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteConfig",
 		reflect.TypeOf((*DataHcpHvnRouteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteTimeouts",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteTimeouts",
 		reflect.TypeOf((*DataHcpHvnRouteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpHvnRoute.DataHcpHvnRouteTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpHvnRouteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,7 +172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpHvnRouteTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

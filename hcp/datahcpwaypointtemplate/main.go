@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointtemplate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplate",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplate",
 		reflect.TypeOf((*DataHcpWaypointTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -73,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointTemplate{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateConfig",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateConfig",
 		reflect.TypeOf((*DataHcpWaypointTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateTerraformCloudWorkspaceDetails",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateTerraformCloudWorkspaceDetails",
 		reflect.TypeOf((*DataHcpWaypointTemplateTerraformCloudWorkspaceDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference",
 		reflect.TypeOf((*DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -115,16 +115,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointTemplateTerraformCloudWorkspaceDetailsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptions",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptions",
 		reflect.TypeOf((*DataHcpWaypointTemplateVariableOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptionsList",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptionsList",
 		reflect.TypeOf((*DataHcpWaypointTemplateVariableOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,12 +140,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointTemplateVariableOptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptionsOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointTemplate.DataHcpWaypointTemplateVariableOptionsOutputReference",
 		reflect.TypeOf((*DataHcpWaypointTemplateVariableOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointTemplateVariableOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

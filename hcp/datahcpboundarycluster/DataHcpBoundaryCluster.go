@@ -1,24 +1,24 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpboundarycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpboundarycluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpboundarycluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/boundary_cluster hcp_boundary_cluster}.
 type DataHcpBoundaryCluster interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AuthTokenTimeToLive() *string
 	AuthTokenTimeToStale() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterId() *string
 	SetClusterId(val *string)
 	ClusterIdInput() *string
@@ -35,9 +35,9 @@ type DataHcpBoundaryCluster interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataHcpBoundaryCluster interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaintenanceWindowConfig() DataHcpBoundaryClusterMaintenanceWindowConfigList
 	// The tree node.
 	Node() constructs.Node
@@ -56,14 +56,14 @@ type DataHcpBoundaryCluster interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type DataHcpBoundaryCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,7 +93,7 @@ type DataHcpBoundaryCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,7 +120,7 @@ type DataHcpBoundaryCluster interface {
 
 // The jsii proxy struct for DataHcpBoundaryCluster
 type jsiiProxy_DataHcpBoundaryCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataHcpBoundaryCluster) AuthTokenTimeToLive() *string {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) AuthTokenTimeToStale() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpBoundaryCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -223,8 +223,8 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpBoundaryCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpBoundaryCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpBoundaryCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpBoundaryCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -434,7 +434,7 @@ func NewDataHcpBoundaryCluster(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataHcpBoundaryCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,7 +447,7 @@ func NewDataHcpBoundaryCluster_Override(d DataHcpBoundaryCluster, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -483,7 +483,7 @@ func (j *jsiiProxy_DataHcpBoundaryCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpBoundaryCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -502,7 +502,7 @@ func (j *jsiiProxy_DataHcpBoundaryCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpBoundaryCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -524,7 +524,7 @@ func (j *jsiiProxy_DataHcpBoundaryCluster)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpBoundaryCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpBoundaryCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -532,17 +532,17 @@ func (j *jsiiProxy_DataHcpBoundaryCluster)SetProvider(val cdktf.TerraformProvide
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpBoundaryCluster resource upon running "cdktf plan <stack-name>".
-func DataHcpBoundaryCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpBoundaryCluster resource upon running "cdktn plan <stack-name>".
+func DataHcpBoundaryCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpBoundaryCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func DataHcpBoundaryCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataHcpBoundaryCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func DataHcpBoundaryCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataHcpBoundaryCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
+		"@cdktn/provider-hcp.dataHcpBoundaryCluster.DataHcpBoundaryCluster",
 		"tfResourceType",
 		&returns,
 	)
@@ -662,11 +662,11 @@ func (d *jsiiProxy_DataHcpBoundaryCluster) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpBoundaryCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpBoundaryCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -790,11 +790,11 @@ func (d *jsiiProxy_DataHcpBoundaryCluster) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpBoundaryCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpBoundaryCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

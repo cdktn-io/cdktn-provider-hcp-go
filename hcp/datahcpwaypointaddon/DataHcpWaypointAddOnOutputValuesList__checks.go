@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -8,7 +8,7 @@ package datahcpwaypointaddon
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnOutputValuesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataHcpWaypointAddOnOutputValuesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataHcpWaypointAddOnOutputValuesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

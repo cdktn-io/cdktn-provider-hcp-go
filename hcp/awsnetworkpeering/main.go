@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package awsnetworkpeering
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.awsNetworkPeering.AwsNetworkPeering",
+		"@cdktn/provider-hcp.awsNetworkPeering.AwsNetworkPeering",
 		reflect.TypeOf((*AwsNetworkPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,20 +84,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsNetworkPeering{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.awsNetworkPeering.AwsNetworkPeeringConfig",
+		"@cdktn/provider-hcp.awsNetworkPeering.AwsNetworkPeeringConfig",
 		reflect.TypeOf((*AwsNetworkPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.awsNetworkPeering.AwsNetworkPeeringTimeouts",
+		"@cdktn/provider-hcp.awsNetworkPeering.AwsNetworkPeeringTimeouts",
 		reflect.TypeOf((*AwsNetworkPeeringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.awsNetworkPeering.AwsNetworkPeeringTimeoutsOutputReference",
+		"@cdktn/provider-hcp.awsNetworkPeering.AwsNetworkPeeringTimeoutsOutputReference",
 		reflect.TypeOf((*AwsNetworkPeeringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,7 +133,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AwsNetworkPeeringTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

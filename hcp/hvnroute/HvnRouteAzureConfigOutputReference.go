@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hvnroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/hvnroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/hvnroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HvnRouteAzureConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type HvnRouteAzureConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type HvnRouteAzureConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNextHopIpAddress()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type HvnRouteAzureConfigOutputReference interface {
 
 // The jsii proxy struct for HvnRouteAzureConfigOutputReference
 type jsiiProxy_HvnRouteAzureConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HvnRouteAzureConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_HvnRouteAzureConfigOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_HvnRouteAzureConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HvnRouteAzureConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_HvnRouteAzureConfigOutputReference) TerraformResource() cdktf
 }
 
 
-func NewHvnRouteAzureConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HvnRouteAzureConfigOutputReference {
+func NewHvnRouteAzureConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HvnRouteAzureConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHvnRouteAzureConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -206,7 +206,7 @@ func NewHvnRouteAzureConfigOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_HvnRouteAzureConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -214,11 +214,11 @@ func NewHvnRouteAzureConfigOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewHvnRouteAzureConfigOutputReference_Override(h HvnRouteAzureConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHvnRouteAzureConfigOutputReference_Override(h HvnRouteAzureConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
+		"@cdktn/provider-hcp.hvnRoute.HvnRouteAzureConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)
@@ -290,7 +290,7 @@ func (j *jsiiProxy_HvnRouteAzureConfigOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_HvnRouteAzureConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HvnRouteAzureConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -458,8 +458,8 @@ func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -471,11 +471,11 @@ func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -495,7 +495,7 @@ func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) ResetNextHopIpAddress() {
 	)
 }
 
-func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HvnRouteAzureConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

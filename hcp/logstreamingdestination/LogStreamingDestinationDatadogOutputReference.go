@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logstreamingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/logstreamingdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/logstreamingdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LogStreamingDestinationDatadogOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
@@ -46,15 +46,15 @@ type LogStreamingDestinationDatadogOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type LogStreamingDestinationDatadogOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApplicationKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type LogStreamingDestinationDatadogOutputReference interface {
 
 // The jsii proxy struct for LogStreamingDestinationDatadogOutputReference
 type jsiiProxy_LogStreamingDestinationDatadogOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference) ApiKey() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference) TerraformResou
 }
 
 
-func NewLogStreamingDestinationDatadogOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LogStreamingDestinationDatadogOutputReference {
+func NewLogStreamingDestinationDatadogOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LogStreamingDestinationDatadogOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLogStreamingDestinationDatadogOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -229,7 +229,7 @@ func NewLogStreamingDestinationDatadogOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_LogStreamingDestinationDatadogOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -237,11 +237,11 @@ func NewLogStreamingDestinationDatadogOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewLogStreamingDestinationDatadogOutputReference_Override(l LogStreamingDestinationDatadogOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLogStreamingDestinationDatadogOutputReference_Override(l LogStreamingDestinationDatadogOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)
@@ -324,7 +324,7 @@ func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LogStreamingDestinationDatadogOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -492,8 +492,8 @@ func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) GetStringMapAt
 	return returns
 }
 
-func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -505,11 +505,11 @@ func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) InterpolationA
 	return returns
 }
 
-func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -529,7 +529,7 @@ func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) ResetApplicati
 	)
 }
 
-func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LogStreamingDestinationDatadogOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

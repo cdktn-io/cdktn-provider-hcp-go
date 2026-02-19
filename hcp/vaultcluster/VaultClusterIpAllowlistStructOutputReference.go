@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultClusterIpAllowlistStructOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Address() *string
 	SetAddress(val *string)
 	AddressInput() *string
@@ -43,15 +43,15 @@ type VaultClusterIpAllowlistStructOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type VaultClusterIpAllowlistStructOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type VaultClusterIpAllowlistStructOutputReference interface {
 
 // The jsii proxy struct for VaultClusterIpAllowlistStructOutputReference
 type jsiiProxy_VaultClusterIpAllowlistStructOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) Address() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) TerraformResour
 }
 
 
-func NewVaultClusterIpAllowlistStructOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VaultClusterIpAllowlistStructOutputReference {
+func NewVaultClusterIpAllowlistStructOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VaultClusterIpAllowlistStructOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultClusterIpAllowlistStructOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -206,7 +206,7 @@ func NewVaultClusterIpAllowlistStructOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_VaultClusterIpAllowlistStructOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -214,11 +214,11 @@ func NewVaultClusterIpAllowlistStructOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewVaultClusterIpAllowlistStructOutputReference_Override(v VaultClusterIpAllowlistStructOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVaultClusterIpAllowlistStructOutputReference_Override(v VaultClusterIpAllowlistStructOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)
@@ -290,7 +290,7 @@ func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultClusterIpAllowlistStructOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -458,8 +458,8 @@ func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -471,11 +471,11 @@ func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) InterpolationAs
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -495,7 +495,7 @@ func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) ResetDescriptio
 	)
 }
 
-func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultClusterIpAllowlistStructOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

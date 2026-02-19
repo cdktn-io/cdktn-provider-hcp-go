@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consulclusterroottoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulClusterRootToken.ConsulClusterRootToken",
+		"@cdktn/provider-hcp.consulClusterRootToken.ConsulClusterRootToken",
 		reflect.TypeOf((*ConsulClusterRootToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessorId", GoGetter: "AccessorId"},
@@ -73,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulClusterRootToken{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenConfig",
+		"@cdktn/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenConfig",
 		reflect.TypeOf((*ConsulClusterRootTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenTimeouts",
+		"@cdktn/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenTimeouts",
 		reflect.TypeOf((*ConsulClusterRootTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenTimeoutsOutputReference",
+		"@cdktn/provider-hcp.consulClusterRootToken.ConsulClusterRootTokenTimeoutsOutputReference",
 		reflect.TypeOf((*ConsulClusterRootTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -116,7 +116,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulClusterRootTokenTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointaddondefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpwaypointaddondefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpwaypointaddondefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference
 	SetTerraformAttribute(val *string)
 	TerraformProjectId() *string
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference
 
 // The jsii proxy struct for DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference
 type jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 }
 
 
-func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference {
+func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -181,7 +181,7 @@ func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputRefere
 	j := jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOnDefinition.DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOnDefinition.DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -189,11 +189,11 @@ func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputRefere
 	return &j
 }
 
-func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference_Override(d DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference_Override(d DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOnDefinition.DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOnDefinition.DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsO
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpWaypointAddOnDefinitionTerraformCloudWorkspaceDetailsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

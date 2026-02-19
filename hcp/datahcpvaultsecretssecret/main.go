@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultsecretssecret
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsSecret.DataHcpVaultSecretsSecret",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsSecret.DataHcpVaultSecretsSecret",
 		reflect.TypeOf((*DataHcpVaultSecretsSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -58,12 +58,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultSecretsSecret{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsSecret.DataHcpVaultSecretsSecretConfig",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsSecret.DataHcpVaultSecretsSecretConfig",
 		reflect.TypeOf((*DataHcpVaultSecretsSecretConfig)(nil)).Elem(),
 	)
 }

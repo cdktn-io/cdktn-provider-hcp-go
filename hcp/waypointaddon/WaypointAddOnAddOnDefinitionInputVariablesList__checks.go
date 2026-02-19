@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateGetPa
 	return nil
 }
 
-func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (w *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateResol
 
 func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WaypointAddOnAddOnDefinitionInputVariables:
 		val := val.(*[]*WaypointAddOnAddOnDefinitionInputVariables)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*WaypointAddOnAddOnDefinitionInputVariables; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*WaypointAddOnAddOnDefinitionInputVariables; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_WaypointAddOnAddOnDefinitionInputVariablesList) validateSetWr
 	return nil
 }
 
-func validateNewWaypointAddOnAddOnDefinitionInputVariablesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWaypointAddOnAddOnDefinitionInputVariablesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

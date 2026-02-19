@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpvaultcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpvaultcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpVaultClusterAuditLogConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudwatchAccessKeyId() *string
 	CloudwatchGroupName() *string
 	CloudwatchRegion() *string
@@ -46,8 +46,8 @@ type DataHcpVaultClusterAuditLogConfigOutputReference interface {
 	HttpBasicUser() *string
 	HttpBearerToken() *string
 	HttpCodec() *string
-	HttpCompression() cdktf.IResolvable
-	HttpHeaders() cdktf.StringMap
+	HttpCompression() cdktn.IResolvable
+	HttpHeaders() cdktn.StringMap
 	HttpMethod() *string
 	HttpPayloadPrefix() *string
 	HttpPayloadSuffix() *string
@@ -63,15 +63,15 @@ type DataHcpVaultClusterAuditLogConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,12 +87,12 @@ type DataHcpVaultClusterAuditLogConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -102,7 +102,7 @@ type DataHcpVaultClusterAuditLogConfigOutputReference interface {
 
 // The jsii proxy struct for DataHcpVaultClusterAuditLogConfigOutputReference
 type jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) CloudwatchAccessKeyId() *string {
@@ -305,8 +305,8 @@ func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpCodec()
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpCompression() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpCompression() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"httpCompression",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpCompres
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpHeaders() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) HttpHeaders() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"httpHeaders",
@@ -425,8 +425,8 @@ func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) TerraformRe
 }
 
 
-func NewDataHcpVaultClusterAuditLogConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpVaultClusterAuditLogConfigOutputReference {
+func NewDataHcpVaultClusterAuditLogConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpVaultClusterAuditLogConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpVaultClusterAuditLogConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -445,7 +445,7 @@ func NewDataHcpVaultClusterAuditLogConfigOutputReference(terraformResource cdktf
 	j := jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -453,11 +453,11 @@ func NewDataHcpVaultClusterAuditLogConfigOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewDataHcpVaultClusterAuditLogConfigOutputReference_Override(d DataHcpVaultClusterAuditLogConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataHcpVaultClusterAuditLogConfigOutputReference_Override(d DataHcpVaultClusterAuditLogConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -547,11 +547,11 @@ func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -675,8 +675,8 @@ func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) GetStringMa
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -688,11 +688,11 @@ func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -704,7 +704,7 @@ func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

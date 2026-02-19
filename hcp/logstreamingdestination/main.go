@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logstreamingdestination
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		reflect.TypeOf((*LogStreamingDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,16 +73,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LogStreamingDestination{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationCloudwatch",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationCloudwatch",
 		reflect.TypeOf((*LogStreamingDestinationCloudwatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationCloudwatchOutputReference",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationCloudwatchOutputReference",
 		reflect.TypeOf((*LogStreamingDestinationCloudwatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -118,20 +118,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LogStreamingDestinationCloudwatchOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationConfig",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationConfig",
 		reflect.TypeOf((*LogStreamingDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadog",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadog",
 		reflect.TypeOf((*LogStreamingDestinationDatadog)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationDatadogOutputReference",
 		reflect.TypeOf((*LogStreamingDestinationDatadogOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -165,16 +165,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LogStreamingDestinationDatadogOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationSplunkCloud",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationSplunkCloud",
 		reflect.TypeOf((*LogStreamingDestinationSplunkCloud)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestinationSplunkCloudOutputReference",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestinationSplunkCloudOutputReference",
 		reflect.TypeOf((*LogStreamingDestinationSplunkCloudOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,7 +205,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LogStreamingDestinationSplunkCloudOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

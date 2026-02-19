@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsintegrationaws
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAws",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAws",
 		reflect.TypeOf((*VaultSecretsIntegrationAws)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeys", GoGetter: "AccessKeys"},
@@ -76,16 +76,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegrationAws{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysA",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysA",
 		reflect.TypeOf((*VaultSecretsIntegrationAwsAccessKeysA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsAccessKeysAOutputReference",
 		reflect.TypeOf((*VaultSecretsIntegrationAwsAccessKeysAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},
@@ -116,20 +116,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegrationAwsAccessKeysAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsConfig",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsConfig",
 		reflect.TypeOf((*VaultSecretsIntegrationAwsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsFederatedWorkloadIdentityA",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsFederatedWorkloadIdentityA",
 		reflect.TypeOf((*VaultSecretsIntegrationAwsFederatedWorkloadIdentityA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsFederatedWorkloadIdentityAOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationAws.VaultSecretsIntegrationAwsFederatedWorkloadIdentityAOutputReference",
 		reflect.TypeOf((*VaultSecretsIntegrationAwsFederatedWorkloadIdentityAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -160,7 +160,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegrationAwsFederatedWorkloadIdentityAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

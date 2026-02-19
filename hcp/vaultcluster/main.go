@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultCluster",
+		"@cdktn/provider-hcp.vaultCluster.VaultCluster",
 		reflect.TypeOf((*VaultCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,16 +117,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterAuditLogConfig",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterAuditLogConfig",
 		reflect.TypeOf((*VaultClusterAuditLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterAuditLogConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterAuditLogConfigOutputReference",
 		reflect.TypeOf((*VaultClusterAuditLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAccessKeyId", GoGetter: "CloudwatchAccessKeyId"},
@@ -234,20 +234,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterAuditLogConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterConfig",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterConfig",
 		reflect.TypeOf((*VaultClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterIpAllowlistStruct",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterIpAllowlistStruct",
 		reflect.TypeOf((*VaultClusterIpAllowlistStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructList",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructList",
 		reflect.TypeOf((*VaultClusterIpAllowlistStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -264,12 +264,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterIpAllowlistStructList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterIpAllowlistStructOutputReference",
 		reflect.TypeOf((*VaultClusterIpAllowlistStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -301,16 +301,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterIpAllowlistStructOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfig",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfig",
 		reflect.TypeOf((*VaultClusterMajorVersionUpgradeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
 		reflect.TypeOf((*VaultClusterMajorVersionUpgradeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -345,16 +345,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMetricsConfig",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMetricsConfig",
 		reflect.TypeOf((*VaultClusterMetricsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMetricsConfigOutputReference",
 		reflect.TypeOf((*VaultClusterMetricsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAccessKeyId", GoGetter: "CloudwatchAccessKeyId"},
@@ -461,16 +461,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterMetricsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterTimeouts",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterTimeouts",
 		reflect.TypeOf((*VaultClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterTimeoutsOutputReference",
 		reflect.TypeOf((*VaultClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -509,7 +509,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

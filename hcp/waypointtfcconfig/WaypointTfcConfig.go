@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointtfcconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointtfcconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointtfcconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_tfc_config hcp_waypoint_tfc_config}.
 type WaypointTfcConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,27 +32,27 @@ type WaypointTfcConfig interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	ProjectId() *string
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -60,7 +60,7 @@ type WaypointTfcConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type WaypointTfcConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,9 +97,9 @@ type WaypointTfcConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -133,11 +133,11 @@ type WaypointTfcConfig interface {
 
 // The jsii proxy struct for WaypointTfcConfig
 type jsiiProxy_WaypointTfcConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_WaypointTfcConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WaypointTfcConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -186,8 +186,8 @@ func (j *jsiiProxy_WaypointTfcConfig) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WaypointTfcConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WaypointTfcConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_WaypointTfcConfig) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WaypointTfcConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WaypointTfcConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_WaypointTfcConfig) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WaypointTfcConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WaypointTfcConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_WaypointTfcConfig) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_WaypointTfcConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WaypointTfcConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -377,7 +377,7 @@ func NewWaypointTfcConfig(scope constructs.Construct, id *string, config *Waypoi
 	j := jsiiProxy_WaypointTfcConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewWaypointTfcConfig_Override(w WaypointTfcConfig, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -426,7 +426,7 @@ func (j *jsiiProxy_WaypointTfcConfig)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_WaypointTfcConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WaypointTfcConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -434,7 +434,7 @@ func (j *jsiiProxy_WaypointTfcConfig)SetForEach(val cdktf.ITerraformIterator) {
 	)
 }
 
-func (j *jsiiProxy_WaypointTfcConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WaypointTfcConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -456,7 +456,7 @@ func (j *jsiiProxy_WaypointTfcConfig)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WaypointTfcConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WaypointTfcConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -497,17 +497,17 @@ func (j *jsiiProxy_WaypointTfcConfig)SetToken(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a WaypointTfcConfig resource upon running "cdktf plan <stack-name>".
-func WaypointTfcConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WaypointTfcConfig resource upon running "cdktn plan <stack-name>".
+func WaypointTfcConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWaypointTfcConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func WaypointTfcConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func WaypointTfcConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func WaypointTfcConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func WaypointTfcConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
+		"@cdktn/provider-hcp.waypointTfcConfig.WaypointTfcConfig",
 		"tfResourceType",
 		&returns,
 	)
@@ -638,11 +638,11 @@ func (w *jsiiProxy_WaypointTfcConfig) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTfcConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointTfcConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -779,7 +779,7 @@ func (w *jsiiProxy_WaypointTfcConfig) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_WaypointTfcConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WaypointTfcConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -790,11 +790,11 @@ func (w *jsiiProxy_WaypointTfcConfig) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (w *jsiiProxy_WaypointTfcConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointTfcConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WaypointApplicationTemplateInputVariablesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type WaypointApplicationTemplateInputVariablesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -54,7 +54,7 @@ type WaypointApplicationTemplateInputVariablesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type WaypointApplicationTemplateInputVariablesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetVariableType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type WaypointApplicationTemplateInputVariablesOutputReference interface {
 
 // The jsii proxy struct for WaypointApplicationTemplateInputVariablesOutputReference
 type jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) ComplexObjectIndex() interface{} {
@@ -169,8 +169,8 @@ func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Var
 }
 
 
-func NewWaypointApplicationTemplateInputVariablesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WaypointApplicationTemplateInputVariablesOutputReference {
+func NewWaypointApplicationTemplateInputVariablesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WaypointApplicationTemplateInputVariablesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWaypointApplicationTemplateInputVariablesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -229,7 +229,7 @@ func NewWaypointApplicationTemplateInputVariablesOutputReference(terraformResour
 	j := jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -237,11 +237,11 @@ func NewWaypointApplicationTemplateInputVariablesOutputReference(terraformResour
 	return &j
 }
 
-func NewWaypointApplicationTemplateInputVariablesOutputReference_Override(w WaypointApplicationTemplateInputVariablesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWaypointApplicationTemplateInputVariablesOutputReference_Override(w WaypointApplicationTemplateInputVariablesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
+		"@cdktn/provider-hcp.waypointApplication.WaypointApplicationTemplateInputVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)
@@ -302,7 +302,7 @@ func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Get
 	return returns
 }
 
-func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -492,8 +492,8 @@ func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Get
 	return returns
 }
 
-func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -505,11 +505,11 @@ func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Int
 	return returns
 }
 
-func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -529,7 +529,7 @@ func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Res
 	)
 }
 
-func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WaypointApplicationTemplateInputVariablesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

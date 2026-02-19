@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointaction
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointAction.WaypointAction",
+		"@cdktn/provider-hcp.waypointAction.WaypointAction",
 		reflect.TypeOf((*WaypointAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,24 +71,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointAction{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionConfig",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionConfig",
 		reflect.TypeOf((*WaypointActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequest",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequest",
 		reflect.TypeOf((*WaypointActionRequest)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestAgent",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequestAgent",
 		reflect.TypeOf((*WaypointActionRequestAgent)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestAgentOutputReference",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequestAgentOutputReference",
 		reflect.TypeOf((*WaypointActionRequestAgentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionRunId", GoGetter: "ActionRunId"},
@@ -125,16 +125,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointActionRequestAgentOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestCustom",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequestCustom",
 		reflect.TypeOf((*WaypointActionRequestCustom)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestCustomOutputReference",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequestCustomOutputReference",
 		reflect.TypeOf((*WaypointActionRequestCustomOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
@@ -172,12 +172,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointActionRequestCustomOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.waypointAction.WaypointActionRequestOutputReference",
+		"@cdktn/provider-hcp.waypointAction.WaypointActionRequestOutputReference",
 		reflect.TypeOf((*WaypointActionRequestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agent", GoGetter: "Agent"},
@@ -212,7 +212,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointActionRequestOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

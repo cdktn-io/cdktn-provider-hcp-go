@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultplugin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultplugin/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultplugin/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultPluginTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type VaultPluginTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type VaultPluginTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefault()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type VaultPluginTimeoutsOutputReference interface {
 
 // The jsii proxy struct for VaultPluginTimeoutsOutputReference
 type jsiiProxy_VaultPluginTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultPluginTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_VaultPluginTimeoutsOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_VaultPluginTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultPluginTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_VaultPluginTimeoutsOutputReference) TerraformResource() cdktf
 }
 
 
-func NewVaultPluginTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultPluginTimeoutsOutputReference {
+func NewVaultPluginTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultPluginTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultPluginTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewVaultPluginTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_VaultPluginTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewVaultPluginTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewVaultPluginTimeoutsOutputReference_Override(v VaultPluginTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultPluginTimeoutsOutputReference_Override(v VaultPluginTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_VaultPluginTimeoutsOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_VaultPluginTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultPluginTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -424,8 +424,8 @@ func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -437,11 +437,11 @@ func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -461,7 +461,7 @@ func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) ResetDefault() {
 	)
 }
 
-func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultPluginTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

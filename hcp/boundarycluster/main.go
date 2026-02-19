@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package boundarycluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryCluster",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryCluster",
 		reflect.TypeOf((*BoundaryCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,20 +90,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BoundaryCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterConfig",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterConfig",
 		reflect.TypeOf((*BoundaryClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterMaintenanceWindowConfig",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterMaintenanceWindowConfig",
 		reflect.TypeOf((*BoundaryClusterMaintenanceWindowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterMaintenanceWindowConfigOutputReference",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterMaintenanceWindowConfigOutputReference",
 		reflect.TypeOf((*BoundaryClusterMaintenanceWindowConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,16 +142,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BoundaryClusterMaintenanceWindowConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterTimeouts",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterTimeouts",
 		reflect.TypeOf((*BoundaryClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.boundaryCluster.BoundaryClusterTimeoutsOutputReference",
 		reflect.TypeOf((*BoundaryClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,7 +187,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BoundaryClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpdnsforwarding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpdnsforwarding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpdnsforwarding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/dns_forwarding hcp_dns_forwarding}.
 type DataHcpDnsForwarding interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConnectionType() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -33,9 +33,9 @@ type DataHcpDnsForwarding interface {
 	SetDnsForwardingId(val *string)
 	DnsForwardingIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardingRules() DataHcpDnsForwardingForwardingRulesList
 	// Experimental.
 	Fqn() *string
@@ -48,9 +48,9 @@ type DataHcpDnsForwarding interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -59,15 +59,15 @@ type DataHcpDnsForwarding interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type DataHcpDnsForwarding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,7 +96,7 @@ type DataHcpDnsForwarding interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -123,11 +123,11 @@ type DataHcpDnsForwarding interface {
 
 // The jsii proxy struct for DataHcpDnsForwarding
 type jsiiProxy_DataHcpDnsForwarding struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpDnsForwarding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -206,8 +206,8 @@ func (j *jsiiProxy_DataHcpDnsForwarding) DnsForwardingIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpDnsForwarding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_DataHcpDnsForwarding) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpDnsForwarding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_DataHcpDnsForwarding) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpDnsForwarding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -386,8 +386,8 @@ func (j *jsiiProxy_DataHcpDnsForwarding) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpDnsForwarding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -457,7 +457,7 @@ func NewDataHcpDnsForwarding(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataHcpDnsForwarding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,7 +470,7 @@ func NewDataHcpDnsForwarding_Override(d DataHcpDnsForwarding, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataHcpDnsForwarding)SetDnsForwardingId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpDnsForwarding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -536,7 +536,7 @@ func (j *jsiiProxy_DataHcpDnsForwarding)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpDnsForwarding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -558,7 +558,7 @@ func (j *jsiiProxy_DataHcpDnsForwarding)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpDnsForwarding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpDnsForwarding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -566,17 +566,17 @@ func (j *jsiiProxy_DataHcpDnsForwarding)SetProvider(val cdktf.TerraformProvider)
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpDnsForwarding resource upon running "cdktf plan <stack-name>".
-func DataHcpDnsForwarding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpDnsForwarding resource upon running "cdktn plan <stack-name>".
+func DataHcpDnsForwarding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpDnsForwarding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func DataHcpDnsForwarding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataHcpDnsForwarding_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataHcpDnsForwarding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataHcpDnsForwarding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
+		"@cdktn/provider-hcp.dataHcpDnsForwarding.DataHcpDnsForwarding",
 		"tfResourceType",
 		&returns,
 	)
@@ -696,11 +696,11 @@ func (d *jsiiProxy_DataHcpDnsForwarding) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpDnsForwarding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpDnsForwarding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -824,11 +824,11 @@ func (d *jsiiProxy_DataHcpDnsForwarding) GetStringMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpDnsForwarding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpDnsForwarding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

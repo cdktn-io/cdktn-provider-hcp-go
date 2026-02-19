@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcppackerruntask
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTask",
 		reflect.TypeOf((*DataHcpPackerRunTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,20 +63,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpPackerRunTask{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskConfig",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskConfig",
 		reflect.TypeOf((*DataHcpPackerRunTaskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeouts",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeouts",
 		reflect.TypeOf((*DataHcpPackerRunTaskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpPackerRunTask.DataHcpPackerRunTaskTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpPackerRunTaskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -106,7 +106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpPackerRunTaskTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

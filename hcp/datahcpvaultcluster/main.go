@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultCluster",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultCluster",
 		reflect.TypeOf((*DataHcpVaultCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,16 +90,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfig",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfig",
 		reflect.TypeOf((*DataHcpVaultClusterAuditLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigList",
 		reflect.TypeOf((*DataHcpVaultClusterAuditLogConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,12 +116,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterAuditLogConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterAuditLogConfigOutputReference",
 		reflect.TypeOf((*DataHcpVaultClusterAuditLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAccessKeyId", GoGetter: "CloudwatchAccessKeyId"},
@@ -174,20 +174,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterAuditLogConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterConfig",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterConfig",
 		reflect.TypeOf((*DataHcpVaultClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStruct",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStruct",
 		reflect.TypeOf((*DataHcpVaultClusterIpAllowlistStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStructList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStructList",
 		reflect.TypeOf((*DataHcpVaultClusterIpAllowlistStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -203,12 +203,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterIpAllowlistStructList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStructOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterIpAllowlistStructOutputReference",
 		reflect.TypeOf((*DataHcpVaultClusterIpAllowlistStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -237,16 +237,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterIpAllowlistStructOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfig",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfig",
 		reflect.TypeOf((*DataHcpVaultClusterMajorVersionUpgradeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigList",
 		reflect.TypeOf((*DataHcpVaultClusterMajorVersionUpgradeConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -262,12 +262,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMajorVersionUpgradeConfigOutputReference",
 		reflect.TypeOf((*DataHcpVaultClusterMajorVersionUpgradeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -297,16 +297,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterMajorVersionUpgradeConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfig",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfig",
 		reflect.TypeOf((*DataHcpVaultClusterMetricsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfigList",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfigList",
 		reflect.TypeOf((*DataHcpVaultClusterMetricsConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -323,12 +323,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterMetricsConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfigOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterMetricsConfigOutputReference",
 		reflect.TypeOf((*DataHcpVaultClusterMetricsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAccessKeyId", GoGetter: "CloudwatchAccessKeyId"},
@@ -380,16 +380,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterMetricsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterTimeouts",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterTimeouts",
 		reflect.TypeOf((*DataHcpVaultClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultCluster.DataHcpVaultClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DataHcpVaultClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -419,7 +419,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

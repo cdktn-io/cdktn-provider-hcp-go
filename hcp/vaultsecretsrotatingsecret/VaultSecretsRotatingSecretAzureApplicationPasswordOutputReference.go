@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsrotatingsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultsecretsrotatingsecret/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultsecretsrotatingsecret/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppClientId() *string
 	SetAppClientId(val *string)
 	AppClientIdInput() *string
@@ -43,15 +43,15 @@ type VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference interface
 
 // The jsii proxy struct for VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference
 type jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) AppClientId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 }
 
 
-func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference {
+func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -205,7 +205,7 @@ func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference(terraf
 	j := jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference(terraf
 	return &j
 }
 
-func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference_Override(v VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultSecretsRotatingSecretAzureApplicationPasswordOutputReference_Override(v VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	)
 }
 
-func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -457,8 +457,8 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -470,11 +470,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -486,7 +486,7 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputRefer
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultSecretsRotatingSecretAzureApplicationPasswordOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

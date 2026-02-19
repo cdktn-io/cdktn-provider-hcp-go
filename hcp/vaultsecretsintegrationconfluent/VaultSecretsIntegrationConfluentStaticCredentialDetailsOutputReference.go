@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsintegrationconfluent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultsecretsintegrationconfluent/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultsecretsintegrationconfluent/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudApiKeyId() *string
 	SetCloudApiKeyId(val *string)
 	CloudApiKeyIdInput() *string
@@ -43,15 +43,15 @@ type VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference inte
 
 // The jsii proxy struct for VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference
 type jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) CloudApiKeyId() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	return returns
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 }
 
 
-func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference {
+func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -205,7 +205,7 @@ func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference(t
 	j := jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationConfluent.VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationConfluent.VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference(t
 	return &j
 }
 
-func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference_Override(v VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference_Override(v VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsIntegrationConfluent.VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsIntegrationConfluent.VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	)
 }
 
-func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -457,8 +457,8 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -470,11 +470,11 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -486,7 +486,7 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutput
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultSecretsIntegrationConfluentStaticCredentialDetailsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

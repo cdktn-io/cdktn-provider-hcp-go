@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultsecretsapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpvaultsecretsapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpvaultsecretsapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_secrets_app hcp_vault_secrets_app}.
 type DataHcpVaultSecretsApp interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AppName() *string
 	SetAppName(val *string)
 	AppNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,31 +31,31 @@ type DataHcpVaultSecretsApp interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
 	ProjectId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	Secrets() cdktf.StringMap
+	Secrets() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type DataHcpVaultSecretsApp interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,7 +81,7 @@ type DataHcpVaultSecretsApp interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -104,7 +104,7 @@ type DataHcpVaultSecretsApp interface {
 
 // The jsii proxy struct for DataHcpVaultSecretsApp
 type jsiiProxy_DataHcpVaultSecretsApp struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataHcpVaultSecretsApp) AppName() *string {
@@ -127,8 +127,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) AppNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpVaultSecretsApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpVaultSecretsApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpVaultSecretsApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -247,8 +247,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) ProjectId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpVaultSecretsApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) Secrets() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataHcpVaultSecretsApp) Secrets() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"secrets",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp) Secrets() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpVaultSecretsApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -318,7 +318,7 @@ func NewDataHcpVaultSecretsApp(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataHcpVaultSecretsApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -331,7 +331,7 @@ func NewDataHcpVaultSecretsApp_Override(d DataHcpVaultSecretsApp, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpVaultSecretsApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -375,7 +375,7 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp)SetForEach(val cdktf.ITerraformIterato
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpVaultSecretsApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -386,7 +386,7 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp)SetLifecycle(val *cdktf.TerraformResou
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultSecretsApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpVaultSecretsApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -394,17 +394,17 @@ func (j *jsiiProxy_DataHcpVaultSecretsApp)SetProvider(val cdktf.TerraformProvide
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpVaultSecretsApp resource upon running "cdktf plan <stack-name>".
-func DataHcpVaultSecretsApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpVaultSecretsApp resource upon running "cdktn plan <stack-name>".
+func DataHcpVaultSecretsApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpVaultSecretsApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -439,7 +439,7 @@ func DataHcpVaultSecretsApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataHcpVaultSecretsApp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -477,7 +477,7 @@ func DataHcpVaultSecretsApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -490,7 +490,7 @@ func DataHcpVaultSecretsApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
+		"@cdktn/provider-hcp.dataHcpVaultSecretsApp.DataHcpVaultSecretsApp",
 		"tfResourceType",
 		&returns,
 	)
@@ -524,11 +524,11 @@ func (d *jsiiProxy_DataHcpVaultSecretsApp) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultSecretsApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultSecretsApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -652,11 +652,11 @@ func (d *jsiiProxy_DataHcpVaultSecretsApp) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultSecretsApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultSecretsApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

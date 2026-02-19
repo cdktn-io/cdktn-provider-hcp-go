@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package waypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/waypointaddon/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/waypointaddon/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WaypointAddOnOutputValuesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,15 +33,15 @@ type WaypointAddOnOutputValuesOutputReference interface {
 	InternalValue() *WaypointAddOnOutputValues
 	SetInternalValue(val *WaypointAddOnOutputValues)
 	Name() *string
-	Sensitive() cdktf.IResolvable
+	Sensitive() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	Value() *string
 	// Experimental.
@@ -49,7 +49,7 @@ type WaypointAddOnOutputValuesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type WaypointAddOnOutputValuesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type WaypointAddOnOutputValuesOutputReference interface {
 
 // The jsii proxy struct for WaypointAddOnOutputValuesOutputReference
 type jsiiProxy_WaypointAddOnOutputValuesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Name() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Sensitive() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Sensitive() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sensitive",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Value() *string {
 }
 
 
-func NewWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WaypointAddOnOutputValuesOutputReference {
+func NewWaypointAddOnOutputValuesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WaypointAddOnOutputValuesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWaypointAddOnOutputValuesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -203,7 +203,7 @@ func NewWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_WaypointAddOnOutputValuesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointAddOn.WaypointAddOnOutputValuesOutputReference",
+		"@cdktn/provider-hcp.waypointAddOn.WaypointAddOnOutputValuesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -211,11 +211,11 @@ func NewWaypointAddOnOutputValuesOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewWaypointAddOnOutputValuesOutputReference_Override(w WaypointAddOnOutputValuesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWaypointAddOnOutputValuesOutputReference_Override(w WaypointAddOnOutputValuesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.waypointAddOn.WaypointAddOnOutputValuesOutputReference",
+		"@cdktn/provider-hcp.waypointAddOn.WaypointAddOnOutputValuesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)
@@ -265,7 +265,7 @@ func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WaypointAddOnOutputValuesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -433,8 +433,8 @@ func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -446,11 +446,11 @@ func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationAsList
 	return returns
 }
 
-func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -462,7 +462,7 @@ func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) InterpolationForAtt
 	return returns
 }
 
-func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WaypointAddOnOutputValuesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

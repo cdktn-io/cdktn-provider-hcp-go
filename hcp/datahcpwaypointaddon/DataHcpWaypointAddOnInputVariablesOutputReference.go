@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpwaypointaddon/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpwaypointaddon/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpWaypointAddOnInputVariablesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,9 +38,9 @@ type DataHcpWaypointAddOnInputVariablesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	VariableType() *string
 	// Experimental.
@@ -48,7 +48,7 @@ type DataHcpWaypointAddOnInputVariablesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataHcpWaypointAddOnInputVariablesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataHcpWaypointAddOnInputVariablesOutputReference interface {
 
 // The jsii proxy struct for DataHcpWaypointAddOnInputVariablesOutputReference
 type jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) ComplexObjectIndex() interface{} {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) VariableTy
 }
 
 
-func NewDataHcpWaypointAddOnInputVariablesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpWaypointAddOnInputVariablesOutputReference {
+func NewDataHcpWaypointAddOnInputVariablesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataHcpWaypointAddOnInputVariablesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpWaypointAddOnInputVariablesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -192,7 +192,7 @@ func NewDataHcpWaypointAddOnInputVariablesOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -200,11 +200,11 @@ func NewDataHcpWaypointAddOnInputVariablesOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewDataHcpWaypointAddOnInputVariablesOutputReference_Override(d DataHcpWaypointAddOnInputVariablesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataHcpWaypointAddOnInputVariablesOutputReference_Override(d DataHcpWaypointAddOnInputVariablesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) GetAnyMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) GetStringM
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

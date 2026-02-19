@@ -1,26 +1,26 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package packerchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/packerchannel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/packerchannel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_channel hcp_packer_channel}.
 type PackerChannel interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthorId() *string
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type PackerChannel interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,10 +48,10 @@ type PackerChannel interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	Managed() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Managed() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -62,9 +62,9 @@ type PackerChannel interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type PackerChannel interface {
 	SetRestricted(val interface{})
 	RestrictedInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type PackerChannel interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type PackerChannel interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,7 +149,7 @@ type PackerChannel interface {
 
 // The jsii proxy struct for PackerChannel
 type jsiiProxy_PackerChannel struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PackerChannel) AuthorId() *string {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_PackerChannel) BucketNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PackerChannel) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_PackerChannel) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PackerChannel) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_PackerChannel) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PackerChannel) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_PackerChannel) Lifecycle() *cdktf.TerraformResourceLifecycle 
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) Managed() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_PackerChannel) Managed() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"managed",
@@ -372,8 +372,8 @@ func (j *jsiiProxy_PackerChannel) ProjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PackerChannel) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -422,8 +422,8 @@ func (j *jsiiProxy_PackerChannel) RestrictedInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_PackerChannel) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PackerChannel) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -493,7 +493,7 @@ func NewPackerChannel(scope constructs.Construct, id *string, config *PackerChan
 	j := jsiiProxy_PackerChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,7 +506,7 @@ func NewPackerChannel_Override(p PackerChannel, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -553,7 +553,7 @@ func (j *jsiiProxy_PackerChannel)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PackerChannel)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PackerChannel)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -572,7 +572,7 @@ func (j *jsiiProxy_PackerChannel)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PackerChannel)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PackerChannel)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -605,7 +605,7 @@ func (j *jsiiProxy_PackerChannel)SetProjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PackerChannel)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PackerChannel)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -635,17 +635,17 @@ func (j *jsiiProxy_PackerChannel)SetRestricted(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a PackerChannel resource upon running "cdktf plan <stack-name>".
-func PackerChannel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PackerChannel resource upon running "cdktn plan <stack-name>".
+func PackerChannel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePackerChannel_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func PackerChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func PackerChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func PackerChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func PackerChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.packerChannel.PackerChannel",
+		"@cdktn/provider-hcp.packerChannel.PackerChannel",
 		"tfResourceType",
 		&returns,
 	)
@@ -776,11 +776,11 @@ func (p *jsiiProxy_PackerChannel) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (p *jsiiProxy_PackerChannel) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PackerChannel) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -917,7 +917,7 @@ func (p *jsiiProxy_PackerChannel) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PackerChannel) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PackerChannel) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -928,11 +928,11 @@ func (p *jsiiProxy_PackerChannel) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (p *jsiiProxy_PackerChannel) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PackerChannel) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

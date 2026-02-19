@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.projectIamPolicy.ProjectIamPolicy",
+		"@cdktn/provider-hcp.projectIamPolicy.ProjectIamPolicy",
 		reflect.TypeOf((*ProjectIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -64,12 +64,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ProjectIamPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.projectIamPolicy.ProjectIamPolicyConfig",
+		"@cdktn/provider-hcp.projectIamPolicy.ProjectIamPolicyConfig",
 		reflect.TypeOf((*ProjectIamPolicyConfig)(nil)).Elem(),
 	)
 }

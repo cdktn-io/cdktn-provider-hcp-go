@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultsecretsrotatingsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultsecretsrotatingsecret/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultsecretsrotatingsecret/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultSecretsRotatingSecretTwilioApiKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,15 +37,15 @@ type VaultSecretsRotatingSecretTwilioApiKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -61,12 +61,12 @@ type VaultSecretsRotatingSecretTwilioApiKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -76,7 +76,7 @@ type VaultSecretsRotatingSecretTwilioApiKeyOutputReference interface {
 
 // The jsii proxy struct for VaultSecretsRotatingSecretTwilioApiKeyOutputReference
 type jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -139,8 +139,8 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -150,7 +150,7 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Terraf
 }
 
 
-func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultSecretsRotatingSecretTwilioApiKeyOutputReference {
+func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultSecretsRotatingSecretTwilioApiKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultSecretsRotatingSecretTwilioApiKeyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -159,7 +159,7 @@ func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference(terraformResource 
 	j := jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretTwilioApiKeyOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretTwilioApiKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -167,11 +167,11 @@ func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference(terraformResource 
 	return &j
 }
 
-func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference_Override(v VaultSecretsRotatingSecretTwilioApiKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultSecretsRotatingSecretTwilioApiKeyOutputReference_Override(v VaultSecretsRotatingSecretTwilioApiKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretTwilioApiKeyOutputReference",
+		"@cdktn/provider-hcp.vaultSecretsRotatingSecret.VaultSecretsRotatingSecretTwilioApiKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -221,7 +221,7 @@ func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -261,11 +261,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) GetAny
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -389,8 +389,8 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) GetStr
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -402,11 +402,11 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Interp
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -418,7 +418,7 @@ func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Interp
 	return returns
 }
 
-func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultSecretsRotatingSecretTwilioApiKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

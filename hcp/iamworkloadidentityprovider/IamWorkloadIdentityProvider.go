@@ -1,24 +1,24 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iamworkloadidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/iamworkloadidentityprovider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/iamworkloadidentityprovider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider}.
 type IamWorkloadIdentityProvider interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Aws() IamWorkloadIdentityProviderAwsOutputReference
 	AwsInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConditionalAccess() *string
 	SetConditionalAccess(val *string)
 	ConditionalAccessInput() *string
@@ -40,17 +40,17 @@ type IamWorkloadIdentityProvider interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -59,9 +59,9 @@ type IamWorkloadIdentityProvider interface {
 	Oidc() IamWorkloadIdentityProviderOidcOutputReference
 	OidcInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type IamWorkloadIdentityProvider interface {
 	SetServicePrincipal(val *string)
 	ServicePrincipalInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type IamWorkloadIdentityProvider interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type IamWorkloadIdentityProvider interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -145,7 +145,7 @@ type IamWorkloadIdentityProvider interface {
 
 // The jsii proxy struct for IamWorkloadIdentityProvider
 type jsiiProxy_IamWorkloadIdentityProvider struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_IamWorkloadIdentityProvider) Aws() IamWorkloadIdentityProviderAwsOutputReference {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) AwsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IamWorkloadIdentityProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -258,8 +258,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IamWorkloadIdentityProvider) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IamWorkloadIdentityProvider) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) OidcInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IamWorkloadIdentityProvider) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -418,8 +418,8 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) ServicePrincipalInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IamWorkloadIdentityProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -459,7 +459,7 @@ func NewIamWorkloadIdentityProvider(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_IamWorkloadIdentityProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -472,7 +472,7 @@ func NewIamWorkloadIdentityProvider_Override(i IamWorkloadIdentityProvider, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -530,7 +530,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IamWorkloadIdentityProvider)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -538,7 +538,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider)SetForEach(val cdktf.ITerraformIt
 	)
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IamWorkloadIdentityProvider)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -560,7 +560,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IamWorkloadIdentityProvider)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IamWorkloadIdentityProvider)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,17 +590,17 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider)SetServicePrincipal(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a IamWorkloadIdentityProvider resource upon running "cdktf plan <stack-name>".
-func IamWorkloadIdentityProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IamWorkloadIdentityProvider resource upon running "cdktn plan <stack-name>".
+func IamWorkloadIdentityProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIamWorkloadIdentityProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func IamWorkloadIdentityProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func IamWorkloadIdentityProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func IamWorkloadIdentityProvider_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func IamWorkloadIdentityProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
+		"@cdktn/provider-hcp.iamWorkloadIdentityProvider.IamWorkloadIdentityProvider",
 		"tfResourceType",
 		&returns,
 	)
@@ -731,11 +731,11 @@ func (i *jsiiProxy_IamWorkloadIdentityProvider) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProvider) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityProvider) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -872,7 +872,7 @@ func (i *jsiiProxy_IamWorkloadIdentityProvider) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProvider) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IamWorkloadIdentityProvider) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -883,11 +883,11 @@ func (i *jsiiProxy_IamWorkloadIdentityProvider) ImportFrom(id *string, provider 
 	)
 }
 
-func (i *jsiiProxy_IamWorkloadIdentityProvider) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IamWorkloadIdentityProvider) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

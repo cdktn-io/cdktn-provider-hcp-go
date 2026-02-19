@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationswebhook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhook",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhook",
 		reflect.TypeOf((*NotificationsWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,20 +78,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhook{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookConfig",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookConfig",
 		reflect.TypeOf((*NotificationsWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookConfigA",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookConfigA",
 		reflect.TypeOf((*NotificationsWebhookConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookConfigAOutputReference",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookConfigAOutputReference",
 		reflect.TypeOf((*NotificationsWebhookConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,20 +123,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhookConfigAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptions",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptions",
 		reflect.TypeOf((*NotificationsWebhookSubscriptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEvents",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEvents",
 		reflect.TypeOf((*NotificationsWebhookSubscriptionsEvents)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEventsList",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEventsList",
 		reflect.TypeOf((*NotificationsWebhookSubscriptionsEventsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -153,12 +153,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhookSubscriptionsEventsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEventsOutputReference",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsEventsOutputReference",
 		reflect.TypeOf((*NotificationsWebhookSubscriptionsEventsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -189,12 +189,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhookSubscriptionsEventsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsList",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsList",
 		reflect.TypeOf((*NotificationsWebhookSubscriptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -211,12 +211,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhookSubscriptionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
+		"@cdktn/provider-hcp.notificationsWebhook.NotificationsWebhookSubscriptionsOutputReference",
 		reflect.TypeOf((*NotificationsWebhookSubscriptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,7 +249,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NotificationsWebhookSubscriptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

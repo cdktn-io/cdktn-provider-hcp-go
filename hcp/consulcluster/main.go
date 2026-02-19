@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consulcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulCluster.ConsulCluster",
+		"@cdktn/provider-hcp.consulCluster.ConsulCluster",
 		reflect.TypeOf((*ConsulCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,20 +115,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulCluster{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterConfig",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterConfig",
 		reflect.TypeOf((*ConsulClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterIpAllowlistStruct",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterIpAllowlistStruct",
 		reflect.TypeOf((*ConsulClusterIpAllowlistStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterIpAllowlistStructList",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterIpAllowlistStructList",
 		reflect.TypeOf((*ConsulClusterIpAllowlistStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -145,12 +145,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulClusterIpAllowlistStructList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterIpAllowlistStructOutputReference",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterIpAllowlistStructOutputReference",
 		reflect.TypeOf((*ConsulClusterIpAllowlistStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -182,16 +182,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulClusterIpAllowlistStructOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterTimeouts",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterTimeouts",
 		reflect.TypeOf((*ConsulClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
+		"@cdktn/provider-hcp.consulCluster.ConsulClusterTimeoutsOutputReference",
 		reflect.TypeOf((*ConsulClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,7 +230,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConsulClusterTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpconsulversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpconsulversions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpconsulversions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpConsulVersionsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataHcpConsulVersionsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type DataHcpConsulVersionsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefault()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataHcpConsulVersionsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DataHcpConsulVersionsTimeoutsOutputReference
 type jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) TerraformResour
 }
 
 
-func NewDataHcpConsulVersionsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataHcpConsulVersionsTimeoutsOutputReference {
+func NewDataHcpConsulVersionsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataHcpConsulVersionsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpConsulVersionsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewDataHcpConsulVersionsTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewDataHcpConsulVersionsTimeoutsOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewDataHcpConsulVersionsTimeoutsOutputReference_Override(d DataHcpConsulVersionsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataHcpConsulVersionsTimeoutsOutputReference_Override(d DataHcpConsulVersionsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dataHcpConsulVersions.DataHcpConsulVersionsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,8 +424,8 @@ func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -437,11 +437,11 @@ func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) InterpolationAs
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) ResetDefault() 
 	)
 }
 
-func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpConsulVersionsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

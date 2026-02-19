@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/vaultcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/vaultcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VaultClusterMajorVersionUpgradeConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type VaultClusterMajorVersionUpgradeConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpgradeType() *string
 	SetUpgradeType(val *string)
 	UpgradeTypeInput() *string
@@ -54,7 +54,7 @@ type VaultClusterMajorVersionUpgradeConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type VaultClusterMajorVersionUpgradeConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaintenanceWindowDay()
 	ResetMaintenanceWindowTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type VaultClusterMajorVersionUpgradeConfigOutputReference interface {
 
 // The jsii proxy struct for VaultClusterMajorVersionUpgradeConfigOutputReference
 type jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) Upgrade
 }
 
 
-func NewVaultClusterMajorVersionUpgradeConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VaultClusterMajorVersionUpgradeConfigOutputReference {
+func NewVaultClusterMajorVersionUpgradeConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VaultClusterMajorVersionUpgradeConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVaultClusterMajorVersionUpgradeConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -230,7 +230,7 @@ func NewVaultClusterMajorVersionUpgradeConfigOutputReference(terraformResource c
 	j := jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -238,11 +238,11 @@ func NewVaultClusterMajorVersionUpgradeConfigOutputReference(terraformResource c
 	return &j
 }
 
-func NewVaultClusterMajorVersionUpgradeConfigOutputReference_Override(v VaultClusterMajorVersionUpgradeConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVaultClusterMajorVersionUpgradeConfigOutputReference_Override(v VaultClusterMajorVersionUpgradeConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
+		"@cdktn/provider-hcp.vaultCluster.VaultClusterMajorVersionUpgradeConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)
@@ -314,7 +314,7 @@ func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) GetAnyM
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -493,8 +493,8 @@ func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) GetStri
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -506,11 +506,11 @@ func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) Interpo
 	return returns
 }
 
-func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -538,7 +538,7 @@ func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) ResetMa
 	)
 }
 
-func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VaultClusterMajorVersionUpgradeConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

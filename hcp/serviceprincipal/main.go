@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceprincipal
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-hcp.servicePrincipal.ServicePrincipal",
 		reflect.TypeOf((*ServicePrincipal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -65,12 +65,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipal{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.servicePrincipal.ServicePrincipalConfig",
+		"@cdktn/provider-hcp.servicePrincipal.ServicePrincipalConfig",
 		reflect.TypeOf((*ServicePrincipalConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpwaypointaddon
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOn",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOn",
 		reflect.TypeOf((*DataHcpWaypointAddOn)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointAddOn{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnConfig",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnConfig",
 		reflect.TypeOf((*DataHcpWaypointAddOnConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariables",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariables",
 		reflect.TypeOf((*DataHcpWaypointAddOnInputVariables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesList",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesList",
 		reflect.TypeOf((*DataHcpWaypointAddOnInputVariablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,12 +103,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointAddOnInputVariablesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnInputVariablesOutputReference",
 		reflect.TypeOf((*DataHcpWaypointAddOnInputVariablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,16 +138,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointAddOnInputVariablesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValues",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValues",
 		reflect.TypeOf((*DataHcpWaypointAddOnOutputValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesList",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesList",
 		reflect.TypeOf((*DataHcpWaypointAddOnOutputValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -163,12 +163,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointAddOnOutputValuesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
+		"@cdktn/provider-hcp.dataHcpWaypointAddOn.DataHcpWaypointAddOnOutputValuesOutputReference",
 		reflect.TypeOf((*DataHcpWaypointAddOnOutputValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpWaypointAddOnOutputValuesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

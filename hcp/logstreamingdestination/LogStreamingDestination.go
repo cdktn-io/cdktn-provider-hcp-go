@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logstreamingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/logstreamingdestination/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/logstreamingdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/log_streaming_destination hcp_log_streaming_destination}.
 type LogStreamingDestination interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Cloudwatch() LogStreamingDestinationCloudwatchOutputReference
 	CloudwatchInput() interface{}
 	// Experimental.
@@ -36,26 +36,26 @@ type LogStreamingDestination interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -66,7 +66,7 @@ type LogStreamingDestination interface {
 	SplunkCloudInput() interface{}
 	StreamingDestinationId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type LogStreamingDestination interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,9 +97,9 @@ type LogStreamingDestination interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -138,11 +138,11 @@ type LogStreamingDestination interface {
 
 // The jsii proxy struct for LogStreamingDestination
 type jsiiProxy_LogStreamingDestination struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_LogStreamingDestination) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogStreamingDestination) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_LogStreamingDestination) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LogStreamingDestination) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogStreamingDestination) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_LogStreamingDestination) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogStreamingDestination) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogStreamingDestination) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_LogStreamingDestination) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_LogStreamingDestination) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogStreamingDestination) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_LogStreamingDestination) StreamingDestinationId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogStreamingDestination) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogStreamingDestination) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -402,7 +402,7 @@ func NewLogStreamingDestination(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_LogStreamingDestination{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -415,7 +415,7 @@ func NewLogStreamingDestination_Override(l LogStreamingDestination, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -451,7 +451,7 @@ func (j *jsiiProxy_LogStreamingDestination)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_LogStreamingDestination)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogStreamingDestination)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -459,7 +459,7 @@ func (j *jsiiProxy_LogStreamingDestination)SetForEach(val cdktf.ITerraformIterat
 	)
 }
 
-func (j *jsiiProxy_LogStreamingDestination)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogStreamingDestination)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -481,7 +481,7 @@ func (j *jsiiProxy_LogStreamingDestination)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogStreamingDestination)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogStreamingDestination)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -500,17 +500,17 @@ func (j *jsiiProxy_LogStreamingDestination)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a LogStreamingDestination resource upon running "cdktf plan <stack-name>".
-func LogStreamingDestination_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogStreamingDestination resource upon running "cdktn plan <stack-name>".
+func LogStreamingDestination_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogStreamingDestination_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func LogStreamingDestination_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func LogStreamingDestination_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func LogStreamingDestination_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func LogStreamingDestination_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.logStreamingDestination.LogStreamingDestination",
+		"@cdktn/provider-hcp.logStreamingDestination.LogStreamingDestination",
 		"tfResourceType",
 		&returns,
 	)
@@ -641,11 +641,11 @@ func (l *jsiiProxy_LogStreamingDestination) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (l *jsiiProxy_LogStreamingDestination) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogStreamingDestination) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -782,7 +782,7 @@ func (l *jsiiProxy_LogStreamingDestination) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LogStreamingDestination) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogStreamingDestination) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -793,11 +793,11 @@ func (l *jsiiProxy_LogStreamingDestination) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (l *jsiiProxy_LogStreamingDestination) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogStreamingDestination) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

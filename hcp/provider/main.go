@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.provider.HcpProvider",
+		"@cdktn/provider-hcp.provider.HcpProvider",
 		reflect.TypeOf((*HcpProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,16 +60,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HcpProvider{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformProvider)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformProvider)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.provider.HcpProviderConfig",
+		"@cdktn/provider-hcp.provider.HcpProviderConfig",
 		reflect.TypeOf((*HcpProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.provider.HcpProviderWorkloadIdentity",
+		"@cdktn/provider-hcp.provider.HcpProviderWorkloadIdentity",
 		reflect.TypeOf((*HcpProviderWorkloadIdentity)(nil)).Elem(),
 	)
 }

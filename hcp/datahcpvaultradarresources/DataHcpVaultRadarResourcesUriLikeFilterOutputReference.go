@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpvaultradarresources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpvaultradarresources/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpvaultradarresources/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataHcpVaultRadarResourcesUriLikeFilterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CaseInsensitive() interface{}
 	SetCaseInsensitive(val interface{})
 	CaseInsensitiveInput() interface{}
@@ -40,9 +40,9 @@ type DataHcpVaultRadarResourcesUriLikeFilterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -51,7 +51,7 @@ type DataHcpVaultRadarResourcesUriLikeFilterOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type DataHcpVaultRadarResourcesUriLikeFilterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCaseInsensitive()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataHcpVaultRadarResourcesUriLikeFilterOutputReference interface {
 
 // The jsii proxy struct for DataHcpVaultRadarResourcesUriLikeFilterOutputReference
 type jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) CaseInsensitive() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Value
 }
 
 
-func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataHcpVaultRadarResourcesUriLikeFilterOutputReference {
+func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataHcpVaultRadarResourcesUriLikeFilterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataHcpVaultRadarResourcesUriLikeFilterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -206,7 +206,7 @@ func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference(terraformResource
 	j := jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultRadarResources.DataHcpVaultRadarResourcesUriLikeFilterOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultRadarResources.DataHcpVaultRadarResourcesUriLikeFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -214,11 +214,11 @@ func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference(terraformResource
 	return &j
 }
 
-func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference_Override(d DataHcpVaultRadarResourcesUriLikeFilterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataHcpVaultRadarResourcesUriLikeFilterOutputReference_Override(d DataHcpVaultRadarResourcesUriLikeFilterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpVaultRadarResources.DataHcpVaultRadarResourcesUriLikeFilterOutputReference",
+		"@cdktn/provider-hcp.dataHcpVaultRadarResources.DataHcpVaultRadarResourcesUriLikeFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -279,7 +279,7 @@ func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) GetAn
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -458,8 +458,8 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) GetSt
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -471,11 +471,11 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Reset
 	)
 }
 
-func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataHcpVaultRadarResourcesUriLikeFilterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

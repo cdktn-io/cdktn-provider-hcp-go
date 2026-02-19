@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package groupiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.groupIamPolicy.GroupIamPolicy",
+		"@cdktn/provider-hcp.groupIamPolicy.GroupIamPolicy",
 		reflect.TypeOf((*GroupIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -63,12 +63,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupIamPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.groupIamPolicy.GroupIamPolicyConfig",
+		"@cdktn/provider-hcp.groupIamPolicy.GroupIamPolicyConfig",
 		reflect.TypeOf((*GroupIamPolicyConfig)(nil)).Elem(),
 	)
 }

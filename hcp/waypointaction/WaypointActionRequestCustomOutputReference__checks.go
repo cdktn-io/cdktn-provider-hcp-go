@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateInterpola
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetHeader
 
 func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *WaypointActionRequestCustom:
 		val := val.(*WaypointActionRequestCustom)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *WaypointActionRequestCustom; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *WaypointActionRequestCustom; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetUrlPar
 	return nil
 }
 
-func validateNewWaypointActionRequestCustomOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWaypointActionRequestCustomOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.dataHcpProject.DataHcpProject",
+		"@cdktn/provider-hcp.dataHcpProject.DataHcpProject",
 		reflect.TypeOf((*DataHcpProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -57,12 +57,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpProject{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.dataHcpProject.DataHcpProjectConfig",
+		"@cdktn/provider-hcp.dataHcpProject.DataHcpProjectConfig",
 		reflect.TypeOf((*DataHcpProjectConfig)(nil)).Elem(),
 	)
 }

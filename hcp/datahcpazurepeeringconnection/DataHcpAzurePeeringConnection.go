@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpazurepeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpazurepeeringconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpazurepeeringconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection}.
 type DataHcpAzurePeeringConnection interface {
-	cdktf.TerraformDataSource
-	AllowForwardedTraffic() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AllowForwardedTraffic() cdktn.IResolvable
 	ApplicationId() *string
 	AzurePeeringId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type DataHcpAzurePeeringConnection interface {
 	SetDependsOn(val *[]*string)
 	ExpiresAt() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type DataHcpAzurePeeringConnection interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -63,22 +63,22 @@ type DataHcpAzurePeeringConnection interface {
 	PeerVnetRegion() *string
 	ProjectId() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataHcpAzurePeeringConnectionTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	UseRemoteGateways() cdktf.IResolvable
+	UseRemoteGateways() cdktn.IResolvable
 	WaitForActiveState() interface{}
 	SetWaitForActiveState(val interface{})
 	WaitForActiveStateInput() interface{}
@@ -87,7 +87,7 @@ type DataHcpAzurePeeringConnection interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,7 +103,7 @@ type DataHcpAzurePeeringConnection interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -130,11 +130,11 @@ type DataHcpAzurePeeringConnection interface {
 
 // The jsii proxy struct for DataHcpAzurePeeringConnection
 type jsiiProxy_DataHcpAzurePeeringConnection struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) AllowForwardedTraffic() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) AllowForwardedTraffic() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowForwardedTraffic",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) AzurePeeringId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -223,8 +223,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) ExpiresAt() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -403,8 +403,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) ProjectId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -443,8 +443,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection) UseRemoteGateways() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataHcpAzurePeeringConnection) UseRemoteGateways() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useRemoteGateways",
@@ -534,7 +534,7 @@ func NewDataHcpAzurePeeringConnection(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataHcpAzurePeeringConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -547,7 +547,7 @@ func NewDataHcpAzurePeeringConnection_Override(d DataHcpAzurePeeringConnection, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -602,7 +602,7 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -624,7 +624,7 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetPeeringId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -643,17 +643,17 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection)SetWaitForActiveState(val inter
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpAzurePeeringConnection resource upon running "cdktf plan <stack-name>".
-func DataHcpAzurePeeringConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpAzurePeeringConnection resource upon running "cdktn plan <stack-name>".
+func DataHcpAzurePeeringConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpAzurePeeringConnection_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -688,7 +688,7 @@ func DataHcpAzurePeeringConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func DataHcpAzurePeeringConnection_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func DataHcpAzurePeeringConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -739,7 +739,7 @@ func DataHcpAzurePeeringConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
+		"@cdktn/provider-hcp.dataHcpAzurePeeringConnection.DataHcpAzurePeeringConnection",
 		"tfResourceType",
 		&returns,
 	)
@@ -773,11 +773,11 @@ func (d *jsiiProxy_DataHcpAzurePeeringConnection) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAzurePeeringConnection) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAzurePeeringConnection) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -901,11 +901,11 @@ func (d *jsiiProxy_DataHcpAzurePeeringConnection) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAzurePeeringConnection) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAzurePeeringConnection) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

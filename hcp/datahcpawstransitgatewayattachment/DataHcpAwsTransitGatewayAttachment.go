@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datahcpawstransitgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/datahcpawstransitgatewayattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpawstransitgatewayattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment}.
 type DataHcpAwsTransitGatewayAttachment interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,9 +30,9 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	SetDependsOn(val *[]*string)
 	ExpiresAt() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OrganizationId() *string
@@ -54,16 +54,16 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	SetProjectId(val *string)
 	ProjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProviderTransitGatewayAttachmentId() *string
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,11 +126,11 @@ type DataHcpAwsTransitGatewayAttachment interface {
 
 // The jsii proxy struct for DataHcpAwsTransitGatewayAttachment
 type jsiiProxy_DataHcpAwsTransitGatewayAttachment struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) ExpiresAt() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) ProjectIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -470,7 +470,7 @@ func NewDataHcpAwsTransitGatewayAttachment(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataHcpAwsTransitGatewayAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -483,7 +483,7 @@ func NewDataHcpAwsTransitGatewayAttachment_Override(d DataHcpAwsTransitGatewayAt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetDependsOn(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -538,7 +538,7 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -560,7 +560,7 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetProjectId(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,17 +590,17 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment)SetWaitForActiveState(val 
 	)
 }
 
-// Generates CDKTF code for importing a DataHcpAwsTransitGatewayAttachment resource upon running "cdktf plan <stack-name>".
-func DataHcpAwsTransitGatewayAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataHcpAwsTransitGatewayAttachment resource upon running "cdktn plan <stack-name>".
+func DataHcpAwsTransitGatewayAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataHcpAwsTransitGatewayAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func DataHcpAwsTransitGatewayAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func DataHcpAwsTransitGatewayAttachment_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func DataHcpAwsTransitGatewayAttachment_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func DataHcpAwsTransitGatewayAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
+		"@cdktn/provider-hcp.dataHcpAwsTransitGatewayAttachment.DataHcpAwsTransitGatewayAttachment",
 		"tfResourceType",
 		&returns,
 	)
@@ -720,11 +720,11 @@ func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -848,11 +848,11 @@ func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) GetStringMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateInterpola
 	return nil
 }
 
-func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WaypointActionRequestCustomOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WaypointActionRequestCustomOutputReference) validateSetUrlPar
 	return nil
 }
 
-func validateNewWaypointActionRequestCustomOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWaypointActionRequestCustomOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

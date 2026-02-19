@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatelink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/privatelink/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/privatelink/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivateLinkTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type PrivateLinkTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type PrivateLinkTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type PrivateLinkTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDefault()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type PrivateLinkTimeoutsOutputReference interface {
 
 // The jsii proxy struct for PrivateLinkTimeoutsOutputReference
 type jsiiProxy_PrivateLinkTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference) UpdateInput() *string {
 }
 
 
-func NewPrivateLinkTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrivateLinkTimeoutsOutputReference {
+func NewPrivateLinkTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrivateLinkTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivateLinkTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewPrivateLinkTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_PrivateLinkTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.privateLink.PrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-hcp.privateLink.PrivateLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewPrivateLinkTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewPrivateLinkTimeoutsOutputReference_Override(p PrivateLinkTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrivateLinkTimeoutsOutputReference_Override(p PrivateLinkTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.privateLink.PrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-hcp.privateLink.PrivateLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)
@@ -350,7 +350,7 @@ func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivateLinkTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -529,8 +529,8 @@ func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -542,11 +542,11 @@ func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -590,7 +590,7 @@ func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivateLinkTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

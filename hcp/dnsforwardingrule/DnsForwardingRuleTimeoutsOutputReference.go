@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsforwardingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
 
-	"github.com/cdktf/cdktf-provider-hcp-go/hcp/v10/dnsforwardingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/dnsforwardingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DnsForwardingRuleTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type DnsForwardingRuleTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DnsForwardingRuleTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDefault()
 	ResetDelete()
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DnsForwardingRuleTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DnsForwardingRuleTimeoutsOutputReference
 type jsiiProxy_DnsForwardingRuleTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) TerraformResource()
 }
 
 
-func NewDnsForwardingRuleTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DnsForwardingRuleTimeoutsOutputReference {
+func NewDnsForwardingRuleTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DnsForwardingRuleTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDnsForwardingRuleTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewDnsForwardingRuleTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DnsForwardingRuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dnsForwardingRule.DnsForwardingRuleTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dnsForwardingRule.DnsForwardingRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewDnsForwardingRuleTimeoutsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDnsForwardingRuleTimeoutsOutputReference_Override(d DnsForwardingRuleTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDnsForwardingRuleTimeoutsOutputReference_Override(d DnsForwardingRuleTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-hcp.dnsForwardingRule.DnsForwardingRuleTimeoutsOutputReference",
+		"@cdktn/provider-hcp.dnsForwardingRule.DnsForwardingRuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -361,7 +361,7 @@ func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) ResetRead() {
 	)
 }
 
-func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DnsForwardingRuleTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

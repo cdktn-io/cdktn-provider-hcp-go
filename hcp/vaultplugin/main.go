@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultplugin
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPlugin",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPlugin",
 		reflect.TypeOf((*VaultPlugin)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,20 +74,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultPlugin{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPluginConfig",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPluginConfig",
 		reflect.TypeOf((*VaultPluginConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPluginTimeouts",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPluginTimeouts",
 		reflect.TypeOf((*VaultPluginTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
+		"@cdktn/provider-hcp.vaultPlugin.VaultPluginTimeoutsOutputReference",
 		reflect.TypeOf((*VaultPluginTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -117,7 +117,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultPluginTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vaultradarsourcegithubenterprise
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-hcp.vaultRadarSourceGithubEnterprise.VaultRadarSourceGithubEnterprise",
+		"@cdktn/provider-hcp.vaultRadarSourceGithubEnterprise.VaultRadarSourceGithubEnterprise",
 		reflect.TypeOf((*VaultRadarSourceGithubEnterprise)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,12 +71,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultRadarSourceGithubEnterprise{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-hcp.vaultRadarSourceGithubEnterprise.VaultRadarSourceGithubEnterpriseConfig",
+		"@cdktn/provider-hcp.vaultRadarSourceGithubEnterprise.VaultRadarSourceGithubEnterpriseConfig",
 		reflect.TypeOf((*VaultRadarSourceGithubEnterpriseConfig)(nil)).Elem(),
 	)
 }
