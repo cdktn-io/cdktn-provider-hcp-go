@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useModuleReadmeInput", GoGetter: "UseModuleReadmeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "variableOptions", GoGetter: "VariableOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "variableOptionsInput", GoGetter: "VariableOptionsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WaypointTemplate{}

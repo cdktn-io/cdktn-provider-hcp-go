@@ -54,6 +54,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "uriLikeFilter", GoGetter: "UriLikeFilter"},
 			_jsii_.MemberProperty{JsiiProperty: "uriLikeFilterInput", GoGetter: "UriLikeFilterInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultRadarResources{}

@@ -5,9 +5,9 @@ package datahcpconsulcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v11/datahcpconsulcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpconsulcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -20,14 +20,17 @@ type DataHcpConsulClusterIpAllowlistStructList interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	// The attribute on the parent resource this class is referencing.
+	// Experimental.
 	TerraformAttribute() *string
+	// Experimental.
 	SetTerraformAttribute(val *string)
-	// The parent resource.
+	// Experimental.
 	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+	// Experimental.
 	WrapsSet() *bool
+	// Experimental.
 	SetWrapsSet(val *bool)
 	// Creating an iterator for this complex list.
 	//

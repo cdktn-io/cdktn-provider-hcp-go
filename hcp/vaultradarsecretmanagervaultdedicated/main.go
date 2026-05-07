@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultUrl", GoGetter: "VaultUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultUrlInput", GoGetter: "VaultUrlInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultRadarSecretManagerVaultDedicated{}

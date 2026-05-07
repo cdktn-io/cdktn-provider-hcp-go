@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vaultProxyEndpointUrl", GoGetter: "VaultProxyEndpointUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultPublicEndpointUrl", GoGetter: "VaultPublicEndpointUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultVersion", GoGetter: "VaultVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpVaultCluster{}

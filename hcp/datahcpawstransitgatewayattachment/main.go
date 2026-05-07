@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayId", GoGetter: "TransitGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForActiveState", GoGetter: "WaitForActiveState"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForActiveStateInput", GoGetter: "WaitForActiveStateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataHcpAwsTransitGatewayAttachment{}

@@ -107,6 +107,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "twilioStaticCredentials", GoGetter: "TwilioStaticCredentials"},
 			_jsii_.MemberProperty{JsiiProperty: "twilioStaticCredentialsInput", GoGetter: "TwilioStaticCredentialsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VaultSecretsIntegration{}

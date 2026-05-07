@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "versionFingerprint", GoGetter: "VersionFingerprint"},
 			_jsii_.MemberProperty{JsiiProperty: "versionFingerprintInput", GoGetter: "VersionFingerprintInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PackerChannelAssignment{}
