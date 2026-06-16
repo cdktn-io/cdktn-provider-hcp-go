@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_application hcp_waypoint_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/waypoint_application hcp_waypoint_application}.
 type WaypointApplication interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_WaypointApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_application hcp_waypoint_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/waypoint_application hcp_waypoint_application} Resource.
 func NewWaypointApplication(scope constructs.Construct, id *string, config *WaypointApplicationConfig) WaypointApplication {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewWaypointApplication(scope constructs.Construct, id *string, config *Wayp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/waypoint_application hcp_waypoint_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/waypoint_application hcp_waypoint_application} Resource.
 func NewWaypointApplication_Override(w WaypointApplication, scope constructs.Construct, id *string, config *WaypointApplicationConfig) {
 	_init_.Initialize()
 

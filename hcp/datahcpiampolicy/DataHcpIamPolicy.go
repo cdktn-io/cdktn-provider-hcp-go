@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/iam_policy hcp_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/iam_policy hcp_iam_policy}.
 type DataHcpIamPolicy interface {
 	cdktn.TerraformDataSource
 	Bindings() DataHcpIamPolicyBindingsList
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataHcpIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/iam_policy hcp_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/iam_policy hcp_iam_policy} Data Source.
 func NewDataHcpIamPolicy(scope constructs.Construct, id *string, config *DataHcpIamPolicyConfig) DataHcpIamPolicy {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataHcpIamPolicy(scope constructs.Construct, id *string, config *DataHcp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/iam_policy hcp_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/iam_policy hcp_iam_policy} Data Source.
 func NewDataHcpIamPolicy_Override(d DataHcpIamPolicy, scope constructs.Construct, id *string, config *DataHcpIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/service_principal_key hcp_service_principal_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/service_principal_key hcp_service_principal_key}.
 type ServicePrincipalKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -375,7 +375,7 @@ func (j *jsiiProxy_ServicePrincipalKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
 func NewServicePrincipalKey(scope constructs.Construct, id *string, config *ServicePrincipalKeyConfig) ServicePrincipalKey {
 	_init_.Initialize()
 
@@ -393,7 +393,7 @@ func NewServicePrincipalKey(scope constructs.Construct, id *string, config *Serv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
 func NewServicePrincipalKey_Override(s ServicePrincipalKey, scope constructs.Construct, id *string, config *ServicePrincipalKeyConfig) {
 	_init_.Initialize()
 

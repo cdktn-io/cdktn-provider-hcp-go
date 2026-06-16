@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding}.
 type PackerBucketIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -364,7 +364,7 @@ func (j *jsiiProxy_PackerBucketIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding} Resource.
 func NewPackerBucketIamBinding(scope constructs.Construct, id *string, config *PackerBucketIamBindingConfig) PackerBucketIamBinding {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewPackerBucketIamBinding(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/packer_bucket_iam_binding hcp_packer_bucket_iam_binding} Resource.
 func NewPackerBucketIamBinding_Override(p PackerBucketIamBinding, scope constructs.Construct, id *string, config *PackerBucketIamBindingConfig) {
 	_init_.Initialize()
 

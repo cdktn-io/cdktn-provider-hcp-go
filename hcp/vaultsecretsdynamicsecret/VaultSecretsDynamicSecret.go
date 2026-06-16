@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret}.
 type VaultSecretsDynamicSecret interface {
 	cdktn.TerraformResource
 	AppName() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_VaultSecretsDynamicSecret) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret} Resource.
 func NewVaultSecretsDynamicSecret(scope constructs.Construct, id *string, config *VaultSecretsDynamicSecretConfig) VaultSecretsDynamicSecret {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewVaultSecretsDynamicSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_dynamic_secret hcp_vault_secrets_dynamic_secret} Resource.
 func NewVaultSecretsDynamicSecret_Override(v VaultSecretsDynamicSecret, scope constructs.Construct, id *string, config *VaultSecretsDynamicSecretConfig) {
 	_init_.Initialize()
 

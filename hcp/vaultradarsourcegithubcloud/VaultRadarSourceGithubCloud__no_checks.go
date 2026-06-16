@@ -123,6 +123,10 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) validateSetTokenParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_VaultRadarSourceGithubCloud) validateSetTokenEnvVarParameters(val *string) error {
+	return nil
+}
+
 func validateNewVaultRadarSourceGithubCloudParameters(scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) error {
 	return nil
 }

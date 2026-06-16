@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/group_iam_binding hcp_group_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/group_iam_binding hcp_group_iam_binding}.
 type GroupIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -364,7 +364,7 @@ func (j *jsiiProxy_GroupIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/group_iam_binding hcp_group_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/group_iam_binding hcp_group_iam_binding} Resource.
 func NewGroupIamBinding(scope constructs.Construct, id *string, config *GroupIamBindingConfig) GroupIamBinding {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewGroupIamBinding(scope constructs.Construct, id *string, config *GroupIam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/group_iam_binding hcp_group_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/group_iam_binding hcp_group_iam_binding} Resource.
 func NewGroupIamBinding_Override(g GroupIamBinding, scope constructs.Construct, id *string, config *GroupIamBindingConfig) {
 	_init_.Initialize()
 

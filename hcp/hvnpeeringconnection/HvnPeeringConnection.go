@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection}.
 type HvnPeeringConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -479,7 +479,7 @@ func (j *jsiiProxy_HvnPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection} Resource.
 func NewHvnPeeringConnection(scope constructs.Construct, id *string, config *HvnPeeringConnectionConfig) HvnPeeringConnection {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewHvnPeeringConnection(scope constructs.Construct, id *string, config *Hvn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/hvn_peering_connection hcp_hvn_peering_connection} Resource.
 func NewHvnPeeringConnection_Override(h HvnPeeringConnection, scope constructs.Construct, id *string, config *HvnPeeringConnectionConfig) {
 	_init_.Initialize()
 

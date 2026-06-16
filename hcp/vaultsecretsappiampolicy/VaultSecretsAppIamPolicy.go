@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy}.
 type VaultSecretsAppIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_VaultSecretsAppIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy} Resource.
 func NewVaultSecretsAppIamPolicy(scope constructs.Construct, id *string, config *VaultSecretsAppIamPolicyConfig) VaultSecretsAppIamPolicy {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewVaultSecretsAppIamPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_app_iam_policy hcp_vault_secrets_app_iam_policy} Resource.
 func NewVaultSecretsAppIamPolicy_Override(v VaultSecretsAppIamPolicy, scope constructs.Construct, id *string, config *VaultSecretsAppIamPolicyConfig) {
 	_init_.Initialize()
 

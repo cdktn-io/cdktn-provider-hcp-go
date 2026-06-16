@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/packer_artifact hcp_packer_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/packer_artifact hcp_packer_artifact}.
 type DataHcpPackerArtifact interface {
 	cdktn.TerraformDataSource
 	BucketName() *string
@@ -48,7 +48,9 @@ type DataHcpPackerArtifact interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	Labels() cdktn.StringMap
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -109,6 +111,7 @@ type DataHcpPackerArtifact interface {
 	OverrideLogicalId(newLogicalId *string)
 	ResetChannelName()
 	ResetComponentType()
+	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -312,11 +315,21 @@ func (j *jsiiProxy_DataHcpPackerArtifact) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpPackerArtifact) Labels() cdktn.StringMap {
-	var returns cdktn.StringMap
+func (j *jsiiProxy_DataHcpPackerArtifact) Labels() *map[string]*string {
+	var returns *map[string]*string
 	_jsii_.Get(
 		j,
 		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataHcpPackerArtifact) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -503,7 +516,7 @@ func (j *jsiiProxy_DataHcpPackerArtifact) VersionFingerprintInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
 func NewDataHcpPackerArtifact(scope constructs.Construct, id *string, config *DataHcpPackerArtifactConfig) DataHcpPackerArtifact {
 	_init_.Initialize()
 
@@ -521,7 +534,7 @@ func NewDataHcpPackerArtifact(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
 func NewDataHcpPackerArtifact_Override(d DataHcpPackerArtifact, scope constructs.Construct, id *string, config *DataHcpPackerArtifactConfig) {
 	_init_.Initialize()
 
@@ -588,6 +601,17 @@ func (j *jsiiProxy_DataHcpPackerArtifact)SetForEach(val cdktn.ITerraformIterator
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataHcpPackerArtifact)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -952,6 +976,14 @@ func (d *jsiiProxy_DataHcpPackerArtifact) ResetComponentType() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetComponentType",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataHcpPackerArtifact) ResetLabels() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

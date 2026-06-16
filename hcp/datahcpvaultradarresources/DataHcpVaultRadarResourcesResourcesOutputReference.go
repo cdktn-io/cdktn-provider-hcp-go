@@ -29,14 +29,12 @@ type DataHcpVaultRadarResourcesResourcesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DataSourceInfo() *string
 	DataSourceName() *string
 	DataSourceType() *string
 	Description() *string
 	DetectorType() *string
 	// Experimental.
 	Fqn() *string
-	HcpResourceId() *string
 	HcpResourceName() *string
 	HcpResourceStatus() *string
 	Id() *string
@@ -133,16 +131,6 @@ func (j *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) CreationS
 	return returns
 }
 
-func (j *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) DataSourceInfo() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"dataSourceInfo",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) DataSourceName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -188,16 +176,6 @@ func (j *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) Fqn() *st
 	_jsii_.Get(
 		j,
 		"fqn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataHcpVaultRadarResourcesResourcesOutputReference) HcpResourceId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"hcpResourceId",
 		&returns,
 	)
 	return returns

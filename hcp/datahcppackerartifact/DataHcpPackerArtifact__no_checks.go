@@ -87,6 +87,10 @@ func (j *jsiiProxy_DataHcpPackerArtifact) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_DataHcpPackerArtifact) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataHcpPackerArtifact) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

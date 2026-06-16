@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret}.
 type VaultSecretsSecret interface {
 	cdktn.TerraformResource
 	AppName() *string
@@ -410,7 +410,7 @@ func (j *jsiiProxy_VaultSecretsSecret) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret} Resource.
 func NewVaultSecretsSecret(scope constructs.Construct, id *string, config *VaultSecretsSecretConfig) VaultSecretsSecret {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewVaultSecretsSecret(scope constructs.Construct, id *string, config *Vault
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_secret hcp_vault_secrets_secret} Resource.
 func NewVaultSecretsSecret_Override(v VaultSecretsSecret, scope constructs.Construct, id *string, config *VaultSecretsSecretConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
 type VaultRadarSourceGithubCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -73,6 +73,9 @@ type VaultRadarSourceGithubCloud interface {
 	TerraformResourceType() *string
 	Token() *string
 	SetToken(val *string)
+	TokenEnvVar() *string
+	SetTokenEnvVar(val *string)
+	TokenEnvVarInput() *string
 	TokenInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -122,6 +125,8 @@ type VaultRadarSourceGithubCloud interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProjectId()
+	ResetToken()
+	ResetTokenEnvVar()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -389,6 +394,26 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) Token() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenEnvVar() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tokenEnvVar",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenEnvVarInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tokenEnvVarInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -400,7 +425,7 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) VaultRadarSourceGithubCloud {
 	_init_.Initialize()
 
@@ -418,7 +443,7 @@ func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud_Override(v VaultRadarSourceGithubCloud, scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) {
 	_init_.Initialize()
 
@@ -537,6 +562,17 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud)SetToken(val *string) {
 	_jsii_.Set(
 		j,
 		"token",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VaultRadarSourceGithubCloud)SetTokenEnvVar(val *string) {
+	if err := j.validateSetTokenEnvVarParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tokenEnvVar",
 		val,
 	)
 }
@@ -914,6 +950,22 @@ func (v *jsiiProxy_VaultRadarSourceGithubCloud) ResetProjectId() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetProjectId",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VaultRadarSourceGithubCloud) ResetToken() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetToken",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VaultRadarSourceGithubCloud) ResetTokenEnvVar() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetTokenEnvVar",
 		nil, // no parameters
 	)
 }

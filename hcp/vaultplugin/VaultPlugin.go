@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_plugin hcp_vault_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_plugin hcp_vault_plugin}.
 type VaultPlugin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_VaultPlugin) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_plugin hcp_vault_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_plugin hcp_vault_plugin} Resource.
 func NewVaultPlugin(scope constructs.Construct, id *string, config *VaultPluginConfig) VaultPlugin {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewVaultPlugin(scope constructs.Construct, id *string, config *VaultPluginC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_plugin hcp_vault_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_plugin hcp_vault_plugin} Resource.
 func NewVaultPlugin_Override(v VaultPlugin, scope constructs.Construct, id *string, config *VaultPluginConfig) {
 	_init_.Initialize()
 

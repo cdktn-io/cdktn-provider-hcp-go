@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio}.
 type VaultSecretsIntegrationTwilio interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationTwilio) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio} Resource.
 func NewVaultSecretsIntegrationTwilio(scope constructs.Construct, id *string, config *VaultSecretsIntegrationTwilioConfig) VaultSecretsIntegrationTwilio {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewVaultSecretsIntegrationTwilio(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/resources/vault_secrets_integration_twilio hcp_vault_secrets_integration_twilio} Resource.
 func NewVaultSecretsIntegrationTwilio_Override(v VaultSecretsIntegrationTwilio, scope constructs.Construct, id *string, config *VaultSecretsIntegrationTwilioConfig) {
 	_init_.Initialize()
 

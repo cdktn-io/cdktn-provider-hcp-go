@@ -127,6 +127,10 @@ func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) validateSetTokenParameters(
 	return nil
 }
 
+func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) validateSetTokenEnvVarParameters(val *string) error {
+	return nil
+}
+
 func validateNewVaultRadarSourceGithubEnterpriseParameters(scope constructs.Construct, id *string, config *VaultRadarSourceGithubEnterpriseConfig) error {
 	return nil
 }

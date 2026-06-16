@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources}.
 type DataHcpVaultRadarResources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataHcpVaultRadarResources) UriLikeFilterInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources} Data Source.
 func NewDataHcpVaultRadarResources(scope constructs.Construct, id *string, config *DataHcpVaultRadarResourcesConfig) DataHcpVaultRadarResources {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataHcpVaultRadarResources(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.111.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/vault_radar_resources hcp_vault_radar_resources} Data Source.
 func NewDataHcpVaultRadarResources_Override(d DataHcpVaultRadarResources, scope constructs.Construct, id *string, config *DataHcpVaultRadarResourcesConfig) {
 	_init_.Initialize()
 
