@@ -122,6 +122,14 @@ func (w *jsiiProxy_WaypointTfcConfig) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (w *jsiiProxy_WaypointTfcConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_WaypointTfcConfig) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (w *jsiiProxy_WaypointTfcConfig) validateMoveToIdParameters(id *string) err
 func (w *jsiiProxy_WaypointTfcConfig) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_WaypointTfcConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

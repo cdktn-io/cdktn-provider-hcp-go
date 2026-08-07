@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationAzure) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationAzure) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationAzure) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationAzure) validatePutClientSecretParamete
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationAzure) validatePutFederatedWorkloadIdentityParameters(value *VaultSecretsIntegrationAzureFederatedWorkloadIdentityA) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationAzure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

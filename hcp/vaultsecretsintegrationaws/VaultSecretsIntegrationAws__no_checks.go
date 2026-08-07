@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationAws) validateInterpolationForAttribute
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationAws) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationAws) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationAws) validatePutAccessKeysParameters(v
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationAws) validatePutFederatedWorkloadIdentityParameters(value *VaultSecretsIntegrationAwsFederatedWorkloadIdentityA) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationAws) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

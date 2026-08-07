@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsDynamicSecret) validateInterpolationForAttributeP
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsDynamicSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsDynamicSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VaultSecretsDynamicSecret) validatePutAwsAssumeRoleParameters
 }
 
 func (v *jsiiProxy_VaultSecretsDynamicSecret) validatePutGcpImpersonateServiceAccountParameters(value *VaultSecretsDynamicSecretGcpImpersonateServiceAccount) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsDynamicSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

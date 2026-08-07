@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpConsulAgentHelmConfig) validatePutTimeoutsParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpConsulAgentHelmConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpConsulAgentHelmConfig_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

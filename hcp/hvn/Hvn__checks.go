@@ -122,6 +122,14 @@ func (h *jsiiProxy_Hvn) validateInterpolationForAttributeParameters(terraformAtt
 	return nil
 }
 
+func (h *jsiiProxy_Hvn) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (h *jsiiProxy_Hvn) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (h *jsiiProxy_Hvn) validatePutTimeoutsParameters(value *HvnTimeouts) error 
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (h *jsiiProxy_Hvn) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

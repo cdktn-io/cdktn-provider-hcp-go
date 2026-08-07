@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpBoundaryCluster) validatePutTimeoutsParameters(value *
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpBoundaryCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpBoundaryCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

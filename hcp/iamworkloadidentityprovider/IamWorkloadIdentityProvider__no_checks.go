@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamWorkloadIdentityProvider) validateInterpolationForAttribut
 	return nil
 }
 
+func (i *jsiiProxy_IamWorkloadIdentityProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamWorkloadIdentityProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IamWorkloadIdentityProvider) validatePutAwsParameters(value *
 }
 
 func (i *jsiiProxy_IamWorkloadIdentityProvider) validatePutOidcParameters(value *IamWorkloadIdentityProviderOidc) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamWorkloadIdentityProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

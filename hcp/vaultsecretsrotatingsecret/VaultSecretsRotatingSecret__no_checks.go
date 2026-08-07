@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsRotatingSecret) validateInterpolationForAttribute
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsRotatingSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsRotatingSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (v *jsiiProxy_VaultSecretsRotatingSecret) validatePutMongodbAtlasUserParame
 }
 
 func (v *jsiiProxy_VaultSecretsRotatingSecret) validatePutTwilioApiKeyParameters(value *VaultSecretsRotatingSecretTwilioApiKey) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsRotatingSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

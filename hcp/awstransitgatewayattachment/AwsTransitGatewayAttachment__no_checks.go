@@ -59,6 +59,10 @@ func (a *jsiiProxy_AwsTransitGatewayAttachment) validateInterpolationForAttribut
 	return nil
 }
 
+func (a *jsiiProxy_AwsTransitGatewayAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AwsTransitGatewayAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AwsTransitGatewayAttachment) validateOverrideLogicalIdParamet
 }
 
 func (a *jsiiProxy_AwsTransitGatewayAttachment) validatePutTimeoutsParameters(value *AwsTransitGatewayAttachmentTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTransitGatewayAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

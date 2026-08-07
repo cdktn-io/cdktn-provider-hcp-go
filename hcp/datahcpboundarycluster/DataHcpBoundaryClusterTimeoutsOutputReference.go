@@ -5,9 +5,9 @@ package datahcpboundarycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpboundarycluster/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpboundarycluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AzurePeeringConnection) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_AzurePeeringConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AzurePeeringConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AzurePeeringConnection) validateOverrideLogicalIdParameters(n
 }
 
 func (a *jsiiProxy_AzurePeeringConnection) validatePutTimeoutsParameters(value *AzurePeeringConnectionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AzurePeeringConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

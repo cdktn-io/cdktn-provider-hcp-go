@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateInterpolationFo
 	return nil
 }
 
+func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateMoveToIdParamet
 }
 
 func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultRadarIntegrationSlackConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

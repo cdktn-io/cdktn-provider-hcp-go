@@ -67,6 +67,10 @@ func (d *jsiiProxy_DataHcpVaultCluster) validatePutTimeoutsParameters(value *Dat
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpVaultCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpVaultCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

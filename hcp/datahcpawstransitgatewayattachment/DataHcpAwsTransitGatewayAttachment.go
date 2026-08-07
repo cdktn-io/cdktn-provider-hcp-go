@@ -5,14 +5,14 @@ package datahcpawstransitgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpawstransitgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpawstransitgatewayattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment}.
 type DataHcpAwsTransitGatewayAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -103,6 +103,19 @@ type DataHcpAwsTransitGatewayAttachment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataHcpAwsTransitGatewayAttachmentTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -469,7 +482,7 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) WaitForActiveStateInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
 func NewDataHcpAwsTransitGatewayAttachment(scope constructs.Construct, id *string, config *DataHcpAwsTransitGatewayAttachmentConfig) DataHcpAwsTransitGatewayAttachment {
 	_init_.Initialize()
 
@@ -487,7 +500,7 @@ func NewDataHcpAwsTransitGatewayAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
 func NewDataHcpAwsTransitGatewayAttachment_Override(d DataHcpAwsTransitGatewayAttachment, scope constructs.Construct, id *string, config *DataHcpAwsTransitGatewayAttachmentConfig) {
 	_init_.Initialize()
 
@@ -892,6 +905,17 @@ func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) PutTimeouts(value *DataHc
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

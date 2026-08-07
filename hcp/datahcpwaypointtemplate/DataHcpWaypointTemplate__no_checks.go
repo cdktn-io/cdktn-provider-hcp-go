@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataHcpWaypointTemplate) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpWaypointTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpWaypointTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

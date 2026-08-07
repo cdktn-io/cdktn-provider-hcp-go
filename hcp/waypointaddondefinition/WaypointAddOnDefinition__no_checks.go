@@ -59,6 +59,10 @@ func (w *jsiiProxy_WaypointAddOnDefinition) validateInterpolationForAttributePar
 	return nil
 }
 
+func (w *jsiiProxy_WaypointAddOnDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WaypointAddOnDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (w *jsiiProxy_WaypointAddOnDefinition) validatePutTerraformCloudWorkspaceDe
 }
 
 func (w *jsiiProxy_WaypointAddOnDefinition) validatePutVariableOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WaypointAddOnDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

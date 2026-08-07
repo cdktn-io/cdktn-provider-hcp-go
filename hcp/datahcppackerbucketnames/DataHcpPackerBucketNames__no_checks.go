@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpPackerBucketNames) validatePutTimeoutsParameters(value
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpPackerBucketNames) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpPackerBucketNames_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

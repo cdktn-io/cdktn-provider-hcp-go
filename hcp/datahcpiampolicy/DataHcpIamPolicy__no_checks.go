@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpIamPolicy) validatePutBindingsParameters(value interfa
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

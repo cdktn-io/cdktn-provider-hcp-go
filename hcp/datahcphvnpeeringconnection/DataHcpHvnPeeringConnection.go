@@ -5,14 +5,14 @@ package datahcphvnpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcphvnpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcphvnpeeringconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection}.
 type DataHcpHvnPeeringConnection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -101,6 +101,19 @@ type DataHcpHvnPeeringConnection interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataHcpHvnPeeringConnectionTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetHvn2()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -447,7 +460,7 @@ func (j *jsiiProxy_DataHcpHvnPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
 func NewDataHcpHvnPeeringConnection(scope constructs.Construct, id *string, config *DataHcpHvnPeeringConnectionConfig) DataHcpHvnPeeringConnection {
 	_init_.Initialize()
 
@@ -465,7 +478,7 @@ func NewDataHcpHvnPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
 func NewDataHcpHvnPeeringConnection_Override(d DataHcpHvnPeeringConnection, scope constructs.Construct, id *string, config *DataHcpHvnPeeringConnectionConfig) {
 	_init_.Initialize()
 
@@ -870,6 +883,17 @@ func (d *jsiiProxy_DataHcpHvnPeeringConnection) PutTimeouts(value *DataHcpHvnPee
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataHcpHvnPeeringConnection) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

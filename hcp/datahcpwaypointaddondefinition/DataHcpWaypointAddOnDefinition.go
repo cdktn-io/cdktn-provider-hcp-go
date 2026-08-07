@@ -5,14 +5,14 @@ package datahcpwaypointaddondefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpwaypointaddondefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpwaypointaddondefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition}.
 type DataHcpWaypointAddOnDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,19 @@ type DataHcpWaypointAddOnDefinition interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -443,7 +456,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOnDefinition) VariableOptions() DataHcpWayp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition} Data Source.
 func NewDataHcpWaypointAddOnDefinition(scope constructs.Construct, id *string, config *DataHcpWaypointAddOnDefinitionConfig) DataHcpWaypointAddOnDefinition {
 	_init_.Initialize()
 
@@ -461,7 +474,7 @@ func NewDataHcpWaypointAddOnDefinition(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on_definition hcp_waypoint_add_on_definition} Data Source.
 func NewDataHcpWaypointAddOnDefinition_Override(d DataHcpWaypointAddOnDefinition, scope constructs.Construct, id *string, config *DataHcpWaypointAddOnDefinitionConfig) {
 	_init_.Initialize()
 
@@ -833,6 +846,17 @@ func (d *jsiiProxy_DataHcpWaypointAddOnDefinition) OverrideLogicalId(newLogicalI
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataHcpWaypointAddOnDefinition) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

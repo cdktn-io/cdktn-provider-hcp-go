@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateMoveToIdParameters(id *s
 }
 
 func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultRadarSourceGithubCloud) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

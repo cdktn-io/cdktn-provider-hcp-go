@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validateInterpolationFor
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validateOverrideLogicalI
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validatePutStaticCredentialDetailsParameters(value *VaultSecretsIntegrationMongodbatlasStaticCredentialDetails) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationMongodbatlas) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

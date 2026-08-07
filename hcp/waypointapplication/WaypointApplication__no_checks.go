@@ -59,6 +59,10 @@ func (w *jsiiProxy_WaypointApplication) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (w *jsiiProxy_WaypointApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WaypointApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WaypointApplication) validateOverrideLogicalIdParameters(newL
 }
 
 func (w *jsiiProxy_WaypointApplication) validatePutApplicationInputVariablesParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WaypointApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

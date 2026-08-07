@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegration) validateInterpolationForAttributePar
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (v *jsiiProxy_VaultSecretsIntegration) validatePutMongodbAtlasStaticCredent
 }
 
 func (v *jsiiProxy_VaultSecretsIntegration) validatePutTwilioStaticCredentialsParameters(value *VaultSecretsIntegrationTwilioStaticCredentials) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

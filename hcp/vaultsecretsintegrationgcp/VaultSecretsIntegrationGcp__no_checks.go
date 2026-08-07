@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationGcp) validateInterpolationForAttribute
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationGcp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationGcp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationGcp) validatePutFederatedWorkloadIdent
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationGcp) validatePutServiceAccountKeyParameters(value *VaultSecretsIntegrationGcpServiceAccountKeyA) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationGcp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

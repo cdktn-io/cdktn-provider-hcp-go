@@ -59,6 +59,10 @@ func (a *jsiiProxy_AwsNetworkPeering) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_AwsNetworkPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AwsNetworkPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AwsNetworkPeering) validateOverrideLogicalIdParameters(newLog
 }
 
 func (a *jsiiProxy_AwsNetworkPeering) validatePutTimeoutsParameters(value *AwsNetworkPeeringTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsNetworkPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

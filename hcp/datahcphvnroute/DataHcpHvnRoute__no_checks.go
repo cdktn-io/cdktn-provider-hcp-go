@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpHvnRoute) validatePutTimeoutsParameters(value *DataHcp
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpHvnRoute) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpHvnRoute_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

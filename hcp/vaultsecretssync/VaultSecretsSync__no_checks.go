@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsSync) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsSync) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsSync) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VaultSecretsSync) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (v *jsiiProxy_VaultSecretsSync) validatePutGitlabConfigParameters(value *VaultSecretsSyncGitlabConfig) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsSync) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

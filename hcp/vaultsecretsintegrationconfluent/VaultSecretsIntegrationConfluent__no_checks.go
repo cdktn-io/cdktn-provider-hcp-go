@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validateInterpolationForAtt
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validateOverrideLogicalIdPa
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validatePutStaticCredentialDetailsParameters(value *VaultSecretsIntegrationConfluentStaticCredentialDetails) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationConfluent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

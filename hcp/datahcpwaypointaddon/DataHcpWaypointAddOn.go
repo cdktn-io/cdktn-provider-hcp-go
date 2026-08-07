@@ -5,14 +5,14 @@ package datahcpwaypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpwaypointaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpwaypointaddon/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on}.
 type DataHcpWaypointAddOn interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -100,6 +100,19 @@ type DataHcpWaypointAddOn interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutInputVariables(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetInputVariables()
 	ResetName()
@@ -465,7 +478,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
 func NewDataHcpWaypointAddOn(scope constructs.Construct, id *string, config *DataHcpWaypointAddOnConfig) DataHcpWaypointAddOn {
 	_init_.Initialize()
 
@@ -483,7 +496,7 @@ func NewDataHcpWaypointAddOn(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
 func NewDataHcpWaypointAddOn_Override(d DataHcpWaypointAddOn, scope constructs.Construct, id *string, config *DataHcpWaypointAddOnConfig) {
 	_init_.Initialize()
 
@@ -855,6 +868,17 @@ func (d *jsiiProxy_DataHcpWaypointAddOn) PutInputVariables(value interface{}) {
 		d,
 		"putInputVariables",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataHcpWaypointAddOn) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

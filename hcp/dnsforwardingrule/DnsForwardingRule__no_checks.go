@@ -59,6 +59,10 @@ func (d *jsiiProxy_DnsForwardingRule) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DnsForwardingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsForwardingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DnsForwardingRule) validateOverrideLogicalIdParameters(newLog
 }
 
 func (d *jsiiProxy_DnsForwardingRule) validatePutTimeoutsParameters(value *DnsForwardingRuleTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DnsForwardingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

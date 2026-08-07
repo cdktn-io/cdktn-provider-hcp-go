@@ -122,6 +122,14 @@ func (v *jsiiProxy_VaultSecretsSync) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsSync) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsSync) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (v *jsiiProxy_VaultSecretsSync) validatePutGitlabConfigParameters(value *Va
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsSync) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

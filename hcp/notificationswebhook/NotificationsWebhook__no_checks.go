@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationsWebhook) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (n *jsiiProxy_NotificationsWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationsWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NotificationsWebhook) validatePutConfigParameters(value *Noti
 }
 
 func (n *jsiiProxy_NotificationsWebhook) validatePutSubscriptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationsWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

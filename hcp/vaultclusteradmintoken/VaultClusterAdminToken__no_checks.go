@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultClusterAdminToken) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VaultClusterAdminToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultClusterAdminToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VaultClusterAdminToken) validateOverrideLogicalIdParameters(n
 }
 
 func (v *jsiiProxy_VaultClusterAdminToken) validatePutTimeoutsParameters(value *VaultClusterAdminTokenTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultClusterAdminToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

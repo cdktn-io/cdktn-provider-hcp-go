@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateInterpolationFor
 	return nil
 }
 
+func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateMoveToIdParamete
 }
 
 func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultRadarIntegrationJiraConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogStreamingDestination) validateInterpolationForAttributePar
 	return nil
 }
 
+func (l *jsiiProxy_LogStreamingDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogStreamingDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_LogStreamingDestination) validatePutDatadogParameters(value *
 }
 
 func (l *jsiiProxy_LogStreamingDestination) validatePutSplunkCloudParameters(value *LogStreamingDestinationSplunkCloud) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogStreamingDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

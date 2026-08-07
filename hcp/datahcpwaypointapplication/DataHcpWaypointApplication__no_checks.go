@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpWaypointApplication) validatePutInputVariablesParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpWaypointApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpWaypointApplication_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

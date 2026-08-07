@@ -59,6 +59,10 @@ func (b *jsiiProxy_BoundaryCluster) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BoundaryCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BoundaryCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BoundaryCluster) validatePutMaintenanceWindowConfigParameters
 }
 
 func (b *jsiiProxy_BoundaryCluster) validatePutTimeoutsParameters(value *BoundaryClusterTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BoundaryCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

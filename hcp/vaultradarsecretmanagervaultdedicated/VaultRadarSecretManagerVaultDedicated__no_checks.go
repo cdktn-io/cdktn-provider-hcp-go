@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validateInterpolationF
 	return nil
 }
 
+func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validatePutKubernetesP
 }
 
 func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validatePutTokenParameters(value *VaultRadarSecretManagerVaultDedicatedToken) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultRadarSecretManagerVaultDedicated) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

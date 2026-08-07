@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultCluster) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (v *jsiiProxy_VaultCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (v *jsiiProxy_VaultCluster) validatePutMetricsConfigParameters(value *Vault
 }
 
 func (v *jsiiProxy_VaultCluster) validatePutTimeoutsParameters(value *VaultClusterTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (v *jsiiProxy_VaultRadarResourceIamBinding) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VaultRadarResourceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (v *jsiiProxy_VaultRadarResourceIamBinding) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (v *jsiiProxy_VaultRadarResourceIamBinding) validateMoveToIdParameters(id *
 func (v *jsiiProxy_VaultRadarResourceIamBinding) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (v *jsiiProxy_VaultRadarResourceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecret) validatePutTimeoutsParame
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpConsulAgentKubernetesSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpConsulAgentKubernetesSecret_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

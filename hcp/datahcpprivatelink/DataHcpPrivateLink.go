@@ -5,14 +5,14 @@ package datahcpprivatelink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v12/datahcpprivatelink/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpprivatelink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/private_link hcp_private_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link}.
 type DataHcpPrivateLink interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -104,6 +104,19 @@ type DataHcpPrivateLink interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataHcpPrivateLinkTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -489,7 +502,7 @@ func (j *jsiiProxy_DataHcpPrivateLink) VaultClusterId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/private_link hcp_private_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link} Data Source.
 func NewDataHcpPrivateLink(scope constructs.Construct, id *string, config *DataHcpPrivateLinkConfig) DataHcpPrivateLink {
 	_init_.Initialize()
 
@@ -507,7 +520,7 @@ func NewDataHcpPrivateLink(scope constructs.Construct, id *string, config *DataH
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.112.0/docs/data-sources/private_link hcp_private_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link} Data Source.
 func NewDataHcpPrivateLink_Override(d DataHcpPrivateLink, scope constructs.Construct, id *string, config *DataHcpPrivateLinkConfig) {
 	_init_.Initialize()
 
@@ -901,6 +914,17 @@ func (d *jsiiProxy_DataHcpPrivateLink) PutTimeouts(value *DataHcpPrivateLinkTime
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataHcpPrivateLink) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

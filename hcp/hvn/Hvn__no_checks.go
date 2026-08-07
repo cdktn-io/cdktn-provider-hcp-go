@@ -59,6 +59,10 @@ func (h *jsiiProxy_Hvn) validateInterpolationForAttributeParameters(terraformAtt
 	return nil
 }
 
+func (h *jsiiProxy_Hvn) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_Hvn) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_Hvn) validateOverrideLogicalIdParameters(newLogicalId *string
 }
 
 func (h *jsiiProxy_Hvn) validatePutTimeoutsParameters(value *HvnTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_Hvn) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

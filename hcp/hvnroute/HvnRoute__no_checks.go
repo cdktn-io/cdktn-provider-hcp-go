@@ -59,6 +59,10 @@ func (h *jsiiProxy_HvnRoute) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (h *jsiiProxy_HvnRoute) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HvnRoute) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (h *jsiiProxy_HvnRoute) validatePutAzureConfigParameters(value *HvnRouteAzu
 }
 
 func (h *jsiiProxy_HvnRoute) validatePutTimeoutsParameters(value *HvnRouteTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HvnRoute) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

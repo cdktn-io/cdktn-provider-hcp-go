@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataHcpVaultSecretsDynamicSecret) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpVaultSecretsDynamicSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpVaultSecretsDynamicSecret_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -122,6 +122,14 @@ func (v *jsiiProxy_VaultSecretsSecret) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsSecret) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (v *jsiiProxy_VaultSecretsSecret) validateMoveToIdParameters(id *string) er
 func (v *jsiiProxy_VaultSecretsSecret) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validateInterpolationForAttrib
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validateOverrideLogicalIdParam
 }
 
 func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validatePutStaticCredentialDetailsParameters(value *VaultSecretsIntegrationTwilioStaticCredentialDetails) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsIntegrationTwilio) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

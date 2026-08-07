@@ -59,6 +59,10 @@ func (v *jsiiProxy_VaultSecretsApp) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (v *jsiiProxy_VaultSecretsApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VaultSecretsApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VaultSecretsApp) validateMoveToIdParameters(id *string) error
 }
 
 func (v *jsiiProxy_VaultSecretsApp) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VaultSecretsApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (h *jsiiProxy_HvnPeeringConnection) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (h *jsiiProxy_HvnPeeringConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HvnPeeringConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HvnPeeringConnection) validateOverrideLogicalIdParameters(new
 }
 
 func (h *jsiiProxy_HvnPeeringConnection) validatePutTimeoutsParameters(value *HvnPeeringConnectionTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HvnPeeringConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

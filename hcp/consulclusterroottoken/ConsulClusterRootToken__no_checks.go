@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConsulClusterRootToken) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_ConsulClusterRootToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConsulClusterRootToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConsulClusterRootToken) validateOverrideLogicalIdParameters(n
 }
 
 func (c *jsiiProxy_ConsulClusterRootToken) validatePutTimeoutsParameters(value *ConsulClusterRootTokenTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConsulClusterRootToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

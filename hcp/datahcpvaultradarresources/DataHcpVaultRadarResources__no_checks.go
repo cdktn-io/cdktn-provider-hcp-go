@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpVaultRadarResources) validatePutUriLikeFilterParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpVaultRadarResources) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpVaultRadarResources_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

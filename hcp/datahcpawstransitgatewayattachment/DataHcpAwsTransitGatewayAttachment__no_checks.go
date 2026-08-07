@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) validatePutTimeoutsParame
 	return nil
 }
 
+func (d *jsiiProxy_DataHcpAwsTransitGatewayAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataHcpAwsTransitGatewayAttachment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
