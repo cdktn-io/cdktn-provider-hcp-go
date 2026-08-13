@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_route hcp_hvn_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_route hcp_hvn_route}.
 type DataHcpHvnRoute interface {
 	cdktn.TerraformDataSource
 	AzureConfig() DataHcpHvnRouteAzureConfigList
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DataHcpHvnRoute) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_route hcp_hvn_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_route hcp_hvn_route} Data Source.
 func NewDataHcpHvnRoute(scope constructs.Construct, id *string, config *DataHcpHvnRouteConfig) DataHcpHvnRoute {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDataHcpHvnRoute(scope constructs.Construct, id *string, config *DataHcpH
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/hvn_route hcp_hvn_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_route hcp_hvn_route} Data Source.
 func NewDataHcpHvnRoute_Override(d DataHcpHvnRoute, scope constructs.Construct, id *string, config *DataHcpHvnRouteConfig) {
 	_init_.Initialize()
 

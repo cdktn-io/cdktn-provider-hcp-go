@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/boundary_cluster hcp_boundary_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/boundary_cluster hcp_boundary_cluster}.
 type DataHcpBoundaryCluster interface {
 	cdktn.TerraformDataSource
 	AuthTokenTimeToLive() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataHcpBoundaryCluster) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/boundary_cluster hcp_boundary_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/boundary_cluster hcp_boundary_cluster} Data Source.
 func NewDataHcpBoundaryCluster(scope constructs.Construct, id *string, config *DataHcpBoundaryClusterConfig) DataHcpBoundaryCluster {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewDataHcpBoundaryCluster(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/boundary_cluster hcp_boundary_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/boundary_cluster hcp_boundary_cluster} Data Source.
 func NewDataHcpBoundaryCluster_Override(d DataHcpBoundaryCluster, scope constructs.Construct, id *string, config *DataHcpBoundaryClusterConfig) {
 	_init_.Initialize()
 

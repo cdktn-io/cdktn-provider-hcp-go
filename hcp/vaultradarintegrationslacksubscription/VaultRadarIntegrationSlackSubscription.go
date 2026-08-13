@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription}.
 type VaultRadarIntegrationSlackSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_VaultRadarIntegrationSlackSubscription) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription} Resource.
 func NewVaultRadarIntegrationSlackSubscription(scope constructs.Construct, id *string, config *VaultRadarIntegrationSlackSubscriptionConfig) VaultRadarIntegrationSlackSubscription {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewVaultRadarIntegrationSlackSubscription(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_slack_subscription hcp_vault_radar_integration_slack_subscription} Resource.
 func NewVaultRadarIntegrationSlackSubscription_Override(v VaultRadarIntegrationSlackSubscription, scope constructs.Construct, id *string, config *VaultRadarIntegrationSlackSubscriptionConfig) {
 	_init_.Initialize()
 

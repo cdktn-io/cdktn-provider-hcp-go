@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent}.
 type VaultSecretsIntegrationConfluent interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationConfluent) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent} Resource.
 func NewVaultSecretsIntegrationConfluent(scope constructs.Construct, id *string, config *VaultSecretsIntegrationConfluentConfig) VaultSecretsIntegrationConfluent {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewVaultSecretsIntegrationConfluent(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_confluent hcp_vault_secrets_integration_confluent} Resource.
 func NewVaultSecretsIntegrationConfluent_Override(v VaultSecretsIntegrationConfluent, scope constructs.Construct, id *string, config *VaultSecretsIntegrationConfluentConfig) {
 	_init_.Initialize()
 

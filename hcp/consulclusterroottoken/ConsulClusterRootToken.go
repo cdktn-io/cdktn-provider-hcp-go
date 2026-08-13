@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token}.
 type ConsulClusterRootToken interface {
 	cdktn.TerraformResource
 	AccessorId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_ConsulClusterRootToken) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token} Resource.
 func NewConsulClusterRootToken(scope constructs.Construct, id *string, config *ConsulClusterRootTokenConfig) ConsulClusterRootToken {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewConsulClusterRootToken(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/consul_cluster_root_token hcp_consul_cluster_root_token} Resource.
 func NewConsulClusterRootToken_Override(c ConsulClusterRootToken, scope constructs.Construct, id *string, config *ConsulClusterRootTokenConfig) {
 	_init_.Initialize()
 

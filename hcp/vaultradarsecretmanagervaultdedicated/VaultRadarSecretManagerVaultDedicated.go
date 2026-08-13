@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated}.
 type VaultRadarSecretManagerVaultDedicated interface {
 	cdktn.TerraformResource
 	AccessReadWrite() interface{}
@@ -498,7 +498,7 @@ func (j *jsiiProxy_VaultRadarSecretManagerVaultDedicated) VaultUrlInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated} Resource.
 func NewVaultRadarSecretManagerVaultDedicated(scope constructs.Construct, id *string, config *VaultRadarSecretManagerVaultDedicatedConfig) VaultRadarSecretManagerVaultDedicated {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewVaultRadarSecretManagerVaultDedicated(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated hcp_vault_radar_secret_manager_vault_dedicated} Resource.
 func NewVaultRadarSecretManagerVaultDedicated_Override(v VaultRadarSecretManagerVaultDedicated, scope constructs.Construct, id *string, config *VaultRadarSecretManagerVaultDedicatedConfig) {
 	_init_.Initialize()
 

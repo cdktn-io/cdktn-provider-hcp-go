@@ -7,11 +7,11 @@ package vaultradarsecretmanagervaultdedicated
 type VaultRadarSecretManagerVaultDedicatedKubernetes struct {
 	// Mount path where the Kubernetes auth method is enabled in Vault. Example 'kubernetes'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated#mount_path VaultRadarSecretManagerVaultDedicated#mount_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated#mount_path VaultRadarSecretManagerVaultDedicated#mount_path}
 	MountPath *string `field:"required" json:"mountPath" yaml:"mountPath"`
 	// Kubernetes authentication role configured in Vault.  Example 'vault-radar-role'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated#role_name VaultRadarSecretManagerVaultDedicated#role_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated#role_name VaultRadarSecretManagerVaultDedicated#role_name}
 	RoleName *string `field:"required" json:"roleName" yaml:"roleName"`
 }
 

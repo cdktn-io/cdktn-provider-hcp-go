@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret}.
 type DataHcpVaultSecretsRotatingSecret interface {
 	cdktn.TerraformDataSource
 	AppName() *string
@@ -375,7 +375,7 @@ func (j *jsiiProxy_DataHcpVaultSecretsRotatingSecret) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Data Source.
 func NewDataHcpVaultSecretsRotatingSecret(scope constructs.Construct, id *string, config *DataHcpVaultSecretsRotatingSecretConfig) DataHcpVaultSecretsRotatingSecret {
 	_init_.Initialize()
 
@@ -393,7 +393,7 @@ func NewDataHcpVaultSecretsRotatingSecret(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/vault_secrets_rotating_secret hcp_vault_secrets_rotating_secret} Data Source.
 func NewDataHcpVaultSecretsRotatingSecret_Override(d DataHcpVaultSecretsRotatingSecret, scope constructs.Construct, id *string, config *DataHcpVaultSecretsRotatingSecretConfig) {
 	_init_.Initialize()
 

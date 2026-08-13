@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration}.
 type VaultSecretsIntegration interface {
 	cdktn.TerraformResource
 	AwsAccessKeys() VaultSecretsIntegrationAwsAccessKeysOutputReference
@@ -710,7 +710,7 @@ func (j *jsiiProxy_VaultSecretsIntegration) TwilioStaticCredentialsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration} Resource.
 func NewVaultSecretsIntegration(scope constructs.Construct, id *string, config *VaultSecretsIntegrationConfig) VaultSecretsIntegration {
 	_init_.Initialize()
 
@@ -728,7 +728,7 @@ func NewVaultSecretsIntegration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration hcp_vault_secrets_integration} Resource.
 func NewVaultSecretsIntegration_Override(v VaultSecretsIntegration, scope constructs.Construct, id *string, config *VaultSecretsIntegrationConfig) {
 	_init_.Initialize()
 

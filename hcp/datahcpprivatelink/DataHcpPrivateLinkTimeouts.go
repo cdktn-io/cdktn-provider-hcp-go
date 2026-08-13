@@ -5,7 +5,7 @@ package datahcpprivatelink
 
 
 type DataHcpPrivateLinkTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link#default DataHcpPrivateLink#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/private_link#default DataHcpPrivateLink#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

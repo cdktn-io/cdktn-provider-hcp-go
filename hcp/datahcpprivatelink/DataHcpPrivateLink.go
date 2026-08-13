@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/private_link hcp_private_link}.
 type DataHcpPrivateLink interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -502,7 +502,7 @@ func (j *jsiiProxy_DataHcpPrivateLink) VaultClusterId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/private_link hcp_private_link} Data Source.
 func NewDataHcpPrivateLink(scope constructs.Construct, id *string, config *DataHcpPrivateLinkConfig) DataHcpPrivateLink {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDataHcpPrivateLink(scope constructs.Construct, id *string, config *DataH
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/private_link hcp_private_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/private_link hcp_private_link} Data Source.
 func NewDataHcpPrivateLink_Override(d DataHcpPrivateLink, scope constructs.Construct, id *string, config *DataHcpPrivateLinkConfig) {
 	_init_.Initialize()
 

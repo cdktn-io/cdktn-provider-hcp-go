@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/waypoint_action hcp_waypoint_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/waypoint_action hcp_waypoint_action}.
 type WaypointAction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_WaypointAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/waypoint_action hcp_waypoint_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/waypoint_action hcp_waypoint_action} Resource.
 func NewWaypointAction(scope constructs.Construct, id *string, config *WaypointActionConfig) WaypointAction {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewWaypointAction(scope constructs.Construct, id *string, config *WaypointA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/waypoint_action hcp_waypoint_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/waypoint_action hcp_waypoint_action} Resource.
 func NewWaypointAction_Override(w WaypointAction, scope constructs.Construct, id *string, config *WaypointActionConfig) {
 	_init_.Initialize()
 

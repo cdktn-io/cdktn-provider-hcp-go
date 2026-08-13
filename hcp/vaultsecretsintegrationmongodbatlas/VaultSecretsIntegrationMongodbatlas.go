@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas}.
 type VaultSecretsIntegrationMongodbatlas interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_VaultSecretsIntegrationMongodbatlas) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas} Resource.
 func NewVaultSecretsIntegrationMongodbatlas(scope constructs.Construct, id *string, config *VaultSecretsIntegrationMongodbatlasConfig) VaultSecretsIntegrationMongodbatlas {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewVaultSecretsIntegrationMongodbatlas(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_secrets_integration_mongodbatlas hcp_vault_secrets_integration_mongodbatlas} Resource.
 func NewVaultSecretsIntegrationMongodbatlas_Override(v VaultSecretsIntegrationMongodbatlas, scope constructs.Construct, id *string, config *VaultSecretsIntegrationMongodbatlasConfig) {
 	_init_.Initialize()
 

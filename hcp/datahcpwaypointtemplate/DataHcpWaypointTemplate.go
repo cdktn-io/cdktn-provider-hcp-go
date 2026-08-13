@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_template hcp_waypoint_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_template hcp_waypoint_template}.
 type DataHcpWaypointTemplate interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataHcpWaypointTemplate) VariableOptions() DataHcpWaypointTem
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_template hcp_waypoint_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_template hcp_waypoint_template} Data Source.
 func NewDataHcpWaypointTemplate(scope constructs.Construct, id *string, config *DataHcpWaypointTemplateConfig) DataHcpWaypointTemplate {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewDataHcpWaypointTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/waypoint_template hcp_waypoint_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_template hcp_waypoint_template} Data Source.
 func NewDataHcpWaypointTemplate_Override(d DataHcpWaypointTemplate, scope constructs.Construct, id *string, config *DataHcpWaypointTemplateConfig) {
 	_init_.Initialize()
 

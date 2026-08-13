@@ -7,7 +7,7 @@ package vaultradarsecretmanagervaultdedicated
 type VaultRadarSecretManagerVaultDedicatedToken struct {
 	// Environment variable name containing the Vault token. Example: 'VAULT_TOKEN'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/resources/vault_radar_secret_manager_vault_dedicated#token_env_var VaultRadarSecretManagerVaultDedicated#token_env_var}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_secret_manager_vault_dedicated#token_env_var VaultRadarSecretManagerVaultDedicated#token_env_var}
 	TokenEnvVar *string `field:"required" json:"tokenEnvVar" yaml:"tokenEnvVar"`
 }
 

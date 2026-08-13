@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection}.
 type DataHcpAzurePeeringConnection interface {
 	cdktn.TerraformDataSource
 	AllowForwardedTraffic() cdktn.IResolvable
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DataHcpAzurePeeringConnection) WaitForActiveStateInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection} Data Source.
 func NewDataHcpAzurePeeringConnection(scope constructs.Construct, id *string, config *DataHcpAzurePeeringConnectionConfig) DataHcpAzurePeeringConnection {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewDataHcpAzurePeeringConnection(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.113.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/azure_peering_connection hcp_azure_peering_connection} Data Source.
 func NewDataHcpAzurePeeringConnection_Override(d DataHcpAzurePeeringConnection, scope constructs.Construct, id *string, config *DataHcpAzurePeeringConnectionConfig) {
 	_init_.Initialize()
 
