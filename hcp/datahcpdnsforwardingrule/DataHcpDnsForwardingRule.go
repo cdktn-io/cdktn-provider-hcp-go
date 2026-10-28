@@ -5,14 +5,14 @@ package datahcpdnsforwardingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpdnsforwardingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpdnsforwardingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule}.
 type DataHcpDnsForwardingRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataHcpDnsForwardingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule} Data Source.
 func NewDataHcpDnsForwardingRule(scope constructs.Construct, id *string, config *DataHcpDnsForwardingRuleConfig) DataHcpDnsForwardingRule {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewDataHcpDnsForwardingRule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/dns_forwarding_rule hcp_dns_forwarding_rule} Data Source.
 func NewDataHcpDnsForwardingRule_Override(d DataHcpDnsForwardingRule, scope constructs.Construct, id *string, config *DataHcpDnsForwardingRuleConfig) {
 	_init_.Initialize()
 

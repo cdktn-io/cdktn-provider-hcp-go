@@ -5,14 +5,14 @@ package packerchannelassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/packerchannelassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/packerchannelassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment}.
 type PackerChannelAssignment interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_PackerChannelAssignment) VersionFingerprintInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment} Resource.
 func NewPackerChannelAssignment(scope constructs.Construct, id *string, config *PackerChannelAssignmentConfig) PackerChannelAssignment {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewPackerChannelAssignment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel_assignment hcp_packer_channel_assignment} Resource.
 func NewPackerChannelAssignment_Override(p PackerChannelAssignment, scope constructs.Construct, id *string, config *PackerChannelAssignmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package groupmembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/groupmembers/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/groupmembers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/group_members hcp_group_members}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/group_members hcp_group_members}.
 type GroupMembers interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_GroupMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/group_members hcp_group_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/group_members hcp_group_members} Resource.
 func NewGroupMembers(scope constructs.Construct, id *string, config *GroupMembersConfig) GroupMembers {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewGroupMembers(scope constructs.Construct, id *string, config *GroupMember
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/group_members hcp_group_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/group_members hcp_group_members} Resource.
 func NewGroupMembers_Override(g GroupMembers, scope constructs.Construct, id *string, config *GroupMembersConfig) {
 	_init_.Initialize()
 

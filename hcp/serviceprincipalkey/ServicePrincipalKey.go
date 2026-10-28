@@ -5,14 +5,14 @@ package serviceprincipalkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/serviceprincipalkey/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/serviceprincipalkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/service_principal_key hcp_service_principal_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/service_principal_key hcp_service_principal_key}.
 type ServicePrincipalKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ServicePrincipalKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
 func NewServicePrincipalKey(scope constructs.Construct, id *string, config *ServicePrincipalKeyConfig) ServicePrincipalKey {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewServicePrincipalKey(scope constructs.Construct, id *string, config *Serv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/service_principal_key hcp_service_principal_key} Resource.
 func NewServicePrincipalKey_Override(s ServicePrincipalKey, scope constructs.Construct, id *string, config *ServicePrincipalKeyConfig) {
 	_init_.Initialize()
 

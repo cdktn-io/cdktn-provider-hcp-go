@@ -5,9 +5,9 @@ package privatelink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/privatelink/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/privatelink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

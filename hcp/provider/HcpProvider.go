@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/provider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs hcp}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs hcp}.
 type HcpProvider interface {
 	cdktn.TerraformProvider
 	Alias() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_HcpProvider) WorkloadIdentityInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs hcp} Resource.
 func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderConfig) HcpProvider {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewHcpProvider(scope constructs.Construct, id *string, config *HcpProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs hcp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs hcp} Resource.
 func NewHcpProvider_Override(h HcpProvider, scope constructs.Construct, id *string, config *HcpProviderConfig) {
 	_init_.Initialize()
 

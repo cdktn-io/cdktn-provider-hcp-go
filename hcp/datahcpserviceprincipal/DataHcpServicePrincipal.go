@@ -5,14 +5,14 @@ package datahcpserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpserviceprincipal/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpserviceprincipal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/service_principal hcp_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/service_principal hcp_service_principal}.
 type DataHcpServicePrincipal interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataHcpServicePrincipal) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/service_principal hcp_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/service_principal hcp_service_principal} Data Source.
 func NewDataHcpServicePrincipal(scope constructs.Construct, id *string, config *DataHcpServicePrincipalConfig) DataHcpServicePrincipal {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataHcpServicePrincipal(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/service_principal hcp_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/service_principal hcp_service_principal} Data Source.
 func NewDataHcpServicePrincipal_Override(d DataHcpServicePrincipal, scope constructs.Construct, id *string, config *DataHcpServicePrincipalConfig) {
 	_init_.Initialize()
 

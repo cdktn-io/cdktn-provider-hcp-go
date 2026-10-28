@@ -26,11 +26,11 @@ type ResourceControlPolicyConfig struct {
 	//
 	// Each constraint ID must be a recognized constraint returned by ListConstraints.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/resource_control_policy#enabled_constraints ResourceControlPolicy#enabled_constraints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/resource_control_policy#enabled_constraints ResourceControlPolicy#enabled_constraints}
 	EnabledConstraints *[]*string `field:"required" json:"enabledConstraints" yaml:"enabledConstraints"`
 	// The ID of the organization to manage the resource control policy for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/resource_control_policy#organization_id ResourceControlPolicy#organization_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/resource_control_policy#organization_id ResourceControlPolicy#organization_id}
 	OrganizationId *string `field:"required" json:"organizationId" yaml:"organizationId"`
 }
 

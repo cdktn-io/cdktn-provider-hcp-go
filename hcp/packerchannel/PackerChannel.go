@@ -5,14 +5,14 @@ package packerchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/packerchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/packerchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel hcp_packer_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel hcp_packer_channel}.
 type PackerChannel interface {
 	cdktn.TerraformResource
 	AuthorId() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_PackerChannel) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel hcp_packer_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel hcp_packer_channel} Resource.
 func NewPackerChannel(scope constructs.Construct, id *string, config *PackerChannelConfig) PackerChannel {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewPackerChannel(scope constructs.Construct, id *string, config *PackerChan
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/packer_channel hcp_packer_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/packer_channel hcp_packer_channel} Resource.
 func NewPackerChannel_Override(p PackerChannel, scope constructs.Construct, id *string, config *PackerChannelConfig) {
 	_init_.Initialize()
 

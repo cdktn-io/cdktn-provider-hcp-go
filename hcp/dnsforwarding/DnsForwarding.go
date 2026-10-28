@@ -5,14 +5,14 @@ package dnsforwarding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/dnsforwarding/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/dnsforwarding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/dns_forwarding hcp_dns_forwarding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/dns_forwarding hcp_dns_forwarding}.
 type DnsForwarding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_DnsForwarding) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/dns_forwarding hcp_dns_forwarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/dns_forwarding hcp_dns_forwarding} Resource.
 func NewDnsForwarding(scope constructs.Construct, id *string, config *DnsForwardingConfig) DnsForwarding {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewDnsForwarding(scope constructs.Construct, id *string, config *DnsForward
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/dns_forwarding hcp_dns_forwarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/dns_forwarding hcp_dns_forwarding} Resource.
 func NewDnsForwarding_Override(d DnsForwarding, scope constructs.Construct, id *string, config *DnsForwardingConfig) {
 	_init_.Initialize()
 

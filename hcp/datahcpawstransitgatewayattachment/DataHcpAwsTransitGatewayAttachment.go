@@ -5,14 +5,14 @@ package datahcpawstransitgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpawstransitgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpawstransitgatewayattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment}.
 type DataHcpAwsTransitGatewayAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataHcpAwsTransitGatewayAttachment) WaitForActiveStateInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
 func NewDataHcpAwsTransitGatewayAttachment(scope constructs.Construct, id *string, config *DataHcpAwsTransitGatewayAttachmentConfig) DataHcpAwsTransitGatewayAttachment {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewDataHcpAwsTransitGatewayAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/aws_transit_gateway_attachment hcp_aws_transit_gateway_attachment} Data Source.
 func NewDataHcpAwsTransitGatewayAttachment_Override(d DataHcpAwsTransitGatewayAttachment, scope constructs.Construct, id *string, config *DataHcpAwsTransitGatewayAttachmentConfig) {
 	_init_.Initialize()
 

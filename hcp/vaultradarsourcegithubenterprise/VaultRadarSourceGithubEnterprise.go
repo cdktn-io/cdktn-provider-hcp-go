@@ -5,14 +5,14 @@ package vaultradarsourcegithubenterprise
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/vaultradarsourcegithubenterprise/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/vaultradarsourcegithubenterprise/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise}.
 type VaultRadarSourceGithubEnterprise interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_VaultRadarSourceGithubEnterprise) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
 func NewVaultRadarSourceGithubEnterprise(scope constructs.Construct, id *string, config *VaultRadarSourceGithubEnterpriseConfig) VaultRadarSourceGithubEnterprise {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewVaultRadarSourceGithubEnterprise(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_enterprise hcp_vault_radar_source_github_enterprise} Resource.
 func NewVaultRadarSourceGithubEnterprise_Override(v VaultRadarSourceGithubEnterprise, scope constructs.Construct, id *string, config *VaultRadarSourceGithubEnterpriseConfig) {
 	_init_.Initialize()
 

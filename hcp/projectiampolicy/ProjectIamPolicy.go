@@ -5,14 +5,14 @@ package projectiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/projectiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/projectiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/project_iam_policy hcp_project_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/project_iam_policy hcp_project_iam_policy}.
 type ProjectIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_ProjectIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/project_iam_policy hcp_project_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/project_iam_policy hcp_project_iam_policy} Resource.
 func NewProjectIamPolicy(scope constructs.Construct, id *string, config *ProjectIamPolicyConfig) ProjectIamPolicy {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewProjectIamPolicy(scope constructs.Construct, id *string, config *Project
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/project_iam_policy hcp_project_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/project_iam_policy hcp_project_iam_policy} Resource.
 func NewProjectIamPolicy_Override(p ProjectIamPolicy, scope constructs.Construct, id *string, config *ProjectIamPolicyConfig) {
 	_init_.Initialize()
 

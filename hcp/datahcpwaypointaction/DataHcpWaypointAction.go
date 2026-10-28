@@ -5,14 +5,14 @@ package datahcpwaypointaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpwaypointaction/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpwaypointaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_action hcp_waypoint_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_action hcp_waypoint_action}.
 type DataHcpWaypointAction interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -355,7 +355,7 @@ func (j *jsiiProxy_DataHcpWaypointAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
 func NewDataHcpWaypointAction(scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) DataHcpWaypointAction {
 	_init_.Initialize()
 
@@ -373,7 +373,7 @@ func NewDataHcpWaypointAction(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_action hcp_waypoint_action} Data Source.
 func NewDataHcpWaypointAction_Override(d DataHcpWaypointAction, scope constructs.Construct, id *string, config *DataHcpWaypointActionConfig) {
 	_init_.Initialize()
 

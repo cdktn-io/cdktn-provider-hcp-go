@@ -5,14 +5,14 @@ package organizationiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/organizationiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/organizationiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/organization_iam_binding hcp_organization_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/organization_iam_binding hcp_organization_iam_binding}.
 type OrganizationIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_OrganizationIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
 func NewOrganizationIamBinding(scope constructs.Construct, id *string, config *OrganizationIamBindingConfig) OrganizationIamBinding {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewOrganizationIamBinding(scope constructs.Construct, id *string, config *O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/organization_iam_binding hcp_organization_iam_binding} Resource.
 func NewOrganizationIamBinding_Override(o OrganizationIamBinding, scope constructs.Construct, id *string, config *OrganizationIamBindingConfig) {
 	_init_.Initialize()
 

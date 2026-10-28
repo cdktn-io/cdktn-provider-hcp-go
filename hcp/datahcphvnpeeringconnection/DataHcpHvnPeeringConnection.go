@@ -5,14 +5,14 @@ package datahcphvnpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcphvnpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcphvnpeeringconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection}.
 type DataHcpHvnPeeringConnection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataHcpHvnPeeringConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
 func NewDataHcpHvnPeeringConnection(scope constructs.Construct, id *string, config *DataHcpHvnPeeringConnectionConfig) DataHcpHvnPeeringConnection {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDataHcpHvnPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/hvn_peering_connection hcp_hvn_peering_connection} Data Source.
 func NewDataHcpHvnPeeringConnection_Override(d DataHcpHvnPeeringConnection, scope constructs.Construct, id *string, config *DataHcpHvnPeeringConnectionConfig) {
 	_init_.Initialize()
 

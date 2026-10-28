@@ -5,7 +5,7 @@ package datahcpdnsforwarding
 
 
 type DataHcpDnsForwardingTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/dns_forwarding#read DataHcpDnsForwarding#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/dns_forwarding#read DataHcpDnsForwarding#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

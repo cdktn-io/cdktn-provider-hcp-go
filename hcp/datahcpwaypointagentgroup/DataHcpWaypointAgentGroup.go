@@ -5,14 +5,14 @@ package datahcpwaypointagentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpwaypointagentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpwaypointagentgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group}.
 type DataHcpWaypointAgentGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataHcpWaypointAgentGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
 func NewDataHcpWaypointAgentGroup(scope constructs.Construct, id *string, config *DataHcpWaypointAgentGroupConfig) DataHcpWaypointAgentGroup {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataHcpWaypointAgentGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_agent_group hcp_waypoint_agent_group} Data Source.
 func NewDataHcpWaypointAgentGroup_Override(d DataHcpWaypointAgentGroup, scope constructs.Construct, id *string, config *DataHcpWaypointAgentGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package iamworkloadidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/iamworkloadidentityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/iamworkloadidentityprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider}.
 type IamWorkloadIdentityProvider interface {
 	cdktn.TerraformResource
 	Aws() IamWorkloadIdentityProviderAwsOutputReference
@@ -507,7 +507,7 @@ func (j *jsiiProxy_IamWorkloadIdentityProvider) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider} Resource.
 func NewIamWorkloadIdentityProvider(scope constructs.Construct, id *string, config *IamWorkloadIdentityProviderConfig) IamWorkloadIdentityProvider {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewIamWorkloadIdentityProvider(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/iam_workload_identity_provider hcp_iam_workload_identity_provider} Resource.
 func NewIamWorkloadIdentityProvider_Override(i IamWorkloadIdentityProvider, scope constructs.Construct, id *string, config *IamWorkloadIdentityProviderConfig) {
 	_init_.Initialize()
 

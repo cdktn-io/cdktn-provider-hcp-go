@@ -5,14 +5,14 @@ package logstreamingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/logstreamingdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/logstreamingdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/log_streaming_destination hcp_log_streaming_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/log_streaming_destination hcp_log_streaming_destination}.
 type LogStreamingDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_LogStreamingDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/log_streaming_destination hcp_log_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/log_streaming_destination hcp_log_streaming_destination} Resource.
 func NewLogStreamingDestination(scope constructs.Construct, id *string, config *LogStreamingDestinationConfig) LogStreamingDestination {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewLogStreamingDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/log_streaming_destination hcp_log_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/log_streaming_destination hcp_log_streaming_destination} Resource.
 func NewLogStreamingDestination_Override(l LogStreamingDestination, scope constructs.Construct, id *string, config *LogStreamingDestinationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datahcpproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpproject/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/project hcp_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/project hcp_project}.
 type DataHcpProject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataHcpProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/project hcp_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/project hcp_project} Data Source.
 func NewDataHcpProject(scope constructs.Construct, id *string, config *DataHcpProjectConfig) DataHcpProject {
 	_init_.Initialize()
 
@@ -349,7 +349,7 @@ func NewDataHcpProject(scope constructs.Construct, id *string, config *DataHcpPr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/project hcp_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/project hcp_project} Data Source.
 func NewDataHcpProject_Override(d DataHcpProject, scope constructs.Construct, id *string, config *DataHcpProjectConfig) {
 	_init_.Initialize()
 

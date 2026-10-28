@@ -5,14 +5,14 @@ package datahcpwaypointaddon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpwaypointaddon/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpwaypointaddon/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on}.
 type DataHcpWaypointAddOn interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -478,7 +478,7 @@ func (j *jsiiProxy_DataHcpWaypointAddOn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
 func NewDataHcpWaypointAddOn(scope constructs.Construct, id *string, config *DataHcpWaypointAddOnConfig) DataHcpWaypointAddOn {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewDataHcpWaypointAddOn(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/waypoint_add_on hcp_waypoint_add_on} Data Source.
 func NewDataHcpWaypointAddOn_Override(d DataHcpWaypointAddOn, scope constructs.Construct, id *string, config *DataHcpWaypointAddOnConfig) {
 	_init_.Initialize()
 

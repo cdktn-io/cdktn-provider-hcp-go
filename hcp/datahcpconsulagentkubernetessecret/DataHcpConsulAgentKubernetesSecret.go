@@ -5,14 +5,14 @@ package datahcpconsulagentkubernetessecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcpconsulagentkubernetessecret/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcpconsulagentkubernetessecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret}.
 type DataHcpConsulAgentKubernetesSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataHcpConsulAgentKubernetesSecret) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret} Data Source.
 func NewDataHcpConsulAgentKubernetesSecret(scope constructs.Construct, id *string, config *DataHcpConsulAgentKubernetesSecretConfig) DataHcpConsulAgentKubernetesSecret {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataHcpConsulAgentKubernetesSecret(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/consul_agent_kubernetes_secret hcp_consul_agent_kubernetes_secret} Data Source.
 func NewDataHcpConsulAgentKubernetesSecret_Override(d DataHcpConsulAgentKubernetesSecret, scope constructs.Construct, id *string, config *DataHcpConsulAgentKubernetesSecretConfig) {
 	_init_.Initialize()
 

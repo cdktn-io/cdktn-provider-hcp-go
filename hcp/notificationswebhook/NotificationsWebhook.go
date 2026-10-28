@@ -5,14 +5,14 @@ package notificationswebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/notificationswebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/notificationswebhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/notifications_webhook hcp_notifications_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/notifications_webhook hcp_notifications_webhook}.
 type NotificationsWebhook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_NotificationsWebhook) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/notifications_webhook hcp_notifications_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/notifications_webhook hcp_notifications_webhook} Resource.
 func NewNotificationsWebhook(scope constructs.Construct, id *string, config *NotificationsWebhookConfig) NotificationsWebhook {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewNotificationsWebhook(scope constructs.Construct, id *string, config *Not
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/notifications_webhook hcp_notifications_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/notifications_webhook hcp_notifications_webhook} Resource.
 func NewNotificationsWebhook_Override(n NotificationsWebhook, scope constructs.Construct, id *string, config *NotificationsWebhookConfig) {
 	_init_.Initialize()
 

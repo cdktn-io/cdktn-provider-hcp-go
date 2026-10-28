@@ -5,14 +5,14 @@ package datahcporganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcporganization/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcporganization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/organization hcp_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/organization hcp_organization}.
 type DataHcpOrganization interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -296,7 +296,7 @@ func (j *jsiiProxy_DataHcpOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/organization hcp_organization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/organization hcp_organization} Data Source.
 func NewDataHcpOrganization(scope constructs.Construct, id *string, config *DataHcpOrganizationConfig) DataHcpOrganization {
 	_init_.Initialize()
 
@@ -314,7 +314,7 @@ func NewDataHcpOrganization(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/organization hcp_organization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/organization hcp_organization} Data Source.
 func NewDataHcpOrganization_Override(d DataHcpOrganization, scope constructs.Construct, id *string, config *DataHcpOrganizationConfig) {
 	_init_.Initialize()
 

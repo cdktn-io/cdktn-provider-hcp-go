@@ -5,14 +5,14 @@ package vaultradarsourcegithubcloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/vaultradarsourcegithubcloud/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/vaultradarsourcegithubcloud/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud}.
 type VaultRadarSourceGithubCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_VaultRadarSourceGithubCloud) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) VaultRadarSourceGithubCloud {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewVaultRadarSourceGithubCloud(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_source_github_cloud hcp_vault_radar_source_github_cloud} Resource.
 func NewVaultRadarSourceGithubCloud_Override(v VaultRadarSourceGithubCloud, scope constructs.Construct, id *string, config *VaultRadarSourceGithubCloudConfig) {
 	_init_.Initialize()
 

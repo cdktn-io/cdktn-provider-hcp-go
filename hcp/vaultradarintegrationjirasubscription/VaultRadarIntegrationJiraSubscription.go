@@ -5,14 +5,14 @@ package vaultradarintegrationjirasubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/vaultradarintegrationjirasubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/vaultradarintegrationjirasubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription}.
 type VaultRadarIntegrationJiraSubscription interface {
 	cdktn.TerraformResource
 	Assignee() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_VaultRadarIntegrationJiraSubscription) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription} Resource.
 func NewVaultRadarIntegrationJiraSubscription(scope constructs.Construct, id *string, config *VaultRadarIntegrationJiraSubscriptionConfig) VaultRadarIntegrationJiraSubscription {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewVaultRadarIntegrationJiraSubscription(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_radar_integration_jira_subscription hcp_vault_radar_integration_jira_subscription} Resource.
 func NewVaultRadarIntegrationJiraSubscription_Override(v VaultRadarIntegrationJiraSubscription, scope constructs.Construct, id *string, config *VaultRadarIntegrationJiraSubscriptionConfig) {
 	_init_.Initialize()
 

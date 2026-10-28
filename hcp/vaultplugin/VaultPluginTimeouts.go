@@ -5,7 +5,7 @@ package vaultplugin
 
 
 type VaultPluginTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/vault_plugin#default VaultPlugin#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/vault_plugin#default VaultPlugin#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

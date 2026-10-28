@@ -5,14 +5,14 @@ package hvnroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/hvnroute/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/hvnroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/hvn_route hcp_hvn_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/hvn_route hcp_hvn_route}.
 type HvnRoute interface {
 	cdktn.TerraformResource
 	AzureConfig() HvnRouteAzureConfigOutputReference
@@ -565,7 +565,7 @@ func (j *jsiiProxy_HvnRoute) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/hvn_route hcp_hvn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/hvn_route hcp_hvn_route} Resource.
 func NewHvnRoute(scope constructs.Construct, id *string, config *HvnRouteConfig) HvnRoute {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewHvnRoute(scope constructs.Construct, id *string, config *HvnRouteConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/resources/hvn_route hcp_hvn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/resources/hvn_route hcp_hvn_route} Resource.
 func NewHvnRoute_Override(h HvnRoute, scope constructs.Construct, id *string, config *HvnRouteConfig) {
 	_init_.Initialize()
 

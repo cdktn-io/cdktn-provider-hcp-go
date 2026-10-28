@@ -5,14 +5,14 @@ package datahcppackerartifact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcppackerartifact/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcppackerartifact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_artifact hcp_packer_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_artifact hcp_packer_artifact}.
 type DataHcpPackerArtifact interface {
 	cdktn.TerraformDataSource
 	BucketName() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_DataHcpPackerArtifact) VersionFingerprintInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
 func NewDataHcpPackerArtifact(scope constructs.Construct, id *string, config *DataHcpPackerArtifactConfig) DataHcpPackerArtifact {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewDataHcpPackerArtifact(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_artifact hcp_packer_artifact} Data Source.
 func NewDataHcpPackerArtifact_Override(d DataHcpPackerArtifact, scope constructs.Construct, id *string, config *DataHcpPackerArtifactConfig) {
 	_init_.Initialize()
 

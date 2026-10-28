@@ -5,14 +5,14 @@ package datahcppackerversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v13/datahcppackerversion/internal"
+	"github.com/cdktn-io/cdktn-provider-hcp-go/hcp/v14/datahcppackerversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_version hcp_packer_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_version hcp_packer_version}.
 type DataHcpPackerVersion interface {
 	cdktn.TerraformDataSource
 	AuthorId() *string
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataHcpPackerVersion) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_version hcp_packer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_version hcp_packer_version} Data Source.
 func NewDataHcpPackerVersion(scope constructs.Construct, id *string, config *DataHcpPackerVersionConfig) DataHcpPackerVersion {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataHcpPackerVersion(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.114.0/docs/data-sources/packer_version hcp_packer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/hcp/0.115.0/docs/data-sources/packer_version hcp_packer_version} Data Source.
 func NewDataHcpPackerVersion_Override(d DataHcpPackerVersion, scope constructs.Construct, id *string, config *DataHcpPackerVersionConfig) {
 	_init_.Initialize()
 
